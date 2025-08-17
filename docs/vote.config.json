@@ -1,0 +1,7 @@
+{
+  "endpoint": "", 
+  "counter": {
+    "provider": "countapi",
+    "namespace": "heartbeat-lewiswigmore"
+  }
+}

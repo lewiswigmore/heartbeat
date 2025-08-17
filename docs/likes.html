@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+  <title>Heartbeat • Likes</title>
+  <style>
+    :root { 
+      color-scheme: light dark; 
+      --accent:#0078D4; 
+      --bg:#f6f8fa; 
+      --card:#fff; 
+      --text:#111827; 
+      --muted:#6b7280; 
+      --border:#e5e7eb; 
+      --shadow:0 8px 24px rgba(0,0,0,.08); 
+    }
+    html[data-theme="light"] { color-scheme: light; }
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --bg:#0b0c0e; 
+      --card:#111316; 
+      --text:#e5e7eb; 
+      --muted:#9ca3af; 
+      --border:#1f2937; 
+      --shadow:0 8px 28px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: dark) { 
+      :root { 
+        --bg:#0b0c0e; 
+        --card:#111316; 
+        --text:#e5e7eb; 
+        --muted:#9ca3af; 
+        --border:#1f2937; 
+        --shadow:0 8px 28px rgba(0,0,0,.35); 
+      } 
+    }
+    body { margin:0; font-family: Segoe UI, system-ui, -apple-system, Roboto, Arial; background:var(--bg); color:var(--text); padding: 24px; }
+    .shell { width:100%; max-width: 980px; margin: 0 auto; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom: 12px; }
+    .title { font-weight: 700; font-size: clamp(1.2rem, 2vw, 1.6rem); }
+    .actions { display:flex; gap:.5rem; flex-wrap:wrap; }
+    .btn { --b: var(--border); --bg: transparent; --fg: var(--text); display:inline-flex; align-items:center; gap:.45rem; padding:.5rem .75rem; border-radius:10px; border:1px solid var(--b); color:var(--fg); text-decoration:none; font-weight:600; cursor: pointer; }
+    .card { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:16px 18px; margin: 10px 0; box-shadow: var(--shadow); }
+    .concept { margin:0; font-size: 1.1rem; font-weight:700; }
+    .meta { color:var(--muted); font-size:.95rem; margin:.15rem 0 .45rem; }
+    .summary { margin:.25rem 0 .6rem; line-height:1.55; }
+    .tags { display:flex; flex-wrap:wrap; gap:.35rem; margin-top:.25rem; }
+    code.tag { background: rgba(99,102,241,.12); color:#6366f1; padding:.15rem .45rem; border-radius:8px; border:1px solid rgba(99,102,241,.25); font-size:.85rem; }
+    .ai { border-top:1px dashed var(--border); margin-top:.6rem; padding-top:.6rem; }
+    .ai h4 { margin:.25rem 0; font-size:1rem; }
+    .ai ul { margin:.2rem 0 .1rem 1.1rem; }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="title">Liked Ideas (local)</div>
+      <div class="actions">
+        <a class="btn" href="./index.html">Latest</a>
+        <a class="btn" href="./recent.html">Recent</a>
+        <a class="btn" href="./search.html">Search</a>
+        <a class="btn" href="./archive.html">Archive</a>
+      </div>
+    </header>
+
+    <section id="list" aria-live="polite">
+      <div class="card">Scanning local likes…</div>
+    </section>
+  </div>
+
+  <script>
+    const list = document.getElementById('list');
+    function esc(s){return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[m]))}
+
+    function getLikedDates(){
+      const out = [];
+      for (let i=0;i<localStorage.length;i++){
+        const k = localStorage.key(i) || '';
+        if (k.startsWith('voted:')) out.push(k.slice('voted:'.length));
+      }
+      return out;
+    }
+
+    function render(items){
+      if (!items || items.length === 0) {
+        list.innerHTML = '<div class="card">No liked ideas yet. Click 👍 on the homepage to like today\'s idea.</div>';
+        return;
+      }
+      list.innerHTML = items.map(j => {
+        const concept = esc(j.concept || 'Idea');
+        const theme = esc(j.theme || '');
+        const date = esc(j.date || '');
+        const summary = esc(j.summary || '');
+        const tags = (j.tags || []).slice(0,5).map(t => `<code class="tag">${esc(t)}</code>`).join(' ');
+        const aiText = esc((j.ai_summary && j.ai_summary.text) || '');
+        const aiExamples = (j.ai_summary && Array.isArray(j.ai_summary.examples)) ? j.ai_summary.examples.map(esc) : [];
+        return `
+          <article class="card">
+            <h3 class="concept">${concept}</h3>
+            <div class="meta">${theme} · ${date}</div>
+            <div class="summary">${summary}</div>
+            <div class="tags">${tags}</div>
+            ${(aiText || aiExamples.length) ? `
+              <div class="ai">
+                <h4>AI Summary</h4>
+                ${aiText ? `<div>${aiText}</div>` : ''}
+                ${aiExamples.length ? `<ul>${aiExamples.slice(0,3).map(e=>`<li>${e}</li>`).join('')}</ul>` : ''}
+              </div>
+            ` : ''}
+          </article>
+        `;
+      }).join('');
+    }
+
+    (async function load(){
+      try {
+        const dates = getLikedDates();
+        if (dates.length === 0) { render([]); return; }
+        const res = await fetch('./archive.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const all = await res.json();
+        const byDate = new Map(all.map(j => [String(j.date), j]));
+        const items = dates.map(d => byDate.get(String(d))).filter(Boolean);
+        render(items);
+      } catch(e){
+        list.innerHTML = `<div class="card">Failed to load likes (${e.message}).</div>`;
+      }
+    })();
+
+    // Set permanent dark mode
+    document.documentElement.setAttribute('data-theme', 'dark');
+  </script>
+</body>
+</html>

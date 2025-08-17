@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Daily Ideas</title>
+<link>https://github.com/lewiswigmore/heartbeat</link>
+<description>Latest daily repo ideas</description>
+<lastBuildDate>Sun, 17 Aug 2025 16:44:57 +0000</lastBuildDate>
+<item>
+<title>realtime graphql-gateway service</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `observability`
+Repo: `realtime-graphql-gateway-service-2025-08-10`
+Tags: `graphql-gateway`, `realtime`, `service`
+Summary: A service that can generate and manage log files with a focus on realtime graphql-gateway.</description>
+</item>
+<item>
+<title>privacy-first search agent</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `productivity`
+Repo: `privacy-first-search-agent-2025-08-11`
+Tags: `agent`, `privacy-first`, `search`
+Summary: A agent that can summarize and manage log files with a focus on privacy-first search.</description>
+</item>
+<item>
+<title>federated audio-transcribe extension</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `ml`
+Repo: `federated-audio-transcribe-extension-2025-08-12`
+Tags: `audio-transcribe`, `extension`, `federated`
+Summary: A extension that can monitor and manage email with a focus on federated audio-transcribe.</description>
+</item>
+<item>
+<title>quantum notes extension</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `security`
+Repo: `quantum-notes-extension-2025-08-13`
+Tags: `extension`, `notes`, `quantum`
+Summary: A extension that can scrape and manage terminal sessions with a focus on quantum notes.</description>
+</item>
+<item>
+<title>privacy-first graphql-gateway extension</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `data`
+Repo: `privacy-first-graphql-gateway-extension-2025-08-14`
+Tags: `extension`, `graphql-gateway`, `privacy-first`
+Summary: A extension that can generate and manage api responses with a focus on privacy-first graphql-gateway.</description>
+</item>
+<item>
+<title>zero-trust secrets-rotator agent</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `devtools`
+Repo: `zero-trust-secrets-rotator-agent-2025-08-15`
+Tags: `agent`, `secrets-rotator`, `zero-trust`
+Summary: A agent that can generate and manage rss feeds with a focus on zero-trust secrets-rotator.</description>
+</item>
+<item>
+<title>privacy-first scheduler sdk</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `automation`
+Repo: `privacy-first-scheduler-sdk-2025-08-16`
+Tags: `privacy-first`, `scheduler`, `sdk`
+Summary: A sdk that can monitor and manage config files with a focus on privacy-first scheduler.</description>
+</item>
+<item>
+<title>temporal audio-transcribe webapp</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `observability`
+Repo: `temporal-audio-transcribe-webapp-2025-08-17`
+Tags: `audio-transcribe`, `temporal`, `webapp`
+Summary: A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.</description>
+</item>
+</channel>
+</rss>

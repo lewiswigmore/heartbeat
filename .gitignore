@@ -1,0 +1,17 @@
+# Local environment files (do not commit secrets)
+local.env
+.env
+.env.*
+config/*.env
+secrets/
+
+# Transient or debug artifacts
+.green/todays_idea.json
+.green/issue_resp.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pytest_cache/

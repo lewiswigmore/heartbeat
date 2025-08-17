@@ -1,0 +1,65 @@
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "Daily Ideas",
+  "home_page_url": "https://lewiswigmore.github.io/heartbeat/",
+  "feed_url": "https://lewiswigmore.github.io/heartbeat/feed.json",
+  "description": "Latest daily repo ideas",
+  "items": [
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "realtime graphql-gateway service",
+      "content_text": "Theme: `observability`\nRepo: `realtime-graphql-gateway-service-2025-08-10`\nTags: `graphql-gateway`, `realtime`, `service`\nSummary: A service that can generate and manage log files with a focus on realtime graphql-gateway.",
+      "date_published": "2025-08-10T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "privacy-first search agent",
+      "content_text": "Theme: `productivity`\nRepo: `privacy-first-search-agent-2025-08-11`\nTags: `agent`, `privacy-first`, `search`\nSummary: A agent that can summarize and manage log files with a focus on privacy-first search.",
+      "date_published": "2025-08-11T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "federated audio-transcribe extension",
+      "content_text": "Theme: `ml`\nRepo: `federated-audio-transcribe-extension-2025-08-12`\nTags: `audio-transcribe`, `extension`, `federated`\nSummary: A extension that can monitor and manage email with a focus on federated audio-transcribe.",
+      "date_published": "2025-08-12T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "quantum notes extension",
+      "content_text": "Theme: `security`\nRepo: `quantum-notes-extension-2025-08-13`\nTags: `extension`, `notes`, `quantum`\nSummary: A extension that can scrape and manage terminal sessions with a focus on quantum notes.",
+      "date_published": "2025-08-13T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "privacy-first graphql-gateway extension",
+      "content_text": "Theme: `data`\nRepo: `privacy-first-graphql-gateway-extension-2025-08-14`\nTags: `extension`, `graphql-gateway`, `privacy-first`\nSummary: A extension that can generate and manage api responses with a focus on privacy-first graphql-gateway.",
+      "date_published": "2025-08-14T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "zero-trust secrets-rotator agent",
+      "content_text": "Theme: `devtools`\nRepo: `zero-trust-secrets-rotator-agent-2025-08-15`\nTags: `agent`, `secrets-rotator`, `zero-trust`\nSummary: A agent that can generate and manage rss feeds with a focus on zero-trust secrets-rotator.",
+      "date_published": "2025-08-15T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "privacy-first scheduler sdk",
+      "content_text": "Theme: `automation`\nRepo: `privacy-first-scheduler-sdk-2025-08-16`\nTags: `privacy-first`, `scheduler`, `sdk`\nSummary: A sdk that can monitor and manage config files with a focus on privacy-first scheduler.",
+      "date_published": "2025-08-16T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "temporal audio-transcribe webapp",
+      "content_text": "Theme: `observability`\nRepo: `temporal-audio-transcribe-webapp-2025-08-17`\nTags: `audio-transcribe`, `temporal`, `webapp`\nSummary: A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.",
+      "date_published": "2025-08-17T00:00:00Z"
+    }
+  ]
+}

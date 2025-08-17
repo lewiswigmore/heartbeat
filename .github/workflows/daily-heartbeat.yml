@@ -1,0 +1,113 @@
+name: Daily Green Commit
+
+on:
+  schedule:
+    # Runs once per day at 07:13 UTC; adjust as needed
+    - cron: "13 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  green-heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Configure Git author
+        env:
+          GH_ACTOR: ${{ github.actor }}
+          SECRET_NAME: ${{ secrets.COMMIT_USER_NAME }}
+          SECRET_EMAIL: ${{ secrets.COMMIT_USER_EMAIL }}
+        run: |
+          NAME="${SECRET_NAME:-$GH_ACTOR}"
+          EMAIL="${SECRET_EMAIL:-$GH_ACTOR@users.noreply.github.com}"
+          echo "Using author: $NAME <$EMAIL>"
+          git config user.name "$NAME"
+          git config user.email "$EMAIL"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Python deps for tooling
+        run: |
+          python -m pip install --upgrade pip
+          pip install jsonschema
+
+      - name: Run daily idea generator
+        shell: bash
+        env:
+          # Optional: plain OpenAI
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # Preferred: Azure OpenAI
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_ENDPOINT: ${{ vars.AZURE_OPENAI_ENDPOINT }}
+          AZURE_OPENAI_DEPLOYMENT: ${{ vars.AZURE_OPENAI_DEPLOYMENT }}
+          AZURE_OPENAI_API_VERSION: ${{ vars.AZURE_OPENAI_API_VERSION }}
+          # Validation: repo search to avoid duplicate names
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/daily_idea.py || echo "Idea generator finished with non-zero exit, continuing."
+          # Build recent.json
+          python scripts/build_recent.py || echo "recent.json build non-zero, continuing."
+          # Validate latest.json against schema (non-fatal warning on failure)
+          python scripts/validate_latest.py || echo "latest.json validation failed; outputs still published."
+
+      - name: Build AI Summary (optional, graceful fallback)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AZURE_OPENAI_API_KEY: ${{ secrets.AZURE_OPENAI_API_KEY }}
+          AZURE_OPENAI_ENDPOINT: ${{ vars.AZURE_OPENAI_ENDPOINT }}
+          AZURE_OPENAI_DEPLOYMENT: ${{ vars.AZURE_OPENAI_DEPLOYMENT }}
+          AZURE_OPENAI_API_VERSION: ${{ vars.AZURE_OPENAI_API_VERSION }}
+        run: |
+          python scripts/build_ai_summary.py || echo "AI summary generation failed; continuing with offline UI fallback."
+
+      - name: Build RSS feed
+        run: |
+          python scripts/build_rss.py
+
+      - name: Build JSON Feed
+        run: |
+          python scripts/build_jsonfeed.py
+
+      - name: Build archive page
+        run: |
+          python scripts/build_archive.py
+
+      - name: Build archive.json (cards page data)
+        run: |
+          python scripts/build_archive_json.py
+
+      - name: Update heartbeat file
+        run: |
+          mkdir -p .green
+          echo "Last run: $(date -u +'%Y-%m-%dT%H:%M:%SZ')" > .green/heartbeat.txt
+          git add .green/heartbeat.txt ideas/ docs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: heartbeat $(date -u +'%Y-%m-%d') [skip ci]"
+
+      - name: Push changes
+        env:
+          REPO: ${{ github.repository }}
+          BRANCH: ${{ github.ref_name }}
+          GREEN_PAT: ${{ secrets.GREEN_PAT }}
+          GH_TOKEN_FALLBACK: ${{ github.token }}
+        run: |
+          TOKEN="$GREEN_PAT"
+          if [ -z "$TOKEN" ]; then
+            TOKEN="$GH_TOKEN_FALLBACK"
+          fi
+          if [ -z "$BRANCH" ] || [ "$BRANCH" = "" ]; then
+            BRANCH=$(git rev-parse --abbrev-ref HEAD)
+          fi
+          echo "Pushing to $REPO on branch $BRANCH"
+          git push "https://x-access-token:${TOKEN}@github.com/${REPO}.git" "HEAD:${BRANCH}"

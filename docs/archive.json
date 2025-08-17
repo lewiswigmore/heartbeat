@@ -1,0 +1,194 @@
+[
+  {
+    "date": "2025-08-17",
+    "concept": "temporal audio-transcribe webapp",
+    "summary": "A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.",
+    "tags": [
+      "audio-transcribe",
+      "temporal",
+      "webapp"
+    ],
+    "theme": "observability",
+    "slug": "temporal-audio-transcribe-webapp",
+    "repo_name": "temporal-audio-transcribe-webapp-2025-08-17",
+    "source": "offline",
+    "ai_summary": {
+      "text": "A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe. It aligns to the observability theme; touching audio-transcribe, temporal, webapp.",
+      "examples": [
+        "Ship a tiny temporal audio-transcribe webapp prototype end-to-end (README + demo)",
+        "Integrate temporal audio-transcribe webapp into an existing repo and add basic metrics",
+        "Instrument temporal audio-transcribe webapp and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-17T16:44:57.105513Z"
+    }
+  },
+  {
+    "date": "2025-08-16",
+    "concept": "privacy-first scheduler sdk",
+    "summary": "A sdk that can monitor and manage config files with a focus on privacy-first scheduler.",
+    "tags": [
+      "privacy-first",
+      "scheduler",
+      "sdk"
+    ],
+    "theme": "automation",
+    "slug": "privacy-first-scheduler-sdk",
+    "repo_name": "privacy-first-scheduler-sdk-2025-08-16",
+    "source": "offline",
+    "ai_summary": {
+      "text": "A sdk that can monitor and manage config files with a focus on privacy-first scheduler. It aligns to the automation theme; touching privacy-first, scheduler, sdk.",
+      "examples": [
+        "Ship a tiny privacy-first scheduler sdk prototype end-to-end (README + demo)",
+        "Integrate privacy-first scheduler sdk into an existing repo and add basic metrics",
+        "Instrument privacy-first scheduler sdk and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-17T16:44:51.460126Z"
+    }
+  },
+  {
+    "date": "2025-08-15",
+    "concept": "zero-trust secrets-rotator agent",
+    "summary": "A agent that can generate and manage rss feeds with a focus on zero-trust secrets-rotator.",
+    "tags": [
+      "agent",
+      "secrets-rotator",
+      "zero-trust"
+    ],
+    "theme": "devtools",
+    "slug": "zero-trust-secrets-rotator-agent",
+    "repo_name": "zero-trust-secrets-rotator-agent-2025-08-15",
+    "source": "offline",
+    "ai_summary": {
+      "text": "A agent that can generate and manage rss feeds with a focus on zero-trust secrets-rotator. It aligns to the devtools theme; touching agent, secrets-rotator, zero-trust.",
+      "examples": [
+        "Ship a tiny zero-trust secrets-rotator agent prototype end-to-end (README + demo)",
+        "Integrate zero-trust secrets-rotator agent into an existing repo and add basic metrics",
+        "Instrument zero-trust secrets-rotator agent and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-17T16:44:46.244166Z"
+    }
+  },
+  {
+    "date": "2025-08-14",
+    "concept": "privacy-first graphql-gateway extension",
+    "summary": "A extension that can generate and manage api responses with a focus on privacy-first graphql-gateway.",
+    "tags": [
+      "extension",
+      "graphql-gateway",
+      "privacy-first"
+    ],
+    "theme": "data",
+    "slug": "privacy-first-graphql-gateway-extension",
+    "repo_name": "privacy-first-graphql-gateway-extension-2025-08-14",
+    "source": "offline",
+    "ai_summary": {
+      "text": "A extension that can generate and manage api responses with a focus on privacy-first graphql-gateway. It aligns to the data theme; touching extension, graphql-gateway, privacy-first.",
+      "examples": [
+        "Ship a tiny privacy-first graphql-gateway extension prototype end-to-end (README + demo)",
+        "Integrate privacy-first graphql-gateway extension into an existing repo and add basic metrics",
+        "Instrument privacy-first graphql-gateway extension and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-17T16:44:38.293207Z"
+    }
+  },
+  {
+    "date": "2025-08-13",
+    "concept": "quantum notes extension",
+    "summary": "A extension that can scrape and manage terminal sessions with a focus on quantum notes.",
+    "tags": [
+      "extension",
+      "notes",
+      "quantum"
+    ],
+    "theme": "security",
+    "slug": "quantum-notes-extension",
+    "repo_name": "quantum-notes-extension-2025-08-13",
+    "source": "offline",
+    "ai_summary": {
+      "text": "A extension that can scrape and manage terminal sessions with a focus on quantum notes. It aligns to the security theme; touching extension, notes, quantum.",
+      "examples": [
+        "Ship a tiny quantum notes extension prototype end-to-end (README + demo)",
+        "Integrate quantum notes extension into an existing repo and add basic metrics",
+        "Instrument quantum notes extension and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-17T16:44:31.819594Z"
+    }
+  },
+  {
+    "date": "2025-08-12",
+    "concept": "federated audio-transcribe extension",
+    "summary": "A extension that can monitor and manage email with a focus on federated audio-transcribe.",
+    "tags": [
+      "audio-transcribe",
+      "extension",
+      "federated"
+    ],
+    "theme": "ml",
+    "slug": "federated-audio-transcribe-extension",
+    "repo_name": "federated-audio-transcribe-extension-2025-08-12",
+    "source": "offline",
+    "ai_summary": {
+      "text": "A extension that can monitor and manage email with a focus on federated audio-transcribe. It aligns to the ml theme; touching audio-transcribe, extension, federated.",
+      "examples": [
+        "Ship a tiny federated audio-transcribe extension prototype end-to-end (README + demo)",
+        "Integrate federated audio-transcribe extension into an existing repo and add basic metrics",
+        "Instrument federated audio-transcribe extension and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-17T16:44:23.244926Z"
+    }
+  },
+  {
+    "date": "2025-08-11",
+    "concept": "privacy-first search agent",
+    "summary": "A agent that can summarize and manage log files with a focus on privacy-first search.",
+    "tags": [
+      "agent",
+      "privacy-first",
+      "search"
+    ],
+    "theme": "productivity",
+    "slug": "privacy-first-search-agent",
+    "repo_name": "privacy-first-search-agent-2025-08-11",
+    "source": "offline",
+    "ai_summary": {
+      "text": "A agent that can summarize and manage log files with a focus on privacy-first search. It aligns to the productivity theme; touching agent, privacy-first, search.",
+      "examples": [
+        "Ship a tiny privacy-first search agent prototype end-to-end (README + demo)",
+        "Integrate privacy-first search agent into an existing repo and add basic metrics",
+        "Instrument privacy-first search agent and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-17T16:44:18.094519Z"
+    }
+  },
+  {
+    "date": "2025-08-10",
+    "concept": "realtime graphql-gateway service",
+    "summary": "A service that can generate and manage log files with a focus on realtime graphql-gateway.",
+    "tags": [
+      "graphql-gateway",
+      "realtime",
+      "service"
+    ],
+    "theme": "observability",
+    "slug": "realtime-graphql-gateway-service",
+    "repo_name": "realtime-graphql-gateway-service-2025-08-10",
+    "source": "offline",
+    "ai_summary": {
+      "text": "A service that can generate and manage log files with a focus on realtime graphql-gateway. It aligns to the observability theme; touching graphql-gateway, realtime, service.",
+      "examples": [
+        "Ship a tiny realtime graphql-gateway service prototype end-to-end (README + demo)",
+        "Integrate realtime graphql-gateway service into an existing repo and add basic metrics",
+        "Instrument realtime graphql-gateway service and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-17T16:44:10.987499Z"
+    }
+  }
+]

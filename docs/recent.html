@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+  <title>Heartbeat • Recent Ideas</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --accent: #0078D4;
+      --bg: #f6f8fa;
+      --card-bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --shadow: 0 8px 24px rgba(0,0,0,.08);
+    }
+    html[data-theme="light"] {
+      color-scheme: light;
+      --bg: #f6f8fa;
+      --card-bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --shadow: 0 8px 24px rgba(0,0,0,.08);
+    }
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #0b0c0e;
+      --card-bg: #111316;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1f2937;
+      --shadow: 0 8px 28px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0c0e;
+        --card-bg: #111316;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --border: #1f2937;
+        --shadow: 0 8px 28px rgba(0,0,0,.35);
+      }
+    }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", SegoeUI, system-ui, -apple-system, Roboto, Arial;
+      background: var(--bg);
+      color: var(--text);
+      padding: 2rem 1.25rem;
+    }
+    .shell { width: 100%; max-width: 960px; margin: 0 auto; }
+    header { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-bottom: 1rem; }
+    .title { font-size: clamp(1.2rem, 2.2vw, 1.6rem); font-weight: 600; }
+    .actions { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .btn { --b: var(--border); --bg: transparent; --fg: var(--text); display: inline-flex; align-items: center; gap: .45rem; padding: .5rem .75rem; border-radius: 10px; text-decoration: none; color: var(--fg); background: var(--bg); border: 1px solid var(--b); font-weight: 600; cursor: pointer; }
+    .btn.primary { --b: var(--accent); --bg: var(--accent); --fg: #fff; }
+  .icon { width: 18px; height: 18px; display: inline-block; vertical-align: middle; }
+
+  .select { padding: .45rem .6rem; border-radius: 10px; border: 1px solid var(--border); background: var(--card-bg); color: var(--text); }
+
+    .theme-toggle { position: fixed; top: 12px; right: 12px; z-index: 10; }
+
+    .grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    @media (min-width: 760px) { .grid { grid-template-columns: 1fr 1fr; } }
+
+    .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 14px; padding: 12px 14px; box-shadow: var(--shadow); }
+    .concept { font-weight: 700; margin: 0 0 .25rem; }
+    .meta { color: var(--muted); font-size: .95rem; margin-bottom: .35rem; }
+    .summary { margin: .1rem 0 .4rem; line-height: 1.5; }
+    .tags { display: flex; flex-wrap: wrap; gap: .35rem; }
+    code.tag { background: rgba(99,102,241,.12); color: #6366f1; padding: .15rem .45rem; border-radius: 8px; border: 1px solid rgba(99,102,241,.25); font-size: .85rem; }
+  .liked { display:inline-block; margin-left:.4rem; background: rgba(16,185,129,.15); color:#10b981; border:1px solid rgba(16,185,129,.35); padding:.08rem .45rem; border-radius:999px; font-size:.78rem; font-weight:700; vertical-align: middle; }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="title">Recent Ideas</div>
+      <div class="actions">
+  <a class="btn primary" href="./index.html">Latest</a>
+  <a class="btn primary" href="./archive.html">Archive</a>
+        <a class="btn" href="./recent.json">JSON</a>
+        <select class="select" id="sortSelect" aria-label="Sort order">
+          <option value="">Default</option>
+          <option value="newest">Newest first</option>
+          <option value="liked">Liked first</option>
+        </select>
+        <a class="btn" href="https://github.com/lewiswigmore/heartbeat" aria-label="View source on GitHub">
+          <svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <section class="grid" id="grid" aria-live="polite">
+      <div class="card">Loading…</div>
+    </section>
+
+    <div class="actions" style="margin-top:12px; gap:.5rem; display:flex; justify-content:center;">
+      <a class="btn" href="./search.html">Search</a>
+      <a class="btn" href="./likes.html">Likes</a>
+    </div>
+  </div>
+
+  <script>
+    // Set permanent dark mode
+    document.documentElement.setAttribute('data-theme', 'dark');
+
+    // Helpers
+    function isLiked(dateStr){ return !!localStorage.getItem(`voted:${dateStr||''}`); }
+    function parseDate(d){ return new Date(String(d||'').replace(/-/g,'/')); }
+
+    // Load and render recent items
+    async function loadRecent() {
+      const grid = document.getElementById('grid');
+      const sortSel = document.getElementById('sortSelect');
+      try {
+        const res = await fetch('./recent.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        let arr = await res.json();
+        if (!Array.isArray(arr) || arr.length === 0) {
+          grid.innerHTML = '<div class="card">No recent items.</div>';
+          return;
+        }
+        function sortItems(items){
+          const mode = (sortSel && sortSel.value) || '';
+          if (mode === 'newest') {
+            return [...items].sort((a,b) => parseDate(b.date) - parseDate(a.date));
+          }
+          if (mode === 'liked') {
+            return [...items].sort((a,b) => (isLiked(b.date)?1:0) - (isLiked(a.date)?1:0));
+          }
+          return items;
+        }
+
+        function render(items){
+          grid.innerHTML = items.map(j => {
+          const concept = esc(j.concept || 'Idea');
+          const theme = esc(j.theme || '');
+          const date = esc(j.date || '');
+          const summary = esc(j.summary || '');
+          const tags = (j.tags || []).slice(0,5).map(t => `<code class="tag">${esc(t)}</code>`).join(' ');
+          const liked = isLiked(j.date);
+          return `
+            <article class="card">
+              <h3 class="concept">${concept}</h3>
+              <div class="meta">${theme} · ${date}${liked? ' <span class="liked" title="You liked this">Liked</span>' : ''}</div>
+              <div class="summary">${summary}</div>
+              <div class="tags">${tags}</div>
+            </article>
+          `;
+          }).join('');
+        }
+
+        render(sortItems(arr));
+        if (sortSel) sortSel.addEventListener('change', () => render(sortItems(arr)));
+      } catch(e) {
+        grid.innerHTML = `<div class="card">Failed to load recent.json (${esc(e.message)}).</div>`;
+      }
+    }
+    function esc(s){return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[m]))}
+    loadRecent();
+  </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+source=azure
+
+{
+  "text": "A webapp that generates and manages instrumented terminal sessions to run Temporal-powered audio transcription, providing full observability into pipelines. It centralizes real-time transcripts, logs, traces, and metrics across each session and workflow.",
+  "examples": [
+    "Launch a terminal session from the temporal audio-transcribe webapp to start a Temporal audio-transcribe workflow that streams mic input, displays real-time transcripts, and surfaces logs/spans in the observability panel.",
+    "Configure concurrency, retention, and alerting in the temporal audio-transcribe webapp to trigger notifications when transcription latency or error rate exceeds thresholds.",
+    "Bind a session to a specific Temporal namespace and task queue in the temporal audio-transcribe webapp, then tail workflow events and export traces to OpenTelemetry/Jaeger from the same interface."
+  ]
+}

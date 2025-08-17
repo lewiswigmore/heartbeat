@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
+  <title>Heartbeat • Daily Idea</title>
+  <link rel="alternate" type="application/rss+xml" title="Daily Ideas RSS" href="https://lewiswigmore.github.io/heartbeat/feed.xml" />
+  <link rel="alternate" type="application/feed+json" title="Daily Ideas JSON Feed" href="https://lewiswigmore.github.io/heartbeat/feed.json" />
+  <meta name="description" content="One concise idea, every day. Powered by GitHub Actions & Pages." />
+  <meta name="theme-color" content="#0078D4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0c0e" media="(prefers-color-scheme: dark)">
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Heartbeat">
+  <meta property="og:title" content="Heartbeat • Daily Idea">
+  <meta property="og:description" content="One concise idea, every day. Powered by GitHub Actions & Pages.">
+  <meta property="og:url" content="https://lewiswigmore.github.io/heartbeat/">
+  <!-- Optionally add an image later: <meta property="og:image" content="https://lewiswigmore.github.io/heartbeat/og.png"> -->
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Heartbeat • Daily Idea">
+  <meta name="twitter:description" content="One concise idea, every day. Powered by GitHub Actions & Pages.">
+  <meta name="twitter:url" content="https://lewiswigmore.github.io/heartbeat/">
+  <style>
+    :root {
+  --accent: #0078D4;
+      --bg: #f6f8fa;
+      --card-bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --shadow: 0 8px 24px rgba(0,0,0,.08);
+    }
+    /* Explicit theme overrides */
+    html[data-theme="light"] {
+      color-scheme: light;
+      --bg: #f6f8fa;
+      --card-bg: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --shadow: 0 8px 24px rgba(0,0,0,.08);
+    }
+    html[data-theme="dark"] {
+      color-scheme: dark;
+      --bg: #0b0c0e;
+      --card-bg: #111316;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1f2937;
+      --shadow: 0 8px 28px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0b0c0e;
+        --card-bg: #111316;
+        --text: #e5e7eb;
+        --muted: #9ca3af;
+        --border: #1f2937;
+        --shadow: 0 8px 28px rgba(0,0,0,.35);
+      }
+    }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", SegoeUI, system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji";
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(0,120,212,0.08), transparent),
+        radial-gradient(900px 500px at 110% 10%, rgba(0,120,212,0.06), transparent),
+        var(--bg);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      padding: 2rem 1.25rem;
+      height: 100%;
+      min-height: 100svh;
+      overflow: hidden; /* hide page scrollbar for a cleaner look */
+    }
+    /* Hide scrollbars explicitly on browsers that might still render them */
+    body { scrollbar-width: none; }
+    body::-webkit-scrollbar { display: none; }
+    /* Re-enable scrolling for small viewport heights */
+    @media (max-height: 650px) {
+      body {
+        overflow: auto;
+        padding: 1rem;
+      }
+      body { scrollbar-width: thin; }
+      body::-webkit-scrollbar { display: block; width: 8px; height: 8px; }
+    }
+    .shell { width: 100%; max-width: 860px; }
+    header { text-align: center; margin-bottom: 1.25rem; }
+    .title { font-size: clamp(1.4rem, 2.6vw, 2rem); font-weight: 600; letter-spacing: .2px; }
+    .subtitle { color: var(--muted); margin-top: .25rem; font-size: .98rem; }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      box-shadow: var(--shadow);
+      padding: 1.5rem;
+    }
+    .idea-title { font-size: clamp(1.2rem, 2.2vw, 1.6rem); margin: 0 0 .25rem; line-height: 1.25; }
+    .meta { color: var(--muted); font-size: .96rem; margin-bottom: .75rem; display: flex; gap: .5rem; flex-wrap: wrap; align-items: center; }
+    .pill { display: inline-flex; align-items: center; gap: .4rem; background: rgba(0,120,212,.08); color: var(--accent); padding: .2rem .55rem; border-radius: 999px; border: 1px solid rgba(0,120,212,.25); font-weight: 600; font-size: .85rem; }
+    .summary { margin: .25rem 0 .75rem; font-size: 1.02rem; line-height: 1.55; }
+    .tags { display: flex; flex-wrap: wrap; gap: .35rem; margin-top: .5rem; }
+    code.tag { background: rgba(99,102,241,.12); color: #6366f1; padding: .15rem .5rem; border-radius: 8px; border: 1px solid rgba(99,102,241,.25); font-size: .85rem; }
+  /* .repo removed per request */
+
+    .actions { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.1rem; }
+  .btn { --b: var(--border); --bg: transparent; --fg: var(--text); display: inline-flex; align-items: center; gap: .5rem; padding: .6rem .9rem; border-radius: 10px; text-decoration: none; color: var(--fg); background: var(--bg); border: 1px solid var(--b); font-weight: 600; box-shadow: 0 1px 0 rgba(255,255,255,.08) inset, 0 1px 2px rgba(0,0,0,.04); cursor: pointer; }
+  .btn.primary { --b: var(--accent); --bg: var(--accent); --fg: #fff; color: #fff; background: var(--accent); border-color: var(--accent); }
+  .btn.secondary { --bg: transparent; --fg: var(--text); --b: var(--border); color: var(--text); }
+    .btn:hover { filter: brightness(1.05); }
+  .btn.vote { --bg: transparent; --b: var(--border); }
+  .vote-row { display:flex; align-items:center; gap:.6rem; margin-top:.8rem; }
+  .vote-msg { color: var(--muted); font-size:.95rem; }
+    .vote-fade { opacity:.35; transform: scale(.96); transition: opacity .3s ease, transform .25s ease; pointer-events: none; --bg: transparent; --b: var(--border); }
+  .vote-count { color: var(--muted); font-size:.95rem; margin-left:.25rem; }
+  .icon { width: 18px; height: 18px; display: inline-block; vertical-align: middle; }
+
+  /* AI Summary panel */
+  .ai-panel { overflow: hidden; max-height: 0; opacity: 0; transform: translateY(-2px); transition: max-height .35s ease, opacity .25s ease, transform .25s ease; }
+  .ai-panel.open { max-height: 600px; opacity: 1; transform: translateY(0); }
+  .ai-inner { margin-top: .6rem; padding: .75rem .9rem; border: 1px solid var(--border); border-radius: 12px; background: rgba(0,120,212,.06); }
+  .ai-title { display:flex; align-items:center; gap:.4rem; font-weight:600; margin:0 0 .4rem; }
+  .ai-text { margin:.25rem 0; line-height:1.55; }
+  .ai-list { margin:.3rem 0 .1rem 1.1rem; }
+
+    footer { text-align: center; margin-top: 1rem; color: var(--muted); font-size: .9rem; }
+
+    /* Skeleton while loading */
+    .skeleton { position: relative; overflow: hidden; background: linear-gradient(90deg, rgba(0,0,0,.05), rgba(0,0,0,.08), rgba(0,0,0,.05)); background-size: 200% 100%; animation: shimmer 1.8s infinite; border-radius: 8px; }
+    @media (prefers-color-scheme: dark) {
+      .skeleton { background: linear-gradient(90deg, rgba(255,255,255,.06), rgba(255,255,255,.1), rgba(255,255,255,.06)); }
+    }
+    @keyframes shimmer { 0%{background-position: 200% 0} 100%{background-position: -200% 0} }
+    .sk-title { height: 1.6rem; width: 60%; margin: .25rem 0 .5rem; }
+    .sk-meta { height: 1rem; width: 40%; margin: .25rem 0 .75rem; }
+    .sk-line { height: 1.1rem; width: 95%; margin: .35rem 0; }
+    .sk-tags { height: 1.4rem; width: 50%; margin-top: .5rem; }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="title">Heartbeat</div>
+      <div class="subtitle">One concise idea, every day. Powered by GitHub Actions &amp; Pages.</div>
+    </header>
+
+    <section class="card" id="card" aria-live="polite">
+      <div class="skeleton sk-title"></div>
+      <div class="skeleton sk-meta"></div>
+      <div class="skeleton sk-line"></div>
+      <div class="skeleton sk-line" style="width: 80%"></div>
+      <div class="skeleton sk-tags"></div>
+    </section>
+
+    <footer>
+    <div class="actions" style="justify-content:center;">
+  <a class="btn primary" href="./recent.html" aria-label="View the 10 most recent ideas">Recent</a>
+  <a class="btn primary" href="./archive.html" aria-label="View archive of ideas by month">Archive</a>
+  <a class="btn primary" href="./search.html" aria-label="Search and filter ideas">Search</a>
+  <a class="btn" href="./likes.html" aria-label="View your liked ideas">Likes</a>
+  <a class="btn secondary" href="./latest.json" aria-label="View latest idea as JSON">Latest JSON</a>
+  <a class="btn secondary" href="./recent.json" aria-label="View the 10 most recent ideas as JSON">Recent JSON</a>
+  <a class="btn secondary" href="./feed.xml" aria-label="Open RSS feed">RSS</a>
+  <a class="btn secondary" href="feed:https://lewiswigmore.github.io/heartbeat/feed.xml" aria-label="Subscribe to RSS feed">Subscribe (RSS)</a>
+        <a class="btn secondary" href="https://github.com/lewiswigmore/heartbeat" aria-label="View source on GitHub">
+          <svg class="icon" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z" clip-rule="evenodd"/>
+          </svg>
+        </a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Set permanent dark mode
+    document.documentElement.setAttribute('data-theme', 'dark');
+
+    async function load() {
+      const el = document.getElementById('card');
+      try {
+        const res = await fetch('./latest.json', { cache: 'no-store' });
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        const j = await res.json();
+        el.innerHTML = `
+          <h1 class="idea-title">${escapeHtml(j.concept || j.title || 'Idea')}</h1>
+          <div class="meta">
+            <span class="pill" title="Theme">${escapeHtml((j.theme || 'theme').toString())}</span>
+            <span>${escapeHtml((j.date || '').toString())}</span>
+          </div>
+          <p class="summary">${escapeHtml((j.summary || '').toString())}</p>
+          <div class="tags">${(j.tags || []).slice(0,5).map(t => `<code class="tag">${escapeHtml(t)}</code>`).join(' ')}</div>
+          <div class="vote-row">
+            <button class="btn vote" id="voteBtn" type="button" aria-label="Vote for this idea" title="Vote for today's idea">❤️</button>
+            <button class="btn secondary" id="copyBtn" type="button" aria-label="Copy link to this idea" title="Copy link to this idea">🔗</button>
+            <button class="btn secondary" id="aiBtn" type="button" aria-label="Explain this idea" title="Explain this idea" style="display:inline-flex;align-items:center;gap:.4rem;">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="6" y="6" width="12" height="12" rx="2"/>
+                <path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/>
+                <circle cx="12" cy="12" r="2.5"/>
+              </svg>
+            </button>
+            <span class="vote-count" id="voteCount"></span>
+          </div>
+          <div class="ai-panel" id="aiPanel" aria-live="polite"></div>
+        `;
+
+        // Voting setup: local-only by default; optional webhook in vote.config.json
+        try {
+          const cfgRes = await fetch('./vote.config.json', { cache: 'no-store' });
+          var voteCfg = cfgRes.ok ? await cfgRes.json() : { endpoint: '' };
+        } catch { var voteCfg = { endpoint: '' }; }
+        const voteKey = `voted:${j.date}`;
+  const btn = document.getElementById('voteBtn');
+  const cnt = document.getElementById('voteCount');
+  function setVotedUI(){ if(btn){ btn.disabled = true; btn.setAttribute('aria-disabled','true'); btn.classList.add('vote-fade'); } }
+        const counterCfg = (voteCfg && voteCfg.counter) ? voteCfg.counter : null;
+        const counterNS = counterCfg && counterCfg.provider === 'countapi' ? (counterCfg.namespace || 'heartbeat') : '';
+        const counterKey = (j.repo_name || ((j.slug||'idea') + '-' + (j.date||''))).toString();
+
+        async function getCount(){
+          if (!cnt) return;
+          // If an endpoint is configured, use it to protect secrets/server logic; otherwise fallback to CountAPI
+          if (ep) {
+            try {
+              const r = await fetch(`${ep}?slug=${encodeURIComponent(counterKey)}`, { method: 'GET', mode: 'cors' });
+              if (r.ok) {
+                const data = await r.json();
+                if (data && typeof data.value === 'number') cnt.textContent = 'Votes: ' + data.value;
+              }
+            } catch {}
+            return;
+          }
+          if (!counterNS) return;
+          try {
+            let r = await fetch(`https://api.countapi.xyz/get/${encodeURIComponent(counterNS)}/${encodeURIComponent(counterKey)}`, {mode:'cors'});
+            if (!r.ok) {
+              await fetch(`https://api.countapi.xyz/create?namespace=${encodeURIComponent(counterNS)}&key=${encodeURIComponent(counterKey)}&value=0`, {mode:'cors'});
+              return;
+            }
+            const data = await r.json();
+            cnt.textContent = 'Votes: ' + (data && typeof data.value === 'number' ? data.value : 0);
+          } catch {}
+        }
+        async function incCount(){
+          if (!cnt) return;
+          if (ep) {
+            try {
+              const r = await fetch(ep, { method: 'POST', headers: { 'Content-Type': 'application/json' }, mode: 'cors', body: JSON.stringify({ slug: counterKey, date: j.date }) });
+              if (r.ok) {
+                const data = await r.json();
+                if (data && typeof data.value === 'number') cnt.textContent = 'Votes: ' + data.value;
+              }
+            } catch {}
+            return;
+          }
+          if (!counterNS) return;
+          try {
+            const r = await fetch(`https://api.countapi.xyz/update/${encodeURIComponent(counterNS)}/${encodeURIComponent(counterKey)}?amount=1`, {mode:'cors'});
+            if (r.ok) {
+              const data = await r.json();
+              if (data && typeof data.value === 'number') cnt.textContent = 'Votes: ' + data.value;
+            }
+          } catch {}
+        }
+        // Preload count (non-blocking)
+        getCount();
+
+        if (localStorage.getItem(voteKey)) setVotedUI();
+        if (btn) btn.addEventListener('click', async () => {
+          if (localStorage.getItem(voteKey)) { setVotedUI(); return; }
+          setVotedUI();
+          localStorage.setItem(voteKey, '1');
+          const ep = (voteCfg && voteCfg.endpoint) ? String(voteCfg.endpoint) : '';
+          if (ep) {
+            try {
+              const payload = { date: j.date, slug: j.slug, concept: j.concept, t: Date.now() };
+              await fetch(ep, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(payload), mode: 'cors' });
+      } catch(e) { /* ignore */ }
+          }
+          // Increment external count if configured
+          incCount();
+        });
+
+        // Copy link setup
+        const copyBtn = document.getElementById('copyBtn');
+        if (copyBtn) {
+          copyBtn.addEventListener('click', async () => {
+            try {
+              await navigator.clipboard.writeText(window.location.href);
+              const orig = copyBtn.textContent;
+              copyBtn.textContent = '✓';
+              setTimeout(() => copyBtn.textContent = orig, 2000);
+            } catch {
+              // Fallback for older browsers
+              const textArea = document.createElement('textarea');
+              textArea.value = window.location.href;
+              document.body.appendChild(textArea);
+              textArea.select();
+              document.execCommand('copy');
+              document.body.removeChild(textArea);
+              const orig = copyBtn.textContent;
+              copyBtn.textContent = '✓';
+              setTimeout(() => copyBtn.textContent = orig, 2000);
+            }
+          });
+        }
+
+        // AI Summary toggle and content
+        const aiBtn = document.getElementById('aiBtn');
+        const aiPanel = document.getElementById('aiPanel');
+        let aiBuilt = false;
+        function esc(s){return String(s).replace(/[&<>"']/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;' }[m]))}
+        function buildAISummary(){
+          if (aiBuilt || !aiPanel) return;
+          const concept = esc(j.concept || 'Idea');
+          const theme = esc(j.theme || '');
+          const summary = esc((j.ai_summary && j.ai_summary.text) || j.summary || '');
+          const examples = (j.ai_summary && Array.isArray(j.ai_summary.examples) && j.ai_summary.examples.length >= 3)
+            ? j.ai_summary.examples.map(esc).slice(0,3)
+            : [
+                `Create a quick prototype that demonstrates ${concept.toLowerCase()} in a small, focused scenario.`,
+                `Integrate the idea into an existing app: add a minimal ${concept.toLowerCase()} feature to validate value.`,
+                `Design a short experiment to measure impact (e.g., time saved, errors reduced) using ${concept.toLowerCase()}.`
+              ];
+          aiPanel.innerHTML = `
+            <div class="ai-inner">
+              <div class="ai-title">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="6" y="6" width="12" height="12" rx="2"/>
+                  <path d="M9 3v3M15 3v3M9 18v3M15 18v3M3 9h3M3 15h3M18 9h3M18 15h3"/>
+                  <circle cx="12" cy="12" r="2.5"/>
+                </svg>
+                AI Summary
+              </div>
+              <div class="ai-text">${summary || `This idea explores <strong>${concept}</strong>${theme ? ` in the <em>${theme}</em> theme` : ''}.`}</div>
+              <div class="ai-text" style="margin-top:.35rem; font-weight:600;">Examples</div>
+              <ul class="ai-list">
+                ${examples.map(e=>`<li>${esc(e)}</li>`).join('')}
+              </ul>
+            </div>
+          `;
+          aiBuilt = true;
+        }
+        if (aiBtn && aiPanel) {
+          aiBtn.setAttribute('aria-expanded','false');
+          aiBtn.addEventListener('click', () => {
+            buildAISummary();
+            const open = aiPanel.classList.toggle('open');
+            aiBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          });
+        }
+      } catch (e) {
+        el.innerHTML = `<div class="meta">Failed to load latest.json (${escapeHtml(e.message)}). Try the <a href=\"./latest.json\">raw file</a>.</div>`;
+      }
+    }
+    function escapeHtml(s){return String(s).replace(/[&<>"']/g, m=>({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[m]))}
+    load();
+  </script>
+</body>
+</html>
