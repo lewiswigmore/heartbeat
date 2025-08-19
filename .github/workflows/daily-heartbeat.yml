@@ -16,7 +16,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false
+          token: ${{ secrets.GREEN_PAT || github.token }}
+          persist-credentials: true
 
       - name: Configure Git author
         env:
@@ -91,23 +92,15 @@ jobs:
           git add .green/heartbeat.txt ideas/ docs/
           if git diff --staged --quiet; then
             echo "No changes to commit."
-            exit 0
+          else
+            git commit -m "chore: heartbeat $(date -u +'%Y-%m-%d') [skip ci]"
           fi
-          git commit -m "chore: heartbeat $(date -u +'%Y-%m-%d') [skip ci]"
 
       - name: Push changes
-        env:
-          REPO: ${{ github.repository }}
-          BRANCH: ${{ github.ref_name }}
-          GREEN_PAT: ${{ secrets.GREEN_PAT }}
-          GH_TOKEN_FALLBACK: ${{ github.token }}
         run: |
-          TOKEN="$GREEN_PAT"
-          if [ -z "$TOKEN" ]; then
-            TOKEN="$GH_TOKEN_FALLBACK"
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to push."
+            exit 0
           fi
-          if [ -z "$BRANCH" ] || [ "$BRANCH" = "" ]; then
-            BRANCH=$(git rev-parse --abbrev-ref HEAD)
-          fi
-          echo "Pushing to $REPO on branch $BRANCH"
-          git push "https://x-access-token:${TOKEN}@github.com/${REPO}.git" "HEAD:${BRANCH}"
+          echo "Pushing to ${{ github.repository }} on branch ${{ github.ref_name }}"
+          git push origin HEAD:${{ github.ref_name }}
