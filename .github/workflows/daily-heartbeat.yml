@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GREEN_PAT || github.token }}
+          token: ${{ secrets.GREEN_PAT != '' && secrets.GREEN_PAT || github.token }}
           persist-credentials: true
 
       - name: Configure Git author
@@ -100,6 +100,15 @@ jobs:
 
       - name: Push changes
         if: env.SHOULD_PUSH == 'true'
+        env:
+          GREEN_PAT: ${{ secrets.GREEN_PAT }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           echo "Pushing to ${{ github.repository }} on branch ${{ github.ref_name }}"
-          git push origin HEAD:${{ github.ref_name }}
+          if [ -n "$GREEN_PAT" ]; then
+            echo "Using GREEN_PAT for authentication"
+            git push "https://x-access-token:${GREEN_PAT}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
+          else
+            echo "Using GITHUB_TOKEN for authentication"
+            git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:${{ github.ref_name }}
+          fi
