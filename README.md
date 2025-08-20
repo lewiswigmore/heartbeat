@@ -1,6 +1,6 @@
 # Heartbeat
 
-[![Daily Green Commit](https://github.com/lewiswigmore/heartbeat/actions/workflows/daily-heartbeat.yml/badge.svg)](https://github.com/lewiswigmore/heartbeat/actions/workflows/daily-heartbeat.yml)
+[![Daily Green Commit](https://github.com/lewiswigmore/heartbeat/actions/workflows/daily-heartbeat.yml/badge.svg)](https://github.com/lewiswigmore/heartbeat/actions/workflows/daily-heartbeat.yml) [![View Site](https://img.shields.io/badge/View-Site-blue?style=flat&logo=github)](https://lewiswigmore.github.io/heartbeat/)
 
 Daily “heartbeat” commits plus a short, structured idea every day. Outputs are consumable as JSON and RSS.
 
