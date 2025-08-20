@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-20",
+    "concept": "streaming secrets-rotator cli",
+    "summary": "A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",
+    "tags": [
+      "cli",
+      "secrets-rotator",
+      "streaming"
+    ],
+    "theme": "security",
+    "slug": "streaming-secrets-rotator-cli",
+    "repo_name": "streaming-secrets-rotator-cli-2025-08-20",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-17",
     "concept": "temporal audio-transcribe webapp",
     "summary": "A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.",
@@ -13,14 +27,14 @@
     "repo_name": "temporal-audio-transcribe-webapp-2025-08-17",
     "source": "offline",
     "ai_summary": {
-      "text": "A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe. It aligns to the observability theme; touching audio-transcribe, temporal, webapp.",
+      "text": "A webapp that spins up and manages terminal sessions to run temporal audio-transcribe pipelines, producing time-aligned transcripts with built-in observability of logs, metrics, and traces. It centralizes execution, monitoring, and artifact management so teams can reliably operate and audit transcription workflows.",
       "examples": [
-        "Ship a tiny temporal audio-transcribe webapp prototype end-to-end (README + demo)",
-        "Integrate temporal audio-transcribe webapp into an existing repo and add basic metrics",
-        "Instrument temporal audio-transcribe webapp and capture before/after results for one workflow"
+        "Create a new managed terminal session in the temporal audio-transcribe webapp, upload an MP3, and run a time-aligned transcription job that streams word-level timestamps to the session console and saves SRT/VTT artifacts.",
+        "Enable observability in the temporal audio-transcribe webapp by attaching OpenTelemetry to the session, then view real-time logs, traces, and CPU/memory metrics for the running transcription pipeline.",
+        "Schedule a recurring temporal audio-transcribe webapp workflow that spins up a terminal session nightly, pulls audio from S3, transcribes with diarization, and posts a summary plus transcript links to Slack."
       ],
-      "source": "offline",
-      "generated_at": "2025-08-17T16:55:25.124515Z"
+      "source": "azure",
+      "generated_at": "2025-08-17T16:55:57.991279Z"
     }
   },
   {

@@ -4,7 +4,7 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sun, 17 Aug 2025 16:44:57 +0000</lastBuildDate>
+<lastBuildDate>Wed, 20 Aug 2025 17:44:19 +0000</lastBuildDate>
 <item>
 <title>realtime graphql-gateway service</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -76,6 +76,15 @@ Summary: A sdk that can monitor and manage config files with a focus on privacy-
 Repo: `temporal-audio-transcribe-webapp-2025-08-17`
 Tags: `audio-transcribe`, `temporal`, `webapp`
 Summary: A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.</description>
+</item>
+<item>
+<title>streaming secrets-rotator cli</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `security`
+Repo: `streaming-secrets-rotator-cli-2025-08-20`
+Tags: `cli`, `secrets-rotator`, `streaming`
+Summary: A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.</description>
 </item>
 </channel>
 </rss>

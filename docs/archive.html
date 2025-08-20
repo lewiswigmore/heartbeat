@@ -3,36 +3,10 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❤️</text></svg>">
   <title>Heartbeat • Archive</title>
   <style>
-    :root { 
-      color-scheme: light dark; 
-      --accent:#0078D4; 
-      --bg:#f6f8fa; 
-      --card:#fff; 
-      --text:#111827; 
-      --muted:#6b7280; 
-      --border:#e5e7eb; 
-    }
-    html[data-theme="light"] { color-scheme: light; }
-    html[data-theme="dark"] {
-      color-scheme: dark;
-      --bg:#0b0c0e; 
-      --card:#111316; 
-      --text:#e5e7eb; 
-      --muted:#9ca3af; 
-      --border:#1f2937;
-    }
-    @media (prefers-color-scheme: dark) { 
-      :root { 
-        --bg:#0b0c0e; 
-        --card:#111316; 
-        --text:#e5e7eb; 
-        --muted:#9ca3af; 
-        --border:#1f2937; 
-      } 
-    }
+    :root { color-scheme: light dark; --accent:#0078D4; --bg:#f6f8fa; --card:#fff; --text:#111827; --muted:#6b7280; --border:#e5e7eb; }
+    @media (prefers-color-scheme: dark) { :root { --bg:#0b0c0e; --card:#111316; --text:#e5e7eb; --muted:#9ca3af; --border:#1f2937; } }
     body { margin:0; font-family:Segoe UI,system-ui,-apple-system,Roboto,Arial; background:var(--bg); color:var(--text); padding:24px; display:grid; place-items:center; }
     .shell { width:100%; max-width:980px; }
     header { text-align:center; margin-bottom:16px; }
@@ -57,7 +31,7 @@
       <table>
         <thead><tr><th>Month</th><th>Entries (MD)</th><th>Entries (JSONL)</th><th>Links</th></tr></thead>
         <tbody>
-          <tr><td><strong>2025-08</strong></td><td>8</td><td>8</td><td><a href="https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md">Markdown</a> &middot; <a href="https://raw.githubusercontent.com/lewiswigmore/heartbeat/main/ideas/2025-08.jsonl">JSONL</a></td></tr>
+          <tr><td><strong>2025-08</strong></td><td>9</td><td>9</td><td><a href="https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md">Markdown</a> &middot; <a href="https://raw.githubusercontent.com/lewiswigmore/heartbeat/main/ideas/2025-08.jsonl">JSONL</a></td></tr>
         </tbody>
       </table>
       <div class="actions">
@@ -68,9 +42,5 @@
       </div>
     </section>
   </div>
-  <script>
-    // Set permanent dark mode
-    document.documentElement.setAttribute('data-theme', 'dark');
-  </script>
 </body>
 </html>

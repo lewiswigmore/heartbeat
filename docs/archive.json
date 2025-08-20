@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-08-20",
+    "concept": "streaming secrets-rotator cli",
+    "summary": "A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",
+    "tags": [
+      "cli",
+      "secrets-rotator",
+      "streaming"
+    ],
+    "theme": "security",
+    "slug": "streaming-secrets-rotator-cli",
+    "repo_name": "streaming-secrets-rotator-cli-2025-08-20",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A CLI that securely scrapes and manages RSS feeds while continuously rotating and streaming the secrets (API keys, tokens) used by fetchers and consumers to minimize exposure and downtime. It centralizes feed orchestration, rotation policy enforcement, and audit visibility for security-focused pipelines.",
+      "examples": [
+        "Action 1: Initialize the streaming secrets-rotator cli workspace, register an RSS feed endpoint, and attach a rotation policy that streams zero-downtime key updates to the feed fetcher.",
+        "Action 2: Use streaming secrets-rotator cli to scrape a feed on a schedule with least-privilege credentials, streaming rotations to switch API tokens every 24 hours with automatic rollback on failure.",
+        "Action 3: Configure streaming secrets-rotator cli to emit rotation events to consumers via webhooks or Kafka, verify fetchers reload secrets live, and generate an audit report for the last 10 rotations."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-20T17:44:19.574377Z"
+    }
+  },
+  {
     "date": "2025-08-17",
     "concept": "temporal audio-transcribe webapp",
     "summary": "A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.",
@@ -13,14 +37,14 @@
     "repo_name": "temporal-audio-transcribe-webapp-2025-08-17",
     "source": "offline",
     "ai_summary": {
-      "text": "A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe. It aligns to the observability theme; touching audio-transcribe, temporal, webapp.",
+      "text": "A webapp that spins up and manages terminal sessions to run temporal audio-transcribe pipelines, producing time-aligned transcripts with built-in observability of logs, metrics, and traces. It centralizes execution, monitoring, and artifact management so teams can reliably operate and audit transcription workflows.",
       "examples": [
-        "Ship a tiny temporal audio-transcribe webapp prototype end-to-end (README + demo)",
-        "Integrate temporal audio-transcribe webapp into an existing repo and add basic metrics",
-        "Instrument temporal audio-transcribe webapp and capture before/after results for one workflow"
+        "Create a new managed terminal session in the temporal audio-transcribe webapp, upload an MP3, and run a time-aligned transcription job that streams word-level timestamps to the session console and saves SRT/VTT artifacts.",
+        "Enable observability in the temporal audio-transcribe webapp by attaching OpenTelemetry to the session, then view real-time logs, traces, and CPU/memory metrics for the running transcription pipeline.",
+        "Schedule a recurring temporal audio-transcribe webapp workflow that spins up a terminal session nightly, pulls audio from S3, transcribes with diarization, and posts a summary plus transcript links to Slack."
       ],
-      "source": "offline",
-      "generated_at": "2025-08-17T16:44:57.105513Z"
+      "source": "azure",
+      "generated_at": "2025-08-17T16:55:57.991279Z"
     }
   },
   {
@@ -37,14 +61,14 @@
     "repo_name": "privacy-first-scheduler-sdk-2025-08-16",
     "source": "offline",
     "ai_summary": {
-      "text": "A sdk that can monitor and manage config files with a focus on privacy-first scheduler. It aligns to the automation theme; touching privacy-first, scheduler, sdk.",
+      "text": "A privacy-first scheduler SDK that monitors and manages local scheduling config files on-device, enforcing encryption, least-privilege access, and zero telemetry. It automates compliant job execution while preserving user data privacy with policy-driven controls and auditable actions.",
       "examples": [
-        "Ship a tiny privacy-first scheduler sdk prototype end-to-end (README + demo)",
-        "Integrate privacy-first scheduler sdk into an existing repo and add basic metrics",
-        "Instrument privacy-first scheduler sdk and capture before/after results for one workflow"
+        "Use the privacy-first scheduler sdk to watch a local YAML/JSON config directory, validate schedules against a privacy policy schema, and hot-reload jobs without sending any data off-device.",
+        "Initialize the privacy-first scheduler sdk with a hardware-backed key to encrypt schedule configs and secrets at rest, then run cron-like jobs with per-job consent prompts and sandboxed execution.",
+        "Integrate the privacy-first scheduler sdk to produce signed local-only audit logs, enforce least-privilege access to environment variables, and automatically rollback config changes that violate privacy rules."
       ],
-      "source": "offline",
-      "generated_at": "2025-08-17T16:44:51.460126Z"
+      "source": "azure",
+      "generated_at": "2025-08-17T16:55:05.002179Z"
     }
   },
   {
@@ -61,14 +85,14 @@
     "repo_name": "zero-trust-secrets-rotator-agent-2025-08-15",
     "source": "offline",
     "ai_summary": {
-      "text": "A agent that can generate and manage rss feeds with a focus on zero-trust secrets-rotator. It aligns to the devtools theme; touching agent, secrets-rotator, zero-trust.",
+      "text": "A devtools-focused zero-trust secrets-rotator agent that generates and manages signed RSS feeds while continuously rotating feed keys and access tokens with least-privilege, ephemeral credentials. It reduces blast radius and automates secret hygiene across your pipelines and subscribers without downtime.",
       "examples": [
-        "Ship a tiny zero-trust secrets-rotator agent prototype end-to-end (README + demo)",
-        "Integrate zero-trust secrets-rotator agent into an existing repo and add basic metrics",
-        "Instrument zero-trust secrets-rotator agent and capture before/after results for one workflow"
+        "Action 1: Deploy the zero-trust secrets-rotator agent in GitHub Actions to generate a signed RSS feed of release events, rotate the feed-signing key via AWS KMS every 24h, and publish a JWKS endpoint so subscribers auto-refresh keys.",
+        "Action 2: Configure the zero-trust secrets-rotator agent to issue per-subscriber, time-scoped tokens for RSS access (JWT exp=15m), auto-rotate on anomaly detection, and revoke credentials via a SIEM alert webhook.",
+        "Action 3: Use the zero-trust secrets-rotator agent to rotate credentials for RSS webhook integrations (S3 object writes and Slack notifications) via HashiCorp Vault AppRole, with pre-rotation validation and post-rotation smoke tests to ensure no feed downtime."
       ],
-      "source": "offline",
-      "generated_at": "2025-08-17T16:44:46.244166Z"
+      "source": "azure",
+      "generated_at": "2025-08-17T16:54:56.794622Z"
     }
   },
   {
@@ -85,14 +109,14 @@
     "repo_name": "privacy-first-graphql-gateway-extension-2025-08-14",
     "source": "offline",
     "ai_summary": {
-      "text": "A extension that can generate and manage api responses with a focus on privacy-first graphql-gateway. It aligns to the data theme; touching extension, graphql-gateway, privacy-first.",
+      "text": "A privacy-first GraphQL gateway extension that generates and manages API responses with built-in data minimization, consent-aware resolvers, and auditability. It helps teams enforce least-privilege access and redaction at the gateway without changing backend services.",
       "examples": [
-        "Ship a tiny privacy-first graphql-gateway extension prototype end-to-end (README + demo)",
-        "Integrate privacy-first graphql-gateway extension into an existing repo and add basic metrics",
-        "Instrument privacy-first graphql-gateway extension and capture before/after results for one workflow"
+        "Install and register the privacy-first graphql-gateway extension, then annotate PII fields with @redact to enable automatic field-level masking in responses.",
+        "Define consent scopes (e.g., email.read, profile.basic) and bind them to resolvers so the privacy-first graphql-gateway extension conditionally resolves fields based on user consent tokens.",
+        "Configure per-service data minimization policies and enable response filtering so the privacy-first graphql-gateway extension strips nonessential fields and emits privacy audit events to your logging pipeline."
       ],
-      "source": "offline",
-      "generated_at": "2025-08-17T16:44:38.293207Z"
+      "source": "azure",
+      "generated_at": "2025-08-17T16:54:40.155442Z"
     }
   },
   {
@@ -109,14 +133,14 @@
     "repo_name": "quantum-notes-extension-2025-08-13",
     "source": "offline",
     "ai_summary": {
-      "text": "A extension that can scrape and manage terminal sessions with a focus on quantum notes. It aligns to the security theme; touching extension, notes, quantum.",
+      "text": "Quantum notes extension securely scrapes and organizes terminal sessions into structured, encrypted quantum notes that capture commands, outputs, and quantum-specific context. It enforces role-based access, secret redaction, and tamper-evident audit trails for secure, reproducible quantum workflows.",
       "examples": [
-        "Ship a tiny quantum notes extension prototype end-to-end (README + demo)",
-        "Integrate quantum notes extension into an existing repo and add basic metrics",
-        "Instrument quantum notes extension and capture before/after results for one workflow"
+        "Action 1: Install the quantum notes extension on your terminal, enable SSH/tmux session capture, and configure AES-256 storage encryption with your team's KMS key to automatically save Qiskit job runs as encrypted quantum notes with circuit metadata and seed parameters.",
+        "Action 2: Use the quantum notes extension to scrape a live session, auto-redact API tokens and private keys from outputs, then tag the resulting quantum note with backend ID, qubit count, and shot settings before pushing it to a Git repo with signed commits.",
+        "Action 3: Set up role-based access control in the quantum notes extension to restrict viewing of sensitive measurement outputs, and enable tamper-evident audit logs that link each quantum note to its originating commands and timestamps for compliance review."
       ],
-      "source": "offline",
-      "generated_at": "2025-08-17T16:44:31.819594Z"
+      "source": "azure",
+      "generated_at": "2025-08-17T16:54:31.899012Z"
     }
   },
   {
@@ -140,7 +164,7 @@
         "Instrument federated audio-transcribe extension and capture before/after results for one workflow"
       ],
       "source": "offline",
-      "generated_at": "2025-08-17T16:44:23.244926Z"
+      "generated_at": "2025-08-17T16:54:19.795234Z"
     }
   },
   {
@@ -157,14 +181,14 @@
     "repo_name": "privacy-first-search-agent-2025-08-11",
     "source": "offline",
     "ai_summary": {
-      "text": "A agent that can summarize and manage log files with a focus on privacy-first search. It aligns to the productivity theme; touching agent, privacy-first, search.",
+      "text": "A privacy-first search agent securely indexes, summarizes, and manages log files entirely on-device, enabling fast, natural-language search without sending data off your machine. It boosts productivity by delivering precise summaries and enforcing redaction and retention policies to minimize risk.",
       "examples": [
-        "Ship a tiny privacy-first search agent prototype end-to-end (README + demo)",
-        "Integrate privacy-first search agent into an existing repo and add basic metrics",
-        "Instrument privacy-first search agent and capture before/after results for one workflow"
+        "Action 1: Configure the privacy-first search agent to index system and application logs locally, apply PII redaction (emails, IPs, tokens), and generate a daily summary of top errors and anomalies.",
+        "Action 2: Use the privacy-first search agent to run a natural-language query across encrypted log archives (e.g., 'show auth failures by host last 24h') and return an on-device summary with trend charts and timestamps.",
+        "Action 3: Set the privacy-first search agent to enforce a 30-day retention policy, auto-anonymize IP addresses on ingest, and export a sanitized incident report for a specified timeframe and service."
       ],
-      "source": "offline",
-      "generated_at": "2025-08-17T16:44:18.094519Z"
+      "source": "azure",
+      "generated_at": "2025-08-17T16:53:59.696357Z"
     }
   },
   {
@@ -181,14 +205,14 @@
     "repo_name": "realtime-graphql-gateway-service-2025-08-10",
     "source": "offline",
     "ai_summary": {
-      "text": "A service that can generate and manage log files with a focus on realtime graphql-gateway. It aligns to the observability theme; touching graphql-gateway, realtime, service.",
+      "text": "The realtime graphql-gateway service generates and manages structured, real-time logs and metrics for every GraphQL operation across the gateway, delivering instant observability into traffic, latency, and errors. By centralizing log pipelines, retention, and live analysis, it shortens MTTR and improves reliability.",
       "examples": [
-        "Ship a tiny realtime graphql-gateway service prototype end-to-end (README + demo)",
-        "Integrate realtime graphql-gateway service into an existing repo and add basic metrics",
-        "Instrument realtime graphql-gateway service and capture before/after results for one workflow"
+        "Action 1: Configure the realtime graphql-gateway service to stream JSON logs to a Kafka topic with fields operationName, traceId, resolverPath, latencyMs, and upstreamStatus, and set retention to 7 days.",
+        "Action 2: Enable live tailing in the realtime graphql-gateway service and add a filter for operationName='GetUser' AND latencyMs>200 to investigate spikes in resolver latency.",
+        "Action 3: Create an alert in the realtime graphql-gateway service that triggers when upstreamStatus starts with '5' and errorRate>0.02 over 5 minutes, and auto-attach the last 100 request/response log entries for the affected operation."
       ],
-      "source": "offline",
-      "generated_at": "2025-08-17T16:44:10.987499Z"
+      "source": "azure",
+      "generated_at": "2025-08-17T16:53:47.541837Z"
     }
   }
 ]
