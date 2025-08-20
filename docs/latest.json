@@ -1,14 +1,14 @@
 {
-  "date": "2025-08-19",
-  "concept": "quantum scheduler extension",
-  "summary": "A extension that can normalize and manage browser history with a focus on quantum scheduler.",
+  "date": "2025-08-20",
+  "concept": "streaming secrets-rotator cli",
+  "summary": "A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",
   "tags": [
-    "extension",
-    "quantum",
-    "scheduler"
+    "cli",
+    "secrets-rotator",
+    "streaming"
   ],
-  "theme": "ml",
-  "slug": "quantum-scheduler-extension",
-  "repo_name": "quantum-scheduler-extension-2025-08-19",
+  "theme": "security",
+  "slug": "streaming-secrets-rotator-cli",
+  "repo_name": "streaming-secrets-rotator-cli-2025-08-20",
   "source": "azure"
 }
