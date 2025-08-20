@@ -1,24 +1,14 @@
 {
-  "date": "2025-08-20",
-  "concept": "streaming secrets-rotator cli",
-  "summary": "A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",
+  "date": "2025-08-19",
+  "concept": "quantum scheduler extension",
+  "summary": "A extension that can normalize and manage browser history with a focus on quantum scheduler.",
   "tags": [
-    "cli",
-    "secrets-rotator",
-    "streaming"
+    "extension",
+    "quantum",
+    "scheduler"
   ],
-  "theme": "security",
-  "slug": "streaming-secrets-rotator-cli",
-  "repo_name": "streaming-secrets-rotator-cli-2025-08-20",
-  "source": "azure",
-  "ai_summary": {
-    "text": "A CLI that securely scrapes and manages RSS feeds while continuously rotating and streaming the secrets (API keys, tokens) used by fetchers and consumers to minimize exposure and downtime. It centralizes feed orchestration, rotation policy enforcement, and audit visibility for security-focused pipelines.",
-    "examples": [
-      "Action 1: Initialize the streaming secrets-rotator cli workspace, register an RSS feed endpoint, and attach a rotation policy that streams zero-downtime key updates to the feed fetcher.",
-      "Action 2: Use streaming secrets-rotator cli to scrape a feed on a schedule with least-privilege credentials, streaming rotations to switch API tokens every 24 hours with automatic rollback on failure.",
-      "Action 3: Configure streaming secrets-rotator cli to emit rotation events to consumers via webhooks or Kafka, verify fetchers reload secrets live, and generate an audit report for the last 10 rotations."
-    ],
-    "source": "azure",
-    "generated_at": "2025-08-20T17:44:19.574377Z"
-  }
+  "theme": "ml",
+  "slug": "quantum-scheduler-extension",
+  "repo_name": "quantum-scheduler-extension-2025-08-19",
+  "source": "azure"
 }

@@ -67,6 +67,20 @@
       "title": "streaming secrets-rotator cli",
       "content_text": "Theme: `security`\nRepo: `streaming-secrets-rotator-cli-2025-08-20`\nTags: `cli`, `secrets-rotator`, `streaming`\nSummary: A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",
       "date_published": "2025-08-20T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "temporal graphql-gateway extension",
+      "content_text": "Theme: `productivity`\nRepo: `temporal-graphql-gateway-extension-2025-08-18`\nTags: `extension`, `graphql-gateway`, `temporal`\nSummary: A extension that can classify and manage api responses with a focus on temporal graphql-gateway.",
+      "date_published": "2025-08-18T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "quantum scheduler extension",
+      "content_text": "Theme: `ml`\nRepo: `quantum-scheduler-extension-2025-08-19`\nTags: `extension`, `quantum`, `scheduler`\nSummary: A extension that can normalize and manage browser history with a focus on quantum scheduler.",
+      "date_published": "2025-08-19T00:00:00Z"
     }
   ]
 }

@@ -24,6 +24,34 @@
     }
   },
   {
+    "date": "2025-08-19",
+    "concept": "quantum scheduler extension",
+    "summary": "A extension that can normalize and manage browser history with a focus on quantum scheduler.",
+    "tags": [
+      "extension",
+      "quantum",
+      "scheduler"
+    ],
+    "theme": "ml",
+    "slug": "quantum-scheduler-extension",
+    "repo_name": "quantum-scheduler-extension-2025-08-19",
+    "source": "azure"
+  },
+  {
+    "date": "2025-08-18",
+    "concept": "temporal graphql-gateway extension",
+    "summary": "A extension that can classify and manage api responses with a focus on temporal graphql-gateway.",
+    "tags": [
+      "extension",
+      "graphql-gateway",
+      "temporal"
+    ],
+    "theme": "productivity",
+    "slug": "temporal-graphql-gateway-extension",
+    "repo_name": "temporal-graphql-gateway-extension-2025-08-18",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-17",
     "concept": "temporal audio-transcribe webapp",
     "summary": "A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.",

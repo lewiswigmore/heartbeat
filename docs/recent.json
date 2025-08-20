@@ -11,6 +11,44 @@
     "theme": "security",
     "slug": "streaming-secrets-rotator-cli",
     "repo_name": "streaming-secrets-rotator-cli-2025-08-20",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A CLI that securely scrapes and manages RSS feeds while continuously rotating and streaming the secrets (API keys, tokens) used by fetchers and consumers to minimize exposure and downtime. It centralizes feed orchestration, rotation policy enforcement, and audit visibility for security-focused pipelines.",
+      "examples": [
+        "Action 1: Initialize the streaming secrets-rotator cli workspace, register an RSS feed endpoint, and attach a rotation policy that streams zero-downtime key updates to the feed fetcher.",
+        "Action 2: Use streaming secrets-rotator cli to scrape a feed on a schedule with least-privilege credentials, streaming rotations to switch API tokens every 24 hours with automatic rollback on failure.",
+        "Action 3: Configure streaming secrets-rotator cli to emit rotation events to consumers via webhooks or Kafka, verify fetchers reload secrets live, and generate an audit report for the last 10 rotations."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-20T17:44:19.574377Z"
+    }
+  },
+  {
+    "date": "2025-08-19",
+    "concept": "quantum scheduler extension",
+    "summary": "A extension that can normalize and manage browser history with a focus on quantum scheduler.",
+    "tags": [
+      "extension",
+      "quantum",
+      "scheduler"
+    ],
+    "theme": "ml",
+    "slug": "quantum-scheduler-extension",
+    "repo_name": "quantum-scheduler-extension-2025-08-19",
+    "source": "azure"
+  },
+  {
+    "date": "2025-08-18",
+    "concept": "temporal graphql-gateway extension",
+    "summary": "A extension that can classify and manage api responses with a focus on temporal graphql-gateway.",
+    "tags": [
+      "extension",
+      "graphql-gateway",
+      "temporal"
+    ],
+    "theme": "productivity",
+    "slug": "temporal-graphql-gateway-extension",
+    "repo_name": "temporal-graphql-gateway-extension-2025-08-18",
     "source": "azure"
   },
   {
@@ -179,30 +217,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-17T16:53:59.696357Z"
-    }
-  },
-  {
-    "date": "2025-08-10",
-    "concept": "realtime graphql-gateway service",
-    "summary": "A service that can generate and manage log files with a focus on realtime graphql-gateway.",
-    "tags": [
-      "graphql-gateway",
-      "realtime",
-      "service"
-    ],
-    "theme": "observability",
-    "slug": "realtime-graphql-gateway-service",
-    "repo_name": "realtime-graphql-gateway-service-2025-08-10",
-    "source": "offline",
-    "ai_summary": {
-      "text": "The realtime graphql-gateway service generates and manages structured, real-time logs and metrics for every GraphQL operation across the gateway, delivering instant observability into traffic, latency, and errors. By centralizing log pipelines, retention, and live analysis, it shortens MTTR and improves reliability.",
-      "examples": [
-        "Action 1: Configure the realtime graphql-gateway service to stream JSON logs to a Kafka topic with fields operationName, traceId, resolverPath, latencyMs, and upstreamStatus, and set retention to 7 days.",
-        "Action 2: Enable live tailing in the realtime graphql-gateway service and add a filter for operationName='GetUser' AND latencyMs>200 to investigate spikes in resolver latency.",
-        "Action 3: Create an alert in the realtime graphql-gateway service that triggers when upstreamStatus starts with '5' and errorRate>0.02 over 5 minutes, and auto-attach the last 100 request/response log entries for the affected operation."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-17T16:53:47.541837Z"
     }
   }
 ]

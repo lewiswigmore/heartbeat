@@ -4,7 +4,7 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Wed, 20 Aug 2025 17:44:19 +0000</lastBuildDate>
+<lastBuildDate>Wed, 20 Aug 2025 17:48:10 +0000</lastBuildDate>
 <item>
 <title>realtime graphql-gateway service</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -85,6 +85,24 @@ Summary: A webapp that can generate and manage terminal sessions with a focus on
 Repo: `streaming-secrets-rotator-cli-2025-08-20`
 Tags: `cli`, `secrets-rotator`, `streaming`
 Summary: A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.</description>
+</item>
+<item>
+<title>temporal graphql-gateway extension</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `productivity`
+Repo: `temporal-graphql-gateway-extension-2025-08-18`
+Tags: `extension`, `graphql-gateway`, `temporal`
+Summary: A extension that can classify and manage api responses with a focus on temporal graphql-gateway.</description>
+</item>
+<item>
+<title>quantum scheduler extension</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `ml`
+Repo: `quantum-scheduler-extension-2025-08-19`
+Tags: `extension`, `quantum`, `scheduler`
+Summary: A extension that can normalize and manage browser history with a focus on quantum scheduler.</description>
 </item>
 </channel>
 </rss>
