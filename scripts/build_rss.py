@@ -5,6 +5,7 @@ Outputs to docs/feed.xml
 """
 import datetime as dt
 import html
+import json
 import os
 import subprocess
 from email.utils import format_datetime
@@ -51,6 +52,23 @@ def _get_repo_slug() -> str:
 
 
 def parse_entries():
+    """Parse both markdown and JSONL files to get complete entry data with unique identifiers"""
+    # First load JSONL data for metadata
+    jsonl_data = {}
+    for jsonl_path in sorted(IDEAS_DIR.glob("*.jsonl")):
+        try:
+            for line in jsonl_path.read_text(encoding="utf-8").splitlines():
+                if not line.strip():
+                    continue
+                try:
+                    data = json.loads(line)
+                    if data.get("date"):
+                        jsonl_data[data["date"]] = data
+                except Exception:
+                    continue
+        except Exception:
+            continue
+    
     # Parse markdown monthly files for entries
     for path in sorted(IDEAS_DIR.glob("*.md")):
         try:
@@ -73,11 +91,18 @@ def parse_entries():
                         break
                     desc_lines.append(l)
                 description = html.escape("\n".join(desc_lines).strip()[:800])
+                
+                # Get additional metadata from JSONL if available
+                jsonl_entry = jsonl_data.get(date_str, {})
+                guid = jsonl_entry.get("repo_name") or jsonl_entry.get("slug") or f"{date_str}-{title.lower().replace(' ', '-')}"
+                
                 yield {
                     "date": date_str,
                     "title": title.strip(),
                     "relpath": path.relative_to(ROOT).as_posix(),
                     "description": description,
+                    "guid": guid,
+                    "slug": jsonl_entry.get("slug", ""),
                 }
 
 
@@ -90,15 +115,18 @@ def build_feed():
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
     now = format_datetime(dt.datetime.now(dt.timezone.utc))
     repo_slug = _get_repo_slug()
+    owner, repo = repo_slug.split("/", 1) if "/" in repo_slug else ("", repo_slug)
+    feed_url = f"https://{owner}.github.io/{repo}/feed.xml" if owner else f"https://raw.githubusercontent.com/{repo_slug}/main/docs/feed.xml"
 
     xml = [
         '<?xml version="1.0" encoding="UTF-8"?>',
-        '<rss version="2.0">',
+        '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">',
         '<channel>',
         '<title>Daily Ideas</title>',
         f'<link>https://github.com/{repo_slug}</link>',
         '<description>Latest daily repo ideas</description>',
         f'<lastBuildDate>{now}</lastBuildDate>',
+        f'<atom:link href="{feed_url}" rel="self" type="application/rss+xml" />',
     ]
 
     for it in items:
@@ -108,10 +136,14 @@ def build_feed():
             pub_dt = dt.datetime.now(dt.timezone.utc)
         pub = format_datetime(pub_dt)
         link = f"https://github.com/{repo_slug}/blob/main/{it['relpath']}"
+        # Use repo_name as GUID if available, otherwise create one from date and slug
+        guid = html.escape(it["guid"])
+        
         xml += [
             '<item>',
             f'<title>{html.escape(it["title"])}</title>',
             f'<link>{link}</link>',
+            f'<guid isPermaLink="false">{guid}</guid>',
             f'<pubDate>{pub}</pubDate>',
             f'<description>{it["description"]}</description>',
             '</item>',
