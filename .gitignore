@@ -8,6 +8,9 @@ secrets/
 # Transient or debug artifacts
 .green/todays_idea.json
 .green/issue_resp.json
+.green/ai_errors.log
+.green/ai_raw.txt
+*.log
 
 # Python cache
 __pycache__/
