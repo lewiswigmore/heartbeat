@@ -92,15 +92,14 @@ jobs:
           git add .green/heartbeat.txt ideas/ docs/
           if git diff --staged --quiet; then
             echo "No changes to commit."
+            echo "SHOULD_PUSH=false" >> $GITHUB_ENV
           else
             git commit -m "chore: heartbeat $(date -u +'%Y-%m-%d') [skip ci]"
+            echo "SHOULD_PUSH=true" >> $GITHUB_ENV
           fi
 
       - name: Push changes
+        if: env.SHOULD_PUSH == 'true'
         run: |
-          if git diff --quiet && git diff --staged --quiet; then
-            echo "No changes to push."
-            exit 0
-          fi
           echo "Pushing to ${{ github.repository }} on branch ${{ github.ref_name }}"
           git push origin HEAD:${{ github.ref_name }}
