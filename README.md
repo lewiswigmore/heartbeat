@@ -77,6 +77,22 @@ Example (`docs/latest.json`):
 - Makes up to 6 attempts for a unique concept; as a last resort, appends a tiny suffix.
 - Disable external search via `IDEA_VALIDATE_GITHUB=false` in the workflow env.
 
+## Backfill missing dates
+
+If the workflow was down and you need to generate ideas for missed dates:
+
+```bash
+cd scripts
+FORCE_DATE=2025-08-18 python daily_idea.py
+FORCE_DATE=2025-08-19 python daily_idea.py
+# Rebuild feeds
+python build_recent.py
+python build_rss.py
+python build_jsonfeed.py
+python build_archive.py
+python build_archive_json.py
+```
+
 ## Notes
 
 - Commits include `[skip ci]` to avoid triggering other workflows.
