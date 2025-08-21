@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-08-21",
+    "concept": "privacy-first secrets-rotator extension",
+    "summary": "A extension that can normalize and manage screenshots with a focus on privacy-first secrets-rotator.",
+    "tags": [
+      "extension",
+      "privacy-first",
+      "secrets-rotator"
+    ],
+    "theme": "data",
+    "slug": "privacy-first-secrets-rotator-extension",
+    "repo_name": "privacy-first-secrets-rotator-extension-2025-08-21",
+    "source": "azure",
+    "ai_summary": {
+      "text": "The privacy-first secrets-rotator extension automatically normalizes and manages screenshots by detecting and redacting sensitive data, while securely rotating any exposed credentials. This prevents leaks and supports compliance without sending data off-device.",
+      "examples": [
+        "Use the privacy-first secrets-rotator extension to scan a batch of screenshots, auto-redact API tokens, and rotate any leaked keys in your secrets manager.",
+        "Configure the privacy-first secrets-rotator extension to deterministically anonymize emails and names in screenshots before sharing, while logging all rotation events to your SIEM.",
+        "Trigger the privacy-first secrets-rotator extension via CLI to strip EXIF/GPS metadata, normalize file naming, and rotate OAuth client secrets detected in on-screen text."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-21T07:30:22.142775Z"
+    }
+  },
+  {
     "date": "2025-08-20",
     "concept": "streaming secrets-rotator cli",
     "summary": "A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",

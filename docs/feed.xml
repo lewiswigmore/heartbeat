@@ -4,7 +4,7 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Wed, 20 Aug 2025 18:13:40 +0000</lastBuildDate>
+<lastBuildDate>Thu, 21 Aug 2025 07:30:22 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>realtime graphql-gateway service</title>
@@ -115,6 +115,16 @@ Summary: A extension that can normalize and manage browser history with a focus 
 Repo: `streaming-secrets-rotator-cli-2025-08-20`
 Tags: `cli`, `secrets-rotator`, `streaming`
 Summary: A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.</description>
+</item>
+<item>
+<title>privacy-first secrets-rotator extension</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<guid isPermaLink="false">privacy-first-secrets-rotator-extension-2025-08-21</guid>
+<pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `data`
+Repo: `privacy-first-secrets-rotator-extension-2025-08-21`
+Tags: `extension`, `privacy-first`, `secrets-rotator`
+Summary: A extension that can normalize and manage screenshots with a focus on privacy-first secrets-rotator.</description>
 </item>
 </channel>
 </rss>

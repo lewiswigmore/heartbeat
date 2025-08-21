@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-21",
+    "concept": "privacy-first secrets-rotator extension",
+    "summary": "A extension that can normalize and manage screenshots with a focus on privacy-first secrets-rotator.",
+    "tags": [
+      "extension",
+      "privacy-first",
+      "secrets-rotator"
+    ],
+    "theme": "data",
+    "slug": "privacy-first-secrets-rotator-extension",
+    "repo_name": "privacy-first-secrets-rotator-extension-2025-08-21",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-20",
     "concept": "streaming secrets-rotator cli",
     "summary": "A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",
@@ -193,30 +207,6 @@
       ],
       "source": "offline",
       "generated_at": "2025-08-17T16:54:19.795234Z"
-    }
-  },
-  {
-    "date": "2025-08-11",
-    "concept": "privacy-first search agent",
-    "summary": "A agent that can summarize and manage log files with a focus on privacy-first search.",
-    "tags": [
-      "agent",
-      "privacy-first",
-      "search"
-    ],
-    "theme": "productivity",
-    "slug": "privacy-first-search-agent",
-    "repo_name": "privacy-first-search-agent-2025-08-11",
-    "source": "offline",
-    "ai_summary": {
-      "text": "A privacy-first search agent securely indexes, summarizes, and manages log files entirely on-device, enabling fast, natural-language search without sending data off your machine. It boosts productivity by delivering precise summaries and enforcing redaction and retention policies to minimize risk.",
-      "examples": [
-        "Action 1: Configure the privacy-first search agent to index system and application logs locally, apply PII redaction (emails, IPs, tokens), and generate a daily summary of top errors and anomalies.",
-        "Action 2: Use the privacy-first search agent to run a natural-language query across encrypted log archives (e.g., 'show auth failures by host last 24h') and return an on-device summary with trend charts and timestamps.",
-        "Action 3: Set the privacy-first search agent to enforce a 30-day retention policy, auto-anonymize IP addresses on ingest, and export a sanitized incident report for a specified timeframe and service."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-17T16:53:59.696357Z"
     }
   }
 ]
