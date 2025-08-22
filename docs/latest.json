@@ -1,24 +1,24 @@
 {
-  "date": "2025-08-21",
-  "concept": "privacy-first secrets-rotator extension",
-  "summary": "A extension that can normalize and manage screenshots with a focus on privacy-first secrets-rotator.",
+  "date": "2025-08-22",
+  "concept": "ambient audio-transcribe webapp",
+  "summary": "A webapp that can transcode and manage terminal sessions with a focus on ambient audio-transcribe.",
   "tags": [
-    "extension",
-    "privacy-first",
-    "secrets-rotator"
+    "ambient",
+    "audio-transcribe",
+    "webapp"
   ],
-  "theme": "data",
-  "slug": "privacy-first-secrets-rotator-extension",
-  "repo_name": "privacy-first-secrets-rotator-extension-2025-08-21",
+  "theme": "devtools",
+  "slug": "ambient-audio-transcribe-webapp",
+  "repo_name": "ambient-audio-transcribe-webapp-2025-08-22",
   "source": "azure",
   "ai_summary": {
-    "text": "The privacy-first secrets-rotator extension automatically normalizes and manages screenshots by detecting and redacting sensitive data, while securely rotating any exposed credentials. This prevents leaks and supports compliance without sending data off-device.",
+    "text": "This devtools-focused ambient audio-transcribe webapp manages and records terminal sessions, transcodes session artifacts, and passively captures ambient audio to produce time-aligned transcripts and summaries. It helps developers document workflows, generate searchable session logs, and automate post-session notes and captions.",
     "examples": [
-      "Use the privacy-first secrets-rotator extension to scan a batch of screenshots, auto-redact API tokens, and rotate any leaked keys in your secrets manager.",
-      "Configure the privacy-first secrets-rotator extension to deterministically anonymize emails and names in screenshots before sharing, while logging all rotation events to your SIEM.",
-      "Trigger the privacy-first secrets-rotator extension via CLI to strip EXIF/GPS metadata, normalize file naming, and rotate OAuth client secrets detected in on-screen text."
+      "Action 1: Configure the ambient audio-transcribe webapp to auto-start transcription on new terminal sessions and attach time-aligned captions to each command and output block.",
+      "Action 2: Use the ambient audio-transcribe webapp to transcode a ttyrec/asciinema recording into an MP4 with burned-in captions generated from the ambient transcript and export a markdown summary.",
+      "Action 3: Integrate the ambient audio-transcribe webapp with your SSH session manager to track multiple terminals, tag transcripts with git branch/commit metadata, and index them for full-text search."
     ],
     "source": "azure",
-    "generated_at": "2025-08-21T07:30:22.142775Z"
+    "generated_at": "2025-08-22T07:27:38.734666Z"
   }
 }

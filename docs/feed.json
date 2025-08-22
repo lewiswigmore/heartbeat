@@ -88,6 +88,13 @@
       "title": "privacy-first secrets-rotator extension",
       "content_text": "Theme: `data`\nRepo: `privacy-first-secrets-rotator-extension-2025-08-21`\nTags: `extension`, `privacy-first`, `secrets-rotator`\nSummary: A extension that can normalize and manage screenshots with a focus on privacy-first secrets-rotator.",
       "date_published": "2025-08-21T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "ambient audio-transcribe webapp",
+      "content_text": "Theme: `devtools`\nRepo: `ambient-audio-transcribe-webapp-2025-08-22`\nTags: `ambient`, `audio-transcribe`, `webapp`\nSummary: A webapp that can transcode and manage terminal sessions with a focus on ambient audio-transcribe.",
+      "date_published": "2025-08-22T00:00:00Z"
     }
   ]
 }
