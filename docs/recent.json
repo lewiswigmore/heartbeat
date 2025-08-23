@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-23",
+    "concept": "ambient graphql-gateway sdk",
+    "summary": "A sdk that can normalize and manage rss feeds with a focus on ambient graphql-gateway.",
+    "tags": [
+      "ambient",
+      "graphql-gateway",
+      "sdk"
+    ],
+    "theme": "automation",
+    "slug": "ambient-graphql-gateway-sdk",
+    "repo_name": "ambient-graphql-gateway-sdk-2025-08-23",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-22",
     "concept": "ambient audio-transcribe webapp",
     "summary": "A webapp that can transcode and manage terminal sessions with a focus on ambient audio-transcribe.",
@@ -11,7 +25,17 @@
     "theme": "devtools",
     "slug": "ambient-audio-transcribe-webapp",
     "repo_name": "ambient-audio-transcribe-webapp-2025-08-22",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "This devtools-focused ambient audio-transcribe webapp manages and records terminal sessions, transcodes session artifacts, and passively captures ambient audio to produce time-aligned transcripts and summaries. It helps developers document workflows, generate searchable session logs, and automate post-session notes and captions.",
+      "examples": [
+        "Action 1: Configure the ambient audio-transcribe webapp to auto-start transcription on new terminal sessions and attach time-aligned captions to each command and output block.",
+        "Action 2: Use the ambient audio-transcribe webapp to transcode a ttyrec/asciinema recording into an MP4 with burned-in captions generated from the ambient transcript and export a markdown summary.",
+        "Action 3: Integrate the ambient audio-transcribe webapp with your SSH session manager to track multiple terminals, tag transcripts with git branch/commit metadata, and index them for full-text search."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-22T07:27:38.734666Z"
+    }
   },
   {
     "date": "2025-08-21",
@@ -183,30 +207,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-17T16:54:40.155442Z"
-    }
-  },
-  {
-    "date": "2025-08-13",
-    "concept": "quantum notes extension",
-    "summary": "A extension that can scrape and manage terminal sessions with a focus on quantum notes.",
-    "tags": [
-      "extension",
-      "notes",
-      "quantum"
-    ],
-    "theme": "security",
-    "slug": "quantum-notes-extension",
-    "repo_name": "quantum-notes-extension-2025-08-13",
-    "source": "offline",
-    "ai_summary": {
-      "text": "Quantum notes extension securely scrapes and organizes terminal sessions into structured, encrypted quantum notes that capture commands, outputs, and quantum-specific context. It enforces role-based access, secret redaction, and tamper-evident audit trails for secure, reproducible quantum workflows.",
-      "examples": [
-        "Action 1: Install the quantum notes extension on your terminal, enable SSH/tmux session capture, and configure AES-256 storage encryption with your team's KMS key to automatically save Qiskit job runs as encrypted quantum notes with circuit metadata and seed parameters.",
-        "Action 2: Use the quantum notes extension to scrape a live session, auto-redact API tokens and private keys from outputs, then tag the resulting quantum note with backend ID, qubit count, and shot settings before pushing it to a Git repo with signed commits.",
-        "Action 3: Set up role-based access control in the quantum notes extension to restrict viewing of sensitive measurement outputs, and enable tamper-evident audit logs that link each quantum note to its originating commands and timestamps for compliance review."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-17T16:54:31.899012Z"
     }
   }
 ]

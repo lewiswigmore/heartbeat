@@ -1,10 +1,10 @@
 {
-  "text": "This devtools-focused ambient audio-transcribe webapp manages and records terminal sessions, transcodes session artifacts, and passively captures ambient audio to produce time-aligned transcripts and summaries. It helps developers document workflows, generate searchable session logs, and automate post-session notes and captions.",
+  "text": "An SDK that automates ingestion, normalization, and management of RSS feeds, exposing them through an ambient GraphQL gateway for consistent querying and orchestration. It abstracts schema mapping, deduplication, and real-time updates to streamline automation workflows.",
   "examples": [
-    "Action 1: Configure the ambient audio-transcribe webapp to auto-start transcription on new terminal sessions and attach time-aligned captions to each command and output block.",
-    "Action 2: Use the ambient audio-transcribe webapp to transcode a ttyrec/asciinema recording into an MP4 with burned-in captions generated from the ambient transcript and export a markdown summary.",
-    "Action 3: Integrate the ambient audio-transcribe webapp with your SSH session manager to track multiple terminals, tag transcripts with git branch/commit metadata, and index them for full-text search."
+    "Initialize the ambient graphql-gateway sdk, register https://example.com/rss.xml as a FeedSource, map title/link/pubDate to a FeedItem schema, and publish normalized nodes to the GraphQL gateway.",
+    "Configure the ambient graphql-gateway sdk to poll every 5 minutes, deduplicate by guid+link, backfill the last 500 items, and expose a GraphQL subscription feedItemsUpdated for downstream automation.",
+    "Use the ambient graphql-gateway sdk to enrich normalized feedItems via a webhook pipeline, persist them to a cache, and add a GraphQL resolver search(text:) for querying aggregated RSS content."
   ],
   "source": "azure",
-  "generated_at": "2025-08-22T07:27:38.734666Z"
+  "generated_at": "2025-08-23T07:25:32.444175Z"
 }

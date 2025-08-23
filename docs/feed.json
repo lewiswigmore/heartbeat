@@ -95,6 +95,13 @@
       "title": "ambient audio-transcribe webapp",
       "content_text": "Theme: `devtools`\nRepo: `ambient-audio-transcribe-webapp-2025-08-22`\nTags: `ambient`, `audio-transcribe`, `webapp`\nSummary: A webapp that can transcode and manage terminal sessions with a focus on ambient audio-transcribe.",
       "date_published": "2025-08-22T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "ambient graphql-gateway sdk",
+      "content_text": "Theme: `automation`\nRepo: `ambient-graphql-gateway-sdk-2025-08-23`\nTags: `ambient`, `graphql-gateway`, `sdk`\nSummary: A sdk that can normalize and manage rss feeds with a focus on ambient graphql-gateway.",
+      "date_published": "2025-08-23T00:00:00Z"
     }
   ]
 }
