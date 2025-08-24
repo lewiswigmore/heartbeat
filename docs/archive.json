@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-08-24",
+    "concept": "temporal image-annotator service",
+    "summary": "A service that can synchronize and manage browser history with a focus on temporal image-annotator.",
+    "tags": [
+      "image-annotator",
+      "service",
+      "temporal"
+    ],
+    "theme": "observability",
+    "slug": "temporal-image-annotator-service",
+    "repo_name": "temporal-image-annotator-service-2025-08-24",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A temporal image-annotator service that synchronizes browser history with time-aware image annotations, enabling playback and auditing of image interactions over time. It improves observability by correlating annotation events with browsing timelines for debugging, compliance, and user insights.",
+      "examples": [
+        "Configure the temporal image-annotator service to ingest browser history events and attach time-synced image annotations, storing them with a 30-day retention policy",
+        "Enable OpenTelemetry tracing in the temporal image-annotator service to emit spans for annotation creation, edits, and replay, correlated to browser history timestamps",
+        "Schedule a nightly job in the temporal image-annotator service to export per-user, time-sliced annotation timelines to S3 and trigger a webhook when anomalies are detected"
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-24T07:26:21.528484Z"
+    }
+  },
+  {
     "date": "2025-08-23",
     "concept": "ambient graphql-gateway sdk",
     "summary": "A sdk that can normalize and manage rss feeds with a focus on ambient graphql-gateway.",

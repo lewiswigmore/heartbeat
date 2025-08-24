@@ -1,10 +1,10 @@
 {
-  "text": "An SDK that automates ingestion, normalization, and management of RSS feeds, exposing them through an ambient GraphQL gateway for consistent querying and orchestration. It abstracts schema mapping, deduplication, and real-time updates to streamline automation workflows.",
+  "text": "A temporal image-annotator service that synchronizes browser history with time-aware image annotations, enabling playback and auditing of image interactions over time. It improves observability by correlating annotation events with browsing timelines for debugging, compliance, and user insights.",
   "examples": [
-    "Initialize the ambient graphql-gateway sdk, register https://example.com/rss.xml as a FeedSource, map title/link/pubDate to a FeedItem schema, and publish normalized nodes to the GraphQL gateway.",
-    "Configure the ambient graphql-gateway sdk to poll every 5 minutes, deduplicate by guid+link, backfill the last 500 items, and expose a GraphQL subscription feedItemsUpdated for downstream automation.",
-    "Use the ambient graphql-gateway sdk to enrich normalized feedItems via a webhook pipeline, persist them to a cache, and add a GraphQL resolver search(text:) for querying aggregated RSS content."
+    "Configure the temporal image-annotator service to ingest browser history events and attach time-synced image annotations, storing them with a 30-day retention policy",
+    "Enable OpenTelemetry tracing in the temporal image-annotator service to emit spans for annotation creation, edits, and replay, correlated to browser history timestamps",
+    "Schedule a nightly job in the temporal image-annotator service to export per-user, time-sliced annotation timelines to S3 and trigger a webhook when anomalies are detected"
   ],
   "source": "azure",
-  "generated_at": "2025-08-23T07:25:32.444175Z"
+  "generated_at": "2025-08-24T07:26:21.528484Z"
 }

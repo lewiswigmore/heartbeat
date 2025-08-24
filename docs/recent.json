@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-24",
+    "concept": "temporal image-annotator service",
+    "summary": "A service that can synchronize and manage browser history with a focus on temporal image-annotator.",
+    "tags": [
+      "image-annotator",
+      "service",
+      "temporal"
+    ],
+    "theme": "observability",
+    "slug": "temporal-image-annotator-service",
+    "repo_name": "temporal-image-annotator-service-2025-08-24",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-23",
     "concept": "ambient graphql-gateway sdk",
     "summary": "A sdk that can normalize and manage rss feeds with a focus on ambient graphql-gateway.",
@@ -11,7 +25,17 @@
     "theme": "automation",
     "slug": "ambient-graphql-gateway-sdk",
     "repo_name": "ambient-graphql-gateway-sdk-2025-08-23",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "An SDK that automates ingestion, normalization, and management of RSS feeds, exposing them through an ambient GraphQL gateway for consistent querying and orchestration. It abstracts schema mapping, deduplication, and real-time updates to streamline automation workflows.",
+      "examples": [
+        "Initialize the ambient graphql-gateway sdk, register https://example.com/rss.xml as a FeedSource, map title/link/pubDate to a FeedItem schema, and publish normalized nodes to the GraphQL gateway.",
+        "Configure the ambient graphql-gateway sdk to poll every 5 minutes, deduplicate by guid+link, backfill the last 500 items, and expose a GraphQL subscription feedItemsUpdated for downstream automation.",
+        "Use the ambient graphql-gateway sdk to enrich normalized feedItems via a webhook pipeline, persist them to a cache, and add a GraphQL resolver search(text:) for querying aggregated RSS content."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-23T07:25:32.444175Z"
+    }
   },
   {
     "date": "2025-08-22",
@@ -183,30 +207,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-17T16:54:56.794622Z"
-    }
-  },
-  {
-    "date": "2025-08-14",
-    "concept": "privacy-first graphql-gateway extension",
-    "summary": "A extension that can generate and manage api responses with a focus on privacy-first graphql-gateway.",
-    "tags": [
-      "extension",
-      "graphql-gateway",
-      "privacy-first"
-    ],
-    "theme": "data",
-    "slug": "privacy-first-graphql-gateway-extension",
-    "repo_name": "privacy-first-graphql-gateway-extension-2025-08-14",
-    "source": "offline",
-    "ai_summary": {
-      "text": "A privacy-first GraphQL gateway extension that generates and manages API responses with built-in data minimization, consent-aware resolvers, and auditability. It helps teams enforce least-privilege access and redaction at the gateway without changing backend services.",
-      "examples": [
-        "Install and register the privacy-first graphql-gateway extension, then annotate PII fields with @redact to enable automatic field-level masking in responses.",
-        "Define consent scopes (e.g., email.read, profile.basic) and bind them to resolvers so the privacy-first graphql-gateway extension conditionally resolves fields based on user consent tokens.",
-        "Configure per-service data minimization policies and enable response filtering so the privacy-first graphql-gateway extension strips nonessential fields and emits privacy audit events to your logging pipeline."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-17T16:54:40.155442Z"
     }
   }
 ]
