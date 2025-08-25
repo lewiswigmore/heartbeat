@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-25",
+    "concept": "minimal feature-flags cli",
+    "summary": "A cli that can index and manage github issues with a focus on minimal feature-flags.",
+    "tags": [
+      "cli",
+      "feature-flags",
+      "minimal"
+    ],
+    "theme": "productivity",
+    "slug": "minimal-feature-flags-cli",
+    "repo_name": "minimal-feature-flags-cli-2025-08-25",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-24",
     "concept": "temporal image-annotator service",
     "summary": "A service that can synchronize and manage browser history with a focus on temporal image-annotator.",
@@ -11,7 +25,17 @@
     "theme": "observability",
     "slug": "temporal-image-annotator-service",
     "repo_name": "temporal-image-annotator-service-2025-08-24",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A temporal image-annotator service that synchronizes browser history with time-aware image annotations, enabling playback and auditing of image interactions over time. It improves observability by correlating annotation events with browsing timelines for debugging, compliance, and user insights.",
+      "examples": [
+        "Configure the temporal image-annotator service to ingest browser history events and attach time-synced image annotations, storing them with a 30-day retention policy",
+        "Enable OpenTelemetry tracing in the temporal image-annotator service to emit spans for annotation creation, edits, and replay, correlated to browser history timestamps",
+        "Schedule a nightly job in the temporal image-annotator service to export per-user, time-sliced annotation timelines to S3 and trigger a webhook when anomalies are detected"
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-24T07:26:21.528484Z"
+    }
   },
   {
     "date": "2025-08-23",
@@ -183,30 +207,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-17T16:55:05.002179Z"
-    }
-  },
-  {
-    "date": "2025-08-15",
-    "concept": "zero-trust secrets-rotator agent",
-    "summary": "A agent that can generate and manage rss feeds with a focus on zero-trust secrets-rotator.",
-    "tags": [
-      "agent",
-      "secrets-rotator",
-      "zero-trust"
-    ],
-    "theme": "devtools",
-    "slug": "zero-trust-secrets-rotator-agent",
-    "repo_name": "zero-trust-secrets-rotator-agent-2025-08-15",
-    "source": "offline",
-    "ai_summary": {
-      "text": "A devtools-focused zero-trust secrets-rotator agent that generates and manages signed RSS feeds while continuously rotating feed keys and access tokens with least-privilege, ephemeral credentials. It reduces blast radius and automates secret hygiene across your pipelines and subscribers without downtime.",
-      "examples": [
-        "Action 1: Deploy the zero-trust secrets-rotator agent in GitHub Actions to generate a signed RSS feed of release events, rotate the feed-signing key via AWS KMS every 24h, and publish a JWKS endpoint so subscribers auto-refresh keys.",
-        "Action 2: Configure the zero-trust secrets-rotator agent to issue per-subscriber, time-scoped tokens for RSS access (JWT exp=15m), auto-rotate on anomaly detection, and revoke credentials via a SIEM alert webhook.",
-        "Action 3: Use the zero-trust secrets-rotator agent to rotate credentials for RSS webhook integrations (S3 object writes and Slack notifications) via HashiCorp Vault AppRole, with pre-rotation validation and post-rotation smoke tests to ensure no feed downtime."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-17T16:54:56.794622Z"
     }
   }
 ]

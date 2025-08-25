@@ -1,24 +1,24 @@
 {
-  "date": "2025-08-24",
-  "concept": "temporal image-annotator service",
-  "summary": "A service that can synchronize and manage browser history with a focus on temporal image-annotator.",
+  "date": "2025-08-25",
+  "concept": "minimal feature-flags cli",
+  "summary": "A cli that can index and manage github issues with a focus on minimal feature-flags.",
   "tags": [
-    "image-annotator",
-    "service",
-    "temporal"
+    "cli",
+    "feature-flags",
+    "minimal"
   ],
-  "theme": "observability",
-  "slug": "temporal-image-annotator-service",
-  "repo_name": "temporal-image-annotator-service-2025-08-24",
+  "theme": "productivity",
+  "slug": "minimal-feature-flags-cli",
+  "repo_name": "minimal-feature-flags-cli-2025-08-25",
   "source": "azure",
   "ai_summary": {
-    "text": "A temporal image-annotator service that synchronizes browser history with time-aware image annotations, enabling playback and auditing of image interactions over time. It improves observability by correlating annotation events with browsing timelines for debugging, compliance, and user insights.",
+    "text": "A lightweight command-line tool that indexes and manages GitHub issues with minimal, declarative feature flags to control workflows and views. It improves productivity by letting teams toggle behaviors and experiments around issue triage without heavy config or code changes.",
     "examples": [
-      "Configure the temporal image-annotator service to ingest browser history events and attach time-synced image annotations, storing them with a 30-day retention policy",
-      "Enable OpenTelemetry tracing in the temporal image-annotator service to emit spans for annotation creation, edits, and replay, correlated to browser history timestamps",
-      "Schedule a nightly job in the temporal image-annotator service to export per-user, time-sliced annotation timelines to S3 and trigger a webhook when anomalies are detected"
+      "Action 1: Initialize a repository and index all open GitHub issues into a local cache using the minimal feature-flags cli, then list them filtered by label 'bug' and milestone 'v1.0'.",
+      "Action 2: Define a feature flag 'auto-triage' with the minimal feature-flags cli that automatically labels new issues as 'triage' and hides them from the default list until reviewed.",
+      "Action 3: Use the minimal feature-flags cli to roll out a percentage-based flag 'beta-priority' that surfaces only a subset of 'enhancement' issues in the Next Up queue, then export the active flag state to .flags.json for CI."
     ],
     "source": "azure",
-    "generated_at": "2025-08-24T07:26:21.528484Z"
+    "generated_at": "2025-08-25T07:29:36.209954Z"
   }
 }

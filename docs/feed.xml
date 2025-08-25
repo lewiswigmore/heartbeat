@@ -4,7 +4,7 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sun, 24 Aug 2025 07:26:21 +0000</lastBuildDate>
+<lastBuildDate>Mon, 25 Aug 2025 07:29:36 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>realtime graphql-gateway service</title>
@@ -155,6 +155,16 @@ Summary: A sdk that can normalize and manage rss feeds with a focus on ambient g
 Repo: `temporal-image-annotator-service-2025-08-24`
 Tags: `image-annotator`, `service`, `temporal`
 Summary: A service that can synchronize and manage browser history with a focus on temporal image-annotator.</description>
+</item>
+<item>
+<title>minimal feature-flags cli</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<guid isPermaLink="false">minimal-feature-flags-cli-2025-08-25</guid>
+<pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `productivity`
+Repo: `minimal-feature-flags-cli-2025-08-25`
+Tags: `cli`, `feature-flags`, `minimal`
+Summary: A cli that can index and manage github issues with a focus on minimal feature-flags.</description>
 </item>
 </channel>
 </rss>

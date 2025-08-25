@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-08-25",
+    "concept": "minimal feature-flags cli",
+    "summary": "A cli that can index and manage github issues with a focus on minimal feature-flags.",
+    "tags": [
+      "cli",
+      "feature-flags",
+      "minimal"
+    ],
+    "theme": "productivity",
+    "slug": "minimal-feature-flags-cli",
+    "repo_name": "minimal-feature-flags-cli-2025-08-25",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A lightweight command-line tool that indexes and manages GitHub issues with minimal, declarative feature flags to control workflows and views. It improves productivity by letting teams toggle behaviors and experiments around issue triage without heavy config or code changes.",
+      "examples": [
+        "Action 1: Initialize a repository and index all open GitHub issues into a local cache using the minimal feature-flags cli, then list them filtered by label 'bug' and milestone 'v1.0'.",
+        "Action 2: Define a feature flag 'auto-triage' with the minimal feature-flags cli that automatically labels new issues as 'triage' and hides them from the default list until reviewed.",
+        "Action 3: Use the minimal feature-flags cli to roll out a percentage-based flag 'beta-priority' that surfaces only a subset of 'enhancement' issues in the Next Up queue, then export the active flag state to .flags.json for CI."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-25T07:29:36.209954Z"
+    }
+  },
+  {
     "date": "2025-08-24",
     "concept": "temporal image-annotator service",
     "summary": "A service that can synchronize and manage browser history with a focus on temporal image-annotator.",

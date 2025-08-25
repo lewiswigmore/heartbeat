@@ -109,6 +109,13 @@
       "title": "temporal image-annotator service",
       "content_text": "Theme: `observability`\nRepo: `temporal-image-annotator-service-2025-08-24`\nTags: `image-annotator`, `service`, `temporal`\nSummary: A service that can synchronize and manage browser history with a focus on temporal image-annotator.",
       "date_published": "2025-08-24T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "minimal feature-flags cli",
+      "content_text": "Theme: `productivity`\nRepo: `minimal-feature-flags-cli-2025-08-25`\nTags: `cli`, `feature-flags`, `minimal`\nSummary: A cli that can index and manage github issues with a focus on minimal feature-flags.",
+      "date_published": "2025-08-25T00:00:00Z"
     }
   ]
 }
