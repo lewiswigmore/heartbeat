@@ -1,10 +1,10 @@
 {
-  "text": "A lightweight command-line tool that indexes and manages GitHub issues with minimal, declarative feature flags to control workflows and views. It improves productivity by letting teams toggle behaviors and experiments around issue triage without heavy config or code changes.",
+  "text": "A command-line tool that synchronizes and manages terminal sessions while using ML-driven semantic analysis to discover, classify, and rotate secrets in real time. It reduces exposure by coordinating context-aware rotations consistently across shells, tmux panes, and remote hosts.",
   "examples": [
-    "Action 1: Initialize a repository and index all open GitHub issues into a local cache using the minimal feature-flags cli, then list them filtered by label 'bug' and milestone 'v1.0'.",
-    "Action 2: Define a feature flag 'auto-triage' with the minimal feature-flags cli that automatically labels new issues as 'triage' and hides them from the default list until reviewed.",
-    "Action 3: Use the minimal feature-flags cli to roll out a percentage-based flag 'beta-priority' that surfaces only a subset of 'enhancement' issues in the Next Up queue, then export the active flag state to .flags.json for CI."
+    "Action 1: Initialize a workspace and set a semantic rotation policy with providers by running: semantic-secrets-rotator init --session-group dev --providers aws,github --policy semantic-embedding --rotation-interval 24h",
+    "Action 2: Perform a context-aware dry-run rotation for production-labeled sessions using ML similarity scoring: semantic-secrets-rotator rotate --match session=prod --strategy ml-similarity --dry-run --report json",
+    "Action 3: Synchronize secrets state across tmux panes and SSH hosts, enforcing rekeying for stale contexts: semantic-secrets-rotator sync --tmux --ssh inventory.yaml --enforce --rekey"
   ],
   "source": "azure",
-  "generated_at": "2025-08-25T07:29:36.209954Z"
+  "generated_at": "2025-08-26T07:29:03.041136Z"
 }

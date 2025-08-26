@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-08-26",
+    "concept": "semantic secrets-rotator cli",
+    "summary": "A cli that can synchronize and manage terminal sessions with a focus on semantic secrets-rotator.",
+    "tags": [
+      "cli",
+      "secrets-rotator",
+      "semantic"
+    ],
+    "theme": "ml",
+    "slug": "semantic-secrets-rotator-cli",
+    "repo_name": "semantic-secrets-rotator-cli-2025-08-26",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A command-line tool that synchronizes and manages terminal sessions while using ML-driven semantic analysis to discover, classify, and rotate secrets in real time. It reduces exposure by coordinating context-aware rotations consistently across shells, tmux panes, and remote hosts.",
+      "examples": [
+        "Action 1: Initialize a workspace and set a semantic rotation policy with providers by running: semantic-secrets-rotator init --session-group dev --providers aws,github --policy semantic-embedding --rotation-interval 24h",
+        "Action 2: Perform a context-aware dry-run rotation for production-labeled sessions using ML similarity scoring: semantic-secrets-rotator rotate --match session=prod --strategy ml-similarity --dry-run --report json",
+        "Action 3: Synchronize secrets state across tmux panes and SSH hosts, enforcing rekeying for stale contexts: semantic-secrets-rotator sync --tmux --ssh inventory.yaml --enforce --rekey"
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-26T07:29:03.041136Z"
+    }
+  },
+  {
     "date": "2025-08-25",
     "concept": "minimal feature-flags cli",
     "summary": "A cli that can index and manage github issues with a focus on minimal feature-flags.",

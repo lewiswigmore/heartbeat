@@ -116,6 +116,13 @@
       "title": "minimal feature-flags cli",
       "content_text": "Theme: `productivity`\nRepo: `minimal-feature-flags-cli-2025-08-25`\nTags: `cli`, `feature-flags`, `minimal`\nSummary: A cli that can index and manage github issues with a focus on minimal feature-flags.",
       "date_published": "2025-08-25T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "semantic secrets-rotator cli",
+      "content_text": "Theme: `ml`\nRepo: `semantic-secrets-rotator-cli-2025-08-26`\nTags: `cli`, `secrets-rotator`, `semantic`\nSummary: A cli that can synchronize and manage terminal sessions with a focus on semantic secrets-rotator.",
+      "date_published": "2025-08-26T00:00:00Z"
     }
   ]
 }

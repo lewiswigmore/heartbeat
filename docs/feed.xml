@@ -4,7 +4,7 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Mon, 25 Aug 2025 07:29:36 +0000</lastBuildDate>
+<lastBuildDate>Tue, 26 Aug 2025 07:29:03 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>realtime graphql-gateway service</title>
@@ -165,6 +165,16 @@ Summary: A service that can synchronize and manage browser history with a focus 
 Repo: `minimal-feature-flags-cli-2025-08-25`
 Tags: `cli`, `feature-flags`, `minimal`
 Summary: A cli that can index and manage github issues with a focus on minimal feature-flags.</description>
+</item>
+<item>
+<title>semantic secrets-rotator cli</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<guid isPermaLink="false">semantic-secrets-rotator-cli-2025-08-26</guid>
+<pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `ml`
+Repo: `semantic-secrets-rotator-cli-2025-08-26`
+Tags: `cli`, `secrets-rotator`, `semantic`
+Summary: A cli that can synchronize and manage terminal sessions with a focus on semantic secrets-rotator.</description>
 </item>
 </channel>
 </rss>
