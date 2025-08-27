@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-27",
+    "concept": "privacy-first graphql-gateway cli",
+    "summary": "A cli that can index and manage github issues with a focus on privacy-first graphql-gateway.",
+    "tags": [
+      "cli",
+      "graphql-gateway",
+      "privacy-first"
+    ],
+    "theme": "security",
+    "slug": "privacy-first-graphql-gateway-cli",
+    "repo_name": "privacy-first-graphql-gateway-cli-2025-08-27",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-26",
     "concept": "semantic secrets-rotator cli",
     "summary": "A cli that can synchronize and manage terminal sessions with a focus on semantic secrets-rotator.",
@@ -11,7 +25,17 @@
     "theme": "ml",
     "slug": "semantic-secrets-rotator-cli",
     "repo_name": "semantic-secrets-rotator-cli-2025-08-26",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A command-line tool that synchronizes and manages terminal sessions while using ML-driven semantic analysis to discover, classify, and rotate secrets in real time. It reduces exposure by coordinating context-aware rotations consistently across shells, tmux panes, and remote hosts.",
+      "examples": [
+        "Action 1: Initialize a workspace and set a semantic rotation policy with providers by running: semantic-secrets-rotator init --session-group dev --providers aws,github --policy semantic-embedding --rotation-interval 24h",
+        "Action 2: Perform a context-aware dry-run rotation for production-labeled sessions using ML similarity scoring: semantic-secrets-rotator rotate --match session=prod --strategy ml-similarity --dry-run --report json",
+        "Action 3: Synchronize secrets state across tmux panes and SSH hosts, enforcing rekeying for stale contexts: semantic-secrets-rotator sync --tmux --ssh inventory.yaml --enforce --rekey"
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-26T07:29:03.041136Z"
+    }
   },
   {
     "date": "2025-08-25",
@@ -184,29 +208,5 @@
     "slug": "temporal-graphql-gateway-extension",
     "repo_name": "temporal-graphql-gateway-extension-2025-08-18",
     "source": "azure"
-  },
-  {
-    "date": "2025-08-17",
-    "concept": "temporal audio-transcribe webapp",
-    "summary": "A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.",
-    "tags": [
-      "audio-transcribe",
-      "temporal",
-      "webapp"
-    ],
-    "theme": "observability",
-    "slug": "temporal-audio-transcribe-webapp",
-    "repo_name": "temporal-audio-transcribe-webapp-2025-08-17",
-    "source": "offline",
-    "ai_summary": {
-      "text": "A webapp that spins up and manages terminal sessions to run temporal audio-transcribe pipelines, producing time-aligned transcripts with built-in observability of logs, metrics, and traces. It centralizes execution, monitoring, and artifact management so teams can reliably operate and audit transcription workflows.",
-      "examples": [
-        "Create a new managed terminal session in the temporal audio-transcribe webapp, upload an MP3, and run a time-aligned transcription job that streams word-level timestamps to the session console and saves SRT/VTT artifacts.",
-        "Enable observability in the temporal audio-transcribe webapp by attaching OpenTelemetry to the session, then view real-time logs, traces, and CPU/memory metrics for the running transcription pipeline.",
-        "Schedule a recurring temporal audio-transcribe webapp workflow that spins up a terminal session nightly, pulls audio from S3, transcribes with diarization, and posts a summary plus transcript links to Slack."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-17T16:55:57.991279Z"
-    }
   }
 ]

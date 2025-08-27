@@ -1,10 +1,10 @@
 {
-  "text": "A command-line tool that synchronizes and manages terminal sessions while using ML-driven semantic analysis to discover, classify, and rotate secrets in real time. It reduces exposure by coordinating context-aware rotations consistently across shells, tmux panes, and remote hosts.",
+  "text": "A cli that can index and manage github issues with a focus on privacy-first graphql-gateway. It aligns to the security theme; touching cli, graphql-gateway, privacy-first.",
   "examples": [
-    "Action 1: Initialize a workspace and set a semantic rotation policy with providers by running: semantic-secrets-rotator init --session-group dev --providers aws,github --policy semantic-embedding --rotation-interval 24h",
-    "Action 2: Perform a context-aware dry-run rotation for production-labeled sessions using ML similarity scoring: semantic-secrets-rotator rotate --match session=prod --strategy ml-similarity --dry-run --report json",
-    "Action 3: Synchronize secrets state across tmux panes and SSH hosts, enforcing rekeying for stale contexts: semantic-secrets-rotator sync --tmux --ssh inventory.yaml --enforce --rekey"
+    "Ship a tiny privacy-first graphql-gateway cli prototype end-to-end (README + demo)",
+    "Integrate privacy-first graphql-gateway cli into an existing repo and add basic metrics",
+    "Instrument privacy-first graphql-gateway cli and capture before/after results for one workflow"
   ],
-  "source": "azure",
-  "generated_at": "2025-08-26T07:29:03.041136Z"
+  "source": "offline",
+  "generated_at": "2025-08-27T07:27:13.446829Z"
 }
