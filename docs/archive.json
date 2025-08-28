@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-08-28",
+    "concept": "ambient audio-transcribe webapp (1)",
+    "summary": "A webapp that can transcode and manage pdfs with a focus on ambient audio-transcribe.",
+    "tags": [
+      "ambient",
+      "audio-transcribe",
+      "webapp"
+    ],
+    "theme": "data",
+    "slug": "ambient-audio-transcribe-webapp-1",
+    "repo_name": "ambient-audio-transcribe-webapp-1-2025-08-28",
+    "source": "azure",
+    "ai_summary": {
+      "text": "ambient audio-transcribe webapp (1) is a data-focused web app that captures ambient audio, transcribes it, and manages the resulting documents by transcoding transcripts into searchable PDFs. It streamlines ingestion, transcription, and PDF lifecycle management for organization, analysis, and sharing.",
+      "examples": [
+        "Action 1: Use ambient audio-transcribe webapp (1) to upload a 60-minute WAV ambient recording, auto-transcribe it, and export a timestamped, searchable PDF with speaker diarization and section bookmarks.",
+        "Action 2: Configure ambient audio-transcribe webapp (1) to batch transcode 50 existing PDFs into PDF/A, link each to its source audio and transcript, and tag them by project, location, and capture date.",
+        "Action 3: Set up a real-time capture pipeline in ambient audio-transcribe webapp (1) that records ambient audio via the browser, performs live transcription, and archives nightly summaries as versioned PDFs with embedded metadata and access controls."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-28T07:28:00.269697Z"
+    }
+  },
+  {
     "date": "2025-08-27",
     "concept": "privacy-first graphql-gateway cli",
     "summary": "A cli that can index and manage github issues with a focus on privacy-first graphql-gateway.",

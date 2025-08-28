@@ -4,7 +4,7 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Wed, 27 Aug 2025 07:27:13 +0000</lastBuildDate>
+<lastBuildDate>Thu, 28 Aug 2025 07:28:00 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
 <item>
 <title>realtime graphql-gateway service</title>
@@ -185,6 +185,16 @@ Summary: A cli that can synchronize and manage terminal sessions with a focus on
 Repo: `privacy-first-graphql-gateway-cli-2025-08-27`
 Tags: `cli`, `graphql-gateway`, `privacy-first`
 Summary: A cli that can index and manage github issues with a focus on privacy-first graphql-gateway.</description>
+</item>
+<item>
+<title>ambient audio-transcribe webapp (1)</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<guid isPermaLink="false">ambient-audio-transcribe-webapp-1-2025-08-28</guid>
+<pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `data`
+Repo: `ambient-audio-transcribe-webapp-1-2025-08-28`
+Tags: `ambient`, `audio-transcribe`, `webapp`
+Summary: A webapp that can transcode and manage pdfs with a focus on ambient audio-transcribe.</description>
 </item>
 </channel>
 </rss>

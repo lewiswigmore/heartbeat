@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-28",
+    "concept": "ambient audio-transcribe webapp (1)",
+    "summary": "A webapp that can transcode and manage pdfs with a focus on ambient audio-transcribe.",
+    "tags": [
+      "ambient",
+      "audio-transcribe",
+      "webapp"
+    ],
+    "theme": "data",
+    "slug": "ambient-audio-transcribe-webapp-1",
+    "repo_name": "ambient-audio-transcribe-webapp-1-2025-08-28",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-27",
     "concept": "privacy-first graphql-gateway cli",
     "summary": "A cli that can index and manage github issues with a focus on privacy-first graphql-gateway.",
@@ -11,7 +25,17 @@
     "theme": "security",
     "slug": "privacy-first-graphql-gateway-cli",
     "repo_name": "privacy-first-graphql-gateway-cli-2025-08-27",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A cli that can index and manage github issues with a focus on privacy-first graphql-gateway. It aligns to the security theme; touching cli, graphql-gateway, privacy-first.",
+      "examples": [
+        "Ship a tiny privacy-first graphql-gateway cli prototype end-to-end (README + demo)",
+        "Integrate privacy-first graphql-gateway cli into an existing repo and add basic metrics",
+        "Instrument privacy-first graphql-gateway cli and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-08-27T07:27:13.446829Z"
+    }
   },
   {
     "date": "2025-08-26",
@@ -193,20 +217,6 @@
     "theme": "ml",
     "slug": "quantum-scheduler-extension",
     "repo_name": "quantum-scheduler-extension-2025-08-19",
-    "source": "azure"
-  },
-  {
-    "date": "2025-08-18",
-    "concept": "temporal graphql-gateway extension",
-    "summary": "A extension that can classify and manage api responses with a focus on temporal graphql-gateway.",
-    "tags": [
-      "extension",
-      "graphql-gateway",
-      "temporal"
-    ],
-    "theme": "productivity",
-    "slug": "temporal-graphql-gateway-extension",
-    "repo_name": "temporal-graphql-gateway-extension-2025-08-18",
     "source": "azure"
   }
 ]
