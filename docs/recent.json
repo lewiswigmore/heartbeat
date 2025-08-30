@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-30",
+    "concept": "semantic feature-flags extension",
+    "summary": "A extension that can classify and manage api responses with a focus on semantic feature-flags.",
+    "tags": [
+      "extension",
+      "feature-flags",
+      "semantic"
+    ],
+    "theme": "automation",
+    "slug": "semantic-feature-flags-extension",
+    "repo_name": "semantic-feature-flags-extension-2025-08-30",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-29",
     "concept": "quantum audio-transcribe webapp",
     "summary": "A webapp that can visualize and manage pdfs with a focus on quantum audio-transcribe.",
@@ -11,7 +25,17 @@
     "theme": "devtools",
     "slug": "quantum-audio-transcribe-webapp",
     "repo_name": "quantum-audio-transcribe-webapp-2025-08-29",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A devtools-focused webapp that visualizes and manages PDFs while synchronizing them with audio transcripts, optimized for quantum-related content. It enables developers and researchers to align, search, and annotate transcripts against PDF sections via API, CLI, and real-time views.",
+      "examples": [
+        "Upload a quantum research PDF and lecture audio to the quantum audio-transcribe webapp, auto-align transcript timestamps to PDF headings, and render a side-by-side waveform/PDF viewer with clickable segments.",
+        "Use the quantum audio-transcribe webapp API to stream audio for real-time transcription, auto-tag quantum terms (e.g., qubit, entanglement), and write annotations back into the managed PDF via PATCH /pdfs/{id}/annotations.",
+        "Add a CI step that invokes the quantum audio-transcribe webapp CLI to batch transcribe new audio assets, update linked PDFs, and export a summarized JSON index for search and retrieval."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-29T07:27:48.669162Z"
+    }
   },
   {
     "date": "2025-08-28",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-21T07:30:22.142775Z"
-    }
-  },
-  {
-    "date": "2025-08-20",
-    "concept": "streaming secrets-rotator cli",
-    "summary": "A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",
-    "tags": [
-      "cli",
-      "secrets-rotator",
-      "streaming"
-    ],
-    "theme": "security",
-    "slug": "streaming-secrets-rotator-cli",
-    "repo_name": "streaming-secrets-rotator-cli-2025-08-20",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A CLI that securely scrapes and manages RSS feeds while continuously rotating and streaming the secrets (API keys, tokens) used by fetchers and consumers to minimize exposure and downtime. It centralizes feed orchestration, rotation policy enforcement, and audit visibility for security-focused pipelines.",
-      "examples": [
-        "Action 1: Initialize the streaming secrets-rotator cli workspace, register an RSS feed endpoint, and attach a rotation policy that streams zero-downtime key updates to the feed fetcher.",
-        "Action 2: Use streaming secrets-rotator cli to scrape a feed on a schedule with least-privilege credentials, streaming rotations to switch API tokens every 24 hours with automatic rollback on failure.",
-        "Action 3: Configure streaming secrets-rotator cli to emit rotation events to consumers via webhooks or Kafka, verify fetchers reload secrets live, and generate an audit report for the last 10 rotations."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-20T17:44:19.574377Z"
     }
   }
 ]

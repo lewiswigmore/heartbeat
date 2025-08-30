@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "realtime graphql-gateway service",
-      "content_text": "Theme: `observability`\nRepo: `realtime-graphql-gateway-service-2025-08-10`\nTags: `graphql-gateway`, `realtime`, `service`\nSummary: A service that can generate and manage log files with a focus on realtime graphql-gateway.",
-      "date_published": "2025-08-10T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "privacy-first search agent",
       "content_text": "Theme: `productivity`\nRepo: `privacy-first-search-agent-2025-08-11`\nTags: `agent`, `privacy-first`, `search`\nSummary: A agent that can summarize and manage log files with a focus on privacy-first search.",
       "date_published": "2025-08-11T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "quantum audio-transcribe webapp",
       "content_text": "Theme: `devtools`\nRepo: `quantum-audio-transcribe-webapp-2025-08-29`\nTags: `audio-transcribe`, `quantum`, `webapp`\nSummary: A webapp that can visualize and manage pdfs with a focus on quantum audio-transcribe.",
       "date_published": "2025-08-29T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
+      "title": "semantic feature-flags extension",
+      "content_text": "Theme: `automation`\nRepo: `semantic-feature-flags-extension-2025-08-30`\nTags: `extension`, `feature-flags`, `semantic`\nSummary: A extension that can classify and manage api responses with a focus on semantic feature-flags.",
+      "date_published": "2025-08-30T00:00:00Z"
     }
   ]
 }

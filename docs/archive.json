@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-08-30",
+    "concept": "semantic feature-flags extension",
+    "summary": "A extension that can classify and manage api responses with a focus on semantic feature-flags.",
+    "tags": [
+      "extension",
+      "feature-flags",
+      "semantic"
+    ],
+    "theme": "automation",
+    "slug": "semantic-feature-flags-extension",
+    "repo_name": "semantic-feature-flags-extension-2025-08-30",
+    "source": "azure",
+    "ai_summary": {
+      "text": "An extension that classifies and manages API responses using semantic feature flags, enabling automated, intent-aware toggling and routing. It reduces manual rule maintenance by interpreting response meaning and applying consistent feature controls across services.",
+      "examples": [
+        "Action 1: Configure the semantic feature-flags extension to classify API responses into intents (e.g., 'pricing', 'auth_error') and automatically toggle flags that route requests to the appropriate service version.",
+        "Action 2: Attach the semantic feature-flags extension middleware to your API client to enable the 'recommendations' flag when response entities include 'product' and 'in_stock' attributes.",
+        "Action 3: Define rollout rules in the semantic feature-flags extension to gate the 'smart_retry' feature when response sentiment is negative and latency exceeds 500ms."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-30T07:24:12.455177Z"
+    }
+  },
+  {
     "date": "2025-08-29",
     "concept": "quantum audio-transcribe webapp",
     "summary": "A webapp that can visualize and manage pdfs with a focus on quantum audio-transcribe.",
