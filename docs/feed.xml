@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sat, 30 Aug 2025 07:24:12 +0000</lastBuildDate>
+<lastBuildDate>Sun, 31 Aug 2025 07:25:18 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>privacy-first search agent</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">privacy-first-search-agent-2025-08-11</guid>
-<pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `productivity`
-Repo: `privacy-first-search-agent-2025-08-11`
-Tags: `agent`, `privacy-first`, `search`
-Summary: A agent that can summarize and manage log files with a focus on privacy-first search.</description>
-</item>
 <item>
 <title>federated audio-transcribe extension</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A webapp that can visualize and manage pdfs with a focus on quantum aud
 Repo: `semantic-feature-flags-extension-2025-08-30`
 Tags: `extension`, `feature-flags`, `semantic`
 Summary: A extension that can classify and manage api responses with a focus on semantic feature-flags.</description>
+</item>
+<item>
+<title>fuzzy observability sdk</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
+<guid isPermaLink="false">fuzzy-observability-sdk-2025-08-31</guid>
+<pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+<description>Theme: `observability`
+Repo: `fuzzy-observability-sdk-2025-08-31`
+Tags: `fuzzy`, `observability`, `sdk`
+Summary: A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.</description>
 </item>
 </channel>
 </rss>

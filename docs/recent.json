@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-08-31",
+    "concept": "fuzzy observability sdk",
+    "summary": "A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.",
+    "tags": [
+      "fuzzy",
+      "observability",
+      "sdk"
+    ],
+    "theme": "observability",
+    "slug": "fuzzy-observability-sdk",
+    "repo_name": "fuzzy-observability-sdk-2025-08-31",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-30",
     "concept": "semantic feature-flags extension",
     "summary": "A extension that can classify and manage api responses with a focus on semantic feature-flags.",
@@ -11,7 +25,17 @@
     "theme": "automation",
     "slug": "semantic-feature-flags-extension",
     "repo_name": "semantic-feature-flags-extension-2025-08-30",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "An extension that classifies and manages API responses using semantic feature flags, enabling automated, intent-aware toggling and routing. It reduces manual rule maintenance by interpreting response meaning and applying consistent feature controls across services.",
+      "examples": [
+        "Action 1: Configure the semantic feature-flags extension to classify API responses into intents (e.g., 'pricing', 'auth_error') and automatically toggle flags that route requests to the appropriate service version.",
+        "Action 2: Attach the semantic feature-flags extension middleware to your API client to enable the 'recommendations' flag when response entities include 'product' and 'in_stock' attributes.",
+        "Action 3: Define rollout rules in the semantic feature-flags extension to gate the 'smart_retry' feature when response sentiment is negative and latency exceeds 500ms."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-30T07:24:12.455177Z"
+    }
   },
   {
     "date": "2025-08-29",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-22T07:27:38.734666Z"
-    }
-  },
-  {
-    "date": "2025-08-21",
-    "concept": "privacy-first secrets-rotator extension",
-    "summary": "A extension that can normalize and manage screenshots with a focus on privacy-first secrets-rotator.",
-    "tags": [
-      "extension",
-      "privacy-first",
-      "secrets-rotator"
-    ],
-    "theme": "data",
-    "slug": "privacy-first-secrets-rotator-extension",
-    "repo_name": "privacy-first-secrets-rotator-extension-2025-08-21",
-    "source": "azure",
-    "ai_summary": {
-      "text": "The privacy-first secrets-rotator extension automatically normalizes and manages screenshots by detecting and redacting sensitive data, while securely rotating any exposed credentials. This prevents leaks and supports compliance without sending data off-device.",
-      "examples": [
-        "Use the privacy-first secrets-rotator extension to scan a batch of screenshots, auto-redact API tokens, and rotate any leaked keys in your secrets manager.",
-        "Configure the privacy-first secrets-rotator extension to deterministically anonymize emails and names in screenshots before sharing, while logging all rotation events to your SIEM.",
-        "Trigger the privacy-first secrets-rotator extension via CLI to strip EXIF/GPS metadata, normalize file naming, and rotate OAuth client secrets detected in on-screen text."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-21T07:30:22.142775Z"
     }
   }
 ]

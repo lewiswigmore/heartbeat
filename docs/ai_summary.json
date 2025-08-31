@@ -1,10 +1,10 @@
 {
-  "text": "An extension that classifies and manages API responses using semantic feature flags, enabling automated, intent-aware toggling and routing. It reduces manual rule maintenance by interpreting response meaning and applying consistent feature controls across services.",
+  "text": "The fuzzy observability sdk normalizes and manages terminal sessions, capturing imprecise signals (commands, prompts, timings, exit states) and turning them into queryable fuzzy telemetry for faster troubleshooting and trend analysis. It unifies disparate shell behaviors and correlates noisy session data into actionable insights.",
   "examples": [
-    "Action 1: Configure the semantic feature-flags extension to classify API responses into intents (e.g., 'pricing', 'auth_error') and automatically toggle flags that route requests to the appropriate service version.",
-    "Action 2: Attach the semantic feature-flags extension middleware to your API client to enable the 'recommendations' flag when response entities include 'product' and 'in_stock' attributes.",
-    "Action 3: Define rollout rules in the semantic feature-flags extension to gate the 'smart_retry' feature when response sentiment is negative and latency exceeds 500ms."
+    "Action 1: Install and initialize the fuzzy observability sdk to wrap Bash/Zsh terminal sessions and enable normalization of prompts, timestamps, and exit codes.",
+    "Action 2: Configure fuzzy match rules in the fuzzy observability sdk to convert semi-structured command outputs into fuzzy spans and metrics, and export them to your observability backend.",
+    "Action 3: Integrate the fuzzy observability sdk into CI runners to stream anonymized session telemetry and query the fuzzy session index for anomalous workflows and flaky steps."
   ],
   "source": "azure",
-  "generated_at": "2025-08-30T07:24:12.455177Z"
+  "generated_at": "2025-08-31T07:25:18.061837Z"
 }
