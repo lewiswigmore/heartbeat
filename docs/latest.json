@@ -1,24 +1,24 @@
 {
-  "date": "2025-08-31",
-  "concept": "fuzzy observability sdk",
-  "summary": "A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.",
+  "date": "2025-09-01",
+  "concept": "fuzzy recommendations sdk",
+  "summary": "A sdk that can classify and manage rss feeds with a focus on fuzzy recommendations.",
   "tags": [
     "fuzzy",
-    "observability",
+    "recommendations",
     "sdk"
   ],
-  "theme": "observability",
-  "slug": "fuzzy-observability-sdk",
-  "repo_name": "fuzzy-observability-sdk-2025-08-31",
+  "theme": "productivity",
+  "slug": "fuzzy-recommendations-sdk",
+  "repo_name": "fuzzy-recommendations-sdk-2025-09-01",
   "source": "azure",
   "ai_summary": {
-    "text": "The fuzzy observability sdk normalizes and manages terminal sessions, capturing imprecise signals (commands, prompts, timings, exit states) and turning them into queryable fuzzy telemetry for faster troubleshooting and trend analysis. It unifies disparate shell behaviors and correlates noisy session data into actionable insights.",
+    "text": "A SDK that ingests and classifies RSS feeds using fuzzy logic to score, cluster, and recommend items based on soft preferences and confidence levels. It boosts productivity by surfacing the most relevant content without rigid rules and continuously adapting to user feedback.",
     "examples": [
-      "Action 1: Install and initialize the fuzzy observability sdk to wrap Bash/Zsh terminal sessions and enable normalization of prompts, timestamps, and exit codes.",
-      "Action 2: Configure fuzzy match rules in the fuzzy observability sdk to convert semi-structured command outputs into fuzzy spans and metrics, and export them to your observability backend.",
-      "Action 3: Integrate the fuzzy observability sdk into CI runners to stream anonymized session telemetry and query the fuzzy session index for anomalous workflows and flaky steps."
+      "Install the fuzzy recommendations sdk and call sdk.initialize({ feeds: [...] }) to ingest RSS sources, then enable sdk.fuzzyTopicClustering() to auto-label items with confidence scores.",
+      "Use the fuzzy recommendations sdk to run sdk.trainFuzzyClassifier(userId, feedbackBatch) from thumbs-up/down events, then call sdk.getRecommendations(userId, { limit: 20 }) for a daily digest.",
+      "Configure the fuzzy recommendations sdk with sdk.fuzzyFilters({ minConfidence: 0.6, noveltyBias: 0.3 }) and run sdk.rankFeedItems(feedId) to prioritize items and push the top-N to your productivity app via webhook."
     ],
     "source": "azure",
-    "generated_at": "2025-08-31T07:25:18.061837Z"
+    "generated_at": "2025-09-01T07:29:10.037908Z"
   }
 }

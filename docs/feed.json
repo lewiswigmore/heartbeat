@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "federated audio-transcribe extension",
-      "content_text": "Theme: `ml`\nRepo: `federated-audio-transcribe-extension-2025-08-12`\nTags: `audio-transcribe`, `extension`, `federated`\nSummary: A extension that can monitor and manage email with a focus on federated audio-transcribe.",
-      "date_published": "2025-08-12T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "quantum notes extension",
       "content_text": "Theme: `security`\nRepo: `quantum-notes-extension-2025-08-13`\nTags: `extension`, `notes`, `quantum`\nSummary: A extension that can scrape and manage terminal sessions with a focus on quantum notes.",
       "date_published": "2025-08-13T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "fuzzy observability sdk",
       "content_text": "Theme: `observability`\nRepo: `fuzzy-observability-sdk-2025-08-31`\nTags: `fuzzy`, `observability`, `sdk`\nSummary: A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.",
       "date_published": "2025-08-31T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "fuzzy recommendations sdk",
+      "content_text": "Theme: `productivity`\nRepo: `fuzzy-recommendations-sdk-2025-09-01`\nTags: `fuzzy`, `recommendations`, `sdk`\nSummary: A sdk that can classify and manage rss feeds with a focus on fuzzy recommendations.",
+      "date_published": "2025-09-01T00:00:00Z"
     }
   ]
 }

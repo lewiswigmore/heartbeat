@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-01",
+    "concept": "fuzzy recommendations sdk",
+    "summary": "A sdk that can classify and manage rss feeds with a focus on fuzzy recommendations.",
+    "tags": [
+      "fuzzy",
+      "recommendations",
+      "sdk"
+    ],
+    "theme": "productivity",
+    "slug": "fuzzy-recommendations-sdk",
+    "repo_name": "fuzzy-recommendations-sdk-2025-09-01",
+    "source": "azure"
+  },
+  {
     "date": "2025-08-31",
     "concept": "fuzzy observability sdk",
     "summary": "A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.",
@@ -11,7 +25,17 @@
     "theme": "observability",
     "slug": "fuzzy-observability-sdk",
     "repo_name": "fuzzy-observability-sdk-2025-08-31",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "The fuzzy observability sdk normalizes and manages terminal sessions, capturing imprecise signals (commands, prompts, timings, exit states) and turning them into queryable fuzzy telemetry for faster troubleshooting and trend analysis. It unifies disparate shell behaviors and correlates noisy session data into actionable insights.",
+      "examples": [
+        "Action 1: Install and initialize the fuzzy observability sdk to wrap Bash/Zsh terminal sessions and enable normalization of prompts, timestamps, and exit codes.",
+        "Action 2: Configure fuzzy match rules in the fuzzy observability sdk to convert semi-structured command outputs into fuzzy spans and metrics, and export them to your observability backend.",
+        "Action 3: Integrate the fuzzy observability sdk into CI runners to stream anonymized session telemetry and query the fuzzy session index for anomalous workflows and flaky steps."
+      ],
+      "source": "azure",
+      "generated_at": "2025-08-31T07:25:18.061837Z"
+    }
   },
   {
     "date": "2025-08-30",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-23T07:25:32.444175Z"
-    }
-  },
-  {
-    "date": "2025-08-22",
-    "concept": "ambient audio-transcribe webapp",
-    "summary": "A webapp that can transcode and manage terminal sessions with a focus on ambient audio-transcribe.",
-    "tags": [
-      "ambient",
-      "audio-transcribe",
-      "webapp"
-    ],
-    "theme": "devtools",
-    "slug": "ambient-audio-transcribe-webapp",
-    "repo_name": "ambient-audio-transcribe-webapp-2025-08-22",
-    "source": "azure",
-    "ai_summary": {
-      "text": "This devtools-focused ambient audio-transcribe webapp manages and records terminal sessions, transcodes session artifacts, and passively captures ambient audio to produce time-aligned transcripts and summaries. It helps developers document workflows, generate searchable session logs, and automate post-session notes and captions.",
-      "examples": [
-        "Action 1: Configure the ambient audio-transcribe webapp to auto-start transcription on new terminal sessions and attach time-aligned captions to each command and output block.",
-        "Action 2: Use the ambient audio-transcribe webapp to transcode a ttyrec/asciinema recording into an MP4 with burned-in captions generated from the ambient transcript and export a markdown summary.",
-        "Action 3: Integrate the ambient audio-transcribe webapp with your SSH session manager to track multiple terminals, tag transcripts with git branch/commit metadata, and index them for full-text search."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-22T07:27:38.734666Z"
     }
   }
 ]

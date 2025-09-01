@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sun, 31 Aug 2025 07:25:18 +0000</lastBuildDate>
+<lastBuildDate>Mon, 01 Sep 2025 07:29:10 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>federated audio-transcribe extension</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">federated-audio-transcribe-extension-2025-08-12</guid>
-<pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `ml`
-Repo: `federated-audio-transcribe-extension-2025-08-12`
-Tags: `audio-transcribe`, `extension`, `federated`
-Summary: A extension that can monitor and manage email with a focus on federated audio-transcribe.</description>
-</item>
 <item>
 <title>quantum notes extension</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A extension that can classify and manage api responses with a focus on 
 Repo: `fuzzy-observability-sdk-2025-08-31`
 Tags: `fuzzy`, `observability`, `sdk`
 Summary: A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.</description>
+</item>
+<item>
+<title>fuzzy recommendations sdk</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">fuzzy-recommendations-sdk-2025-09-01</guid>
+<pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `productivity`
+Repo: `fuzzy-recommendations-sdk-2025-09-01`
+Tags: `fuzzy`, `recommendations`, `sdk`
+Summary: A sdk that can classify and manage rss feeds with a focus on fuzzy recommendations.</description>
 </item>
 </channel>
 </rss>
