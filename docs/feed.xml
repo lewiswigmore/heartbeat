@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Mon, 01 Sep 2025 07:29:10 +0000</lastBuildDate>
+<lastBuildDate>Tue, 02 Sep 2025 07:28:32 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>quantum notes extension</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">quantum-notes-extension-2025-08-13</guid>
-<pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `security`
-Repo: `quantum-notes-extension-2025-08-13`
-Tags: `extension`, `notes`, `quantum`
-Summary: A extension that can scrape and manage terminal sessions with a focus on quantum notes.</description>
-</item>
 <item>
 <title>privacy-first graphql-gateway extension</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A sdk that can normalize and manage terminal sessions with a focus on f
 Repo: `fuzzy-recommendations-sdk-2025-09-01`
 Tags: `fuzzy`, `recommendations`, `sdk`
 Summary: A sdk that can classify and manage rss feeds with a focus on fuzzy recommendations.</description>
+</item>
+<item>
+<title>ambient observability agent</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">ambient-observability-agent-2025-09-02</guid>
+<pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `ml`
+Repo: `ambient-observability-agent-2025-09-02`
+Tags: `agent`, `ambient`, `observability`
+Summary: A agent that can summarize and manage browser history with a focus on ambient observability.</description>
 </item>
 </channel>
 </rss>

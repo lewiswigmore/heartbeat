@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-02",
+    "concept": "ambient observability agent",
+    "summary": "A agent that can summarize and manage browser history with a focus on ambient observability.",
+    "tags": [
+      "agent",
+      "ambient",
+      "observability"
+    ],
+    "theme": "ml",
+    "slug": "ambient-observability-agent",
+    "repo_name": "ambient-observability-agent-2025-09-02",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-01",
     "concept": "fuzzy recommendations sdk",
     "summary": "A sdk that can classify and manage rss feeds with a focus on fuzzy recommendations.",
@@ -11,7 +25,17 @@
     "theme": "productivity",
     "slug": "fuzzy-recommendations-sdk",
     "repo_name": "fuzzy-recommendations-sdk-2025-09-01",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A SDK that ingests and classifies RSS feeds using fuzzy logic to score, cluster, and recommend items based on soft preferences and confidence levels. It boosts productivity by surfacing the most relevant content without rigid rules and continuously adapting to user feedback.",
+      "examples": [
+        "Install the fuzzy recommendations sdk and call sdk.initialize({ feeds: [...] }) to ingest RSS sources, then enable sdk.fuzzyTopicClustering() to auto-label items with confidence scores.",
+        "Use the fuzzy recommendations sdk to run sdk.trainFuzzyClassifier(userId, feedbackBatch) from thumbs-up/down events, then call sdk.getRecommendations(userId, { limit: 20 }) for a daily digest.",
+        "Configure the fuzzy recommendations sdk with sdk.fuzzyFilters({ minConfidence: 0.6, noveltyBias: 0.3 }) and run sdk.rankFeedItems(feedId) to prioritize items and push the top-N to your productivity app via webhook."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-01T07:29:10.037908Z"
+    }
   },
   {
     "date": "2025-08-31",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-24T07:26:21.528484Z"
-    }
-  },
-  {
-    "date": "2025-08-23",
-    "concept": "ambient graphql-gateway sdk",
-    "summary": "A sdk that can normalize and manage rss feeds with a focus on ambient graphql-gateway.",
-    "tags": [
-      "ambient",
-      "graphql-gateway",
-      "sdk"
-    ],
-    "theme": "automation",
-    "slug": "ambient-graphql-gateway-sdk",
-    "repo_name": "ambient-graphql-gateway-sdk-2025-08-23",
-    "source": "azure",
-    "ai_summary": {
-      "text": "An SDK that automates ingestion, normalization, and management of RSS feeds, exposing them through an ambient GraphQL gateway for consistent querying and orchestration. It abstracts schema mapping, deduplication, and real-time updates to streamline automation workflows.",
-      "examples": [
-        "Initialize the ambient graphql-gateway sdk, register https://example.com/rss.xml as a FeedSource, map title/link/pubDate to a FeedItem schema, and publish normalized nodes to the GraphQL gateway.",
-        "Configure the ambient graphql-gateway sdk to poll every 5 minutes, deduplicate by guid+link, backfill the last 500 items, and expose a GraphQL subscription feedItemsUpdated for downstream automation.",
-        "Use the ambient graphql-gateway sdk to enrich normalized feedItems via a webhook pipeline, persist them to a cache, and add a GraphQL resolver search(text:) for querying aggregated RSS content."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-23T07:25:32.444175Z"
     }
   }
 ]

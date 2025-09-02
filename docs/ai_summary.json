@@ -1,10 +1,10 @@
 {
-  "text": "A SDK that ingests and classifies RSS feeds using fuzzy logic to score, cluster, and recommend items based on soft preferences and confidence levels. It boosts productivity by surfacing the most relevant content without rigid rules and continuously adapting to user feedback.",
+  "text": "An ambient observability agent passively captures and summarizes browser history using ML to surface trends, anomalies, and correlations, turning everyday browsing into actionable observability signals. It helps teams spot emerging issues, knowledge gaps, and workflow friction without manual logging or context switching.",
   "examples": [
-    "Install the fuzzy recommendations sdk and call sdk.initialize({ feeds: [...] }) to ingest RSS sources, then enable sdk.fuzzyTopicClustering() to auto-label items with confidence scores.",
-    "Use the fuzzy recommendations sdk to run sdk.trainFuzzyClassifier(userId, feedbackBatch) from thumbs-up/down events, then call sdk.getRecommendations(userId, { limit: 20 }) for a daily digest.",
-    "Configure the fuzzy recommendations sdk with sdk.fuzzyFilters({ minConfidence: 0.6, noveltyBias: 0.3 }) and run sdk.rankFeedItems(feedId) to prioritize items and push the top-N to your productivity app via webhook."
+    "Action 1: Install the ambient observability agent as a browser extension that extracts page titles, timestamps, dwell time, and referrers, then uses topic modeling and embeddings to generate daily summaries and clusters of browsing activity.",
+    "Action 2: Configure the ambient observability agent to run anomaly detection on browsing patterns (e.g., spikes in 5xx error page visits or sudden pivots to incident runbooks) and push alerts to Slack with linked sessions and suggested next steps.",
+    "Action 3: Use the ambient observability agent to map visited URLs to services/components via metadata, enrich them with embeddings, and expose a query API for “what changed this week,” exporting time-series metrics to Prometheus/Grafana dashboards."
   ],
   "source": "azure",
-  "generated_at": "2025-09-01T07:29:10.037908Z"
+  "generated_at": "2025-09-02T07:28:32.936080Z"
 }
