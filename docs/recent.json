@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-03",
+    "concept": "realtime notes extension",
+    "summary": "A extension that can classify and manage config files with a focus on realtime notes.",
+    "tags": [
+      "extension",
+      "notes",
+      "realtime"
+    ],
+    "theme": "security",
+    "slug": "realtime-notes-extension",
+    "repo_name": "realtime-notes-extension-2025-09-03",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-02",
     "concept": "ambient observability agent",
     "summary": "A agent that can summarize and manage browser history with a focus on ambient observability.",
@@ -11,7 +25,17 @@
     "theme": "ml",
     "slug": "ambient-observability-agent",
     "repo_name": "ambient-observability-agent-2025-09-02",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "An ambient observability agent passively captures and summarizes browser history using ML to surface trends, anomalies, and correlations, turning everyday browsing into actionable observability signals. It helps teams spot emerging issues, knowledge gaps, and workflow friction without manual logging or context switching.",
+      "examples": [
+        "Action 1: Install the ambient observability agent as a browser extension that extracts page titles, timestamps, dwell time, and referrers, then uses topic modeling and embeddings to generate daily summaries and clusters of browsing activity.",
+        "Action 2: Configure the ambient observability agent to run anomaly detection on browsing patterns (e.g., spikes in 5xx error page visits or sudden pivots to incident runbooks) and push alerts to Slack with linked sessions and suggested next steps.",
+        "Action 3: Use the ambient observability agent to map visited URLs to services/components via metadata, enrich them with embeddings, and expose a query API for “what changed this week,” exporting time-series metrics to Prometheus/Grafana dashboards."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-02T07:28:32.936080Z"
+    }
   },
   {
     "date": "2025-09-01",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-25T07:29:36.209954Z"
-    }
-  },
-  {
-    "date": "2025-08-24",
-    "concept": "temporal image-annotator service",
-    "summary": "A service that can synchronize and manage browser history with a focus on temporal image-annotator.",
-    "tags": [
-      "image-annotator",
-      "service",
-      "temporal"
-    ],
-    "theme": "observability",
-    "slug": "temporal-image-annotator-service",
-    "repo_name": "temporal-image-annotator-service-2025-08-24",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A temporal image-annotator service that synchronizes browser history with time-aware image annotations, enabling playback and auditing of image interactions over time. It improves observability by correlating annotation events with browsing timelines for debugging, compliance, and user insights.",
-      "examples": [
-        "Configure the temporal image-annotator service to ingest browser history events and attach time-synced image annotations, storing them with a 30-day retention policy",
-        "Enable OpenTelemetry tracing in the temporal image-annotator service to emit spans for annotation creation, edits, and replay, correlated to browser history timestamps",
-        "Schedule a nightly job in the temporal image-annotator service to export per-user, time-sliced annotation timelines to S3 and trigger a webhook when anomalies are detected"
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-24T07:26:21.528484Z"
     }
   }
 ]
