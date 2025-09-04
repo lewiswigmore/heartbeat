@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-04",
+    "concept": "federated scheduler daemon",
+    "summary": "A daemon that can classify and manage log files with a focus on federated scheduler.",
+    "tags": [
+      "daemon",
+      "federated",
+      "scheduler"
+    ],
+    "theme": "data",
+    "slug": "federated-scheduler-daemon",
+    "repo_name": "federated-scheduler-daemon-2025-09-04",
+    "source": "azure",
+    "ai_summary": {
+      "text": "The federated scheduler daemon classifies and manages scheduler-related log files across multiple clusters, providing centralized visibility and policy-driven handling. It adds value by unifying log ingestion, categorization, retention, and alerting for distributed scheduling environments.",
+      "examples": [
+        "Deploy the federated scheduler daemon across all clusters to collect scheduler logs and forward them to a centralized data lake with daily rotation and compression.",
+        "Configure the federated scheduler daemon to classify logs by tenant, queue, and job ID, then route anomaly-tagged entries to a Kafka topic for real-time alerts.",
+        "Set up the federated scheduler daemon with retention policies (e.g., 90 days), automatic PII redaction, and a Prometheus endpoint exposing ingestion, error, and classification metrics."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-04T07:26:40.797939Z"
+    }
+  },
+  {
     "date": "2025-09-03",
     "concept": "realtime notes extension",
     "summary": "A extension that can classify and manage config files with a focus on realtime notes.",

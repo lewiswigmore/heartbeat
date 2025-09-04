@@ -1,10 +1,10 @@
 {
-  "text": "A extension that can classify and manage config files with a focus on realtime notes. It aligns to the security theme; touching extension, notes, realtime.",
+  "text": "The federated scheduler daemon classifies and manages scheduler-related log files across multiple clusters, providing centralized visibility and policy-driven handling. It adds value by unifying log ingestion, categorization, retention, and alerting for distributed scheduling environments.",
   "examples": [
-    "Ship a tiny realtime notes extension prototype end-to-end (README + demo)",
-    "Integrate realtime notes extension into an existing repo and add basic metrics",
-    "Instrument realtime notes extension and capture before/after results for one workflow"
+    "Deploy the federated scheduler daemon across all clusters to collect scheduler logs and forward them to a centralized data lake with daily rotation and compression.",
+    "Configure the federated scheduler daemon to classify logs by tenant, queue, and job ID, then route anomaly-tagged entries to a Kafka topic for real-time alerts.",
+    "Set up the federated scheduler daemon with retention policies (e.g., 90 days), automatic PII redaction, and a Prometheus endpoint exposing ingestion, error, and classification metrics."
   ],
-  "source": "offline",
-  "generated_at": "2025-09-03T07:27:13.697875Z"
+  "source": "azure",
+  "generated_at": "2025-09-04T07:26:40.797939Z"
 }

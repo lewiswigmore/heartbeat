@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-04",
+    "concept": "federated scheduler daemon",
+    "summary": "A daemon that can classify and manage log files with a focus on federated scheduler.",
+    "tags": [
+      "daemon",
+      "federated",
+      "scheduler"
+    ],
+    "theme": "data",
+    "slug": "federated-scheduler-daemon",
+    "repo_name": "federated-scheduler-daemon-2025-09-04",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-03",
     "concept": "realtime notes extension",
     "summary": "A extension that can classify and manage config files with a focus on realtime notes.",
@@ -11,7 +25,17 @@
     "theme": "security",
     "slug": "realtime-notes-extension",
     "repo_name": "realtime-notes-extension-2025-09-03",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A extension that can classify and manage config files with a focus on realtime notes. It aligns to the security theme; touching extension, notes, realtime.",
+      "examples": [
+        "Ship a tiny realtime notes extension prototype end-to-end (README + demo)",
+        "Integrate realtime notes extension into an existing repo and add basic metrics",
+        "Instrument realtime notes extension and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-03T07:27:13.697875Z"
+    }
   },
   {
     "date": "2025-09-02",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-26T07:29:03.041136Z"
-    }
-  },
-  {
-    "date": "2025-08-25",
-    "concept": "minimal feature-flags cli",
-    "summary": "A cli that can index and manage github issues with a focus on minimal feature-flags.",
-    "tags": [
-      "cli",
-      "feature-flags",
-      "minimal"
-    ],
-    "theme": "productivity",
-    "slug": "minimal-feature-flags-cli",
-    "repo_name": "minimal-feature-flags-cli-2025-08-25",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A lightweight command-line tool that indexes and manages GitHub issues with minimal, declarative feature flags to control workflows and views. It improves productivity by letting teams toggle behaviors and experiments around issue triage without heavy config or code changes.",
-      "examples": [
-        "Action 1: Initialize a repository and index all open GitHub issues into a local cache using the minimal feature-flags cli, then list them filtered by label 'bug' and milestone 'v1.0'.",
-        "Action 2: Define a feature flag 'auto-triage' with the minimal feature-flags cli that automatically labels new issues as 'triage' and hides them from the default list until reviewed.",
-        "Action 3: Use the minimal feature-flags cli to roll out a percentage-based flag 'beta-priority' that surfaces only a subset of 'enhancement' issues in the Next Up queue, then export the active flag state to .flags.json for CI."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-25T07:29:36.209954Z"
     }
   }
 ]

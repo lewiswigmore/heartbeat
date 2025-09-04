@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Wed, 03 Sep 2025 07:27:13 +0000</lastBuildDate>
+<lastBuildDate>Thu, 04 Sep 2025 07:26:40 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>zero-trust secrets-rotator agent</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">zero-trust-secrets-rotator-agent-2025-08-15</guid>
-<pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `devtools`
-Repo: `zero-trust-secrets-rotator-agent-2025-08-15`
-Tags: `agent`, `secrets-rotator`, `zero-trust`
-Summary: A agent that can generate and manage rss feeds with a focus on zero-trust secrets-rotator.</description>
-</item>
 <item>
 <title>privacy-first scheduler sdk</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A agent that can summarize and manage browser history with a focus on a
 Repo: `realtime-notes-extension-2025-09-03`
 Tags: `extension`, `notes`, `realtime`
 Summary: A extension that can classify and manage config files with a focus on realtime notes.</description>
+</item>
+<item>
+<title>federated scheduler daemon</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">federated-scheduler-daemon-2025-09-04</guid>
+<pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `data`
+Repo: `federated-scheduler-daemon-2025-09-04`
+Tags: `daemon`, `federated`, `scheduler`
+Summary: A daemon that can classify and manage log files with a focus on federated scheduler.</description>
 </item>
 </channel>
 </rss>
