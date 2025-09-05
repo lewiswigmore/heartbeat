@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-05",
+    "concept": "temporal recommendations daemon",
+    "summary": "A daemon that can normalize and manage github issues with a focus on temporal recommendations.",
+    "tags": [
+      "daemon",
+      "recommendations",
+      "temporal"
+    ],
+    "theme": "devtools",
+    "slug": "temporal-recommendations-daemon",
+    "repo_name": "temporal-recommendations-daemon-2025-09-05",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A background daemon that ingests GitHub issues, normalizes metadata (timestamps, labels, assignees), and generates time-aware recommendations for triage and prioritization. It helps dev teams act on temporal signals like staleness, bursts, and SLAs to schedule the next best action.",
+      "examples": [
+        "Action 1: Install and configure the temporal recommendations daemon to normalize GitHub issue timestamps, labels, and assignees, and set a 15-minute polling cadence.",
+        "Action 2: Define temporal recommendation rules in the temporal recommendations daemon (e.g., escalate bugs idle >48h, ping reviewers on PRs inactive >24h, auto-close discussions after 30d of no activity).",
+        "Action 3: Integrate the temporal recommendations daemon with your triage workflow to post prioritized, time-aware suggestions as GitHub comments and labels."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-05T07:27:17.954342Z"
+    }
+  },
+  {
     "date": "2025-09-04",
     "concept": "federated scheduler daemon",
     "summary": "A daemon that can classify and manage log files with a focus on federated scheduler.",

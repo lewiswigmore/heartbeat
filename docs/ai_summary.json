@@ -1,10 +1,10 @@
 {
-  "text": "The federated scheduler daemon classifies and manages scheduler-related log files across multiple clusters, providing centralized visibility and policy-driven handling. It adds value by unifying log ingestion, categorization, retention, and alerting for distributed scheduling environments.",
+  "text": "A background daemon that ingests GitHub issues, normalizes metadata (timestamps, labels, assignees), and generates time-aware recommendations for triage and prioritization. It helps dev teams act on temporal signals like staleness, bursts, and SLAs to schedule the next best action.",
   "examples": [
-    "Deploy the federated scheduler daemon across all clusters to collect scheduler logs and forward them to a centralized data lake with daily rotation and compression.",
-    "Configure the federated scheduler daemon to classify logs by tenant, queue, and job ID, then route anomaly-tagged entries to a Kafka topic for real-time alerts.",
-    "Set up the federated scheduler daemon with retention policies (e.g., 90 days), automatic PII redaction, and a Prometheus endpoint exposing ingestion, error, and classification metrics."
+    "Action 1: Install and configure the temporal recommendations daemon to normalize GitHub issue timestamps, labels, and assignees, and set a 15-minute polling cadence.",
+    "Action 2: Define temporal recommendation rules in the temporal recommendations daemon (e.g., escalate bugs idle >48h, ping reviewers on PRs inactive >24h, auto-close discussions after 30d of no activity).",
+    "Action 3: Integrate the temporal recommendations daemon with your triage workflow to post prioritized, time-aware suggestions as GitHub comments and labels."
   ],
   "source": "azure",
-  "generated_at": "2025-09-04T07:26:40.797939Z"
+  "generated_at": "2025-09-05T07:27:17.954342Z"
 }

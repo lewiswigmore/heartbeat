@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-05",
+    "concept": "temporal recommendations daemon",
+    "summary": "A daemon that can normalize and manage github issues with a focus on temporal recommendations.",
+    "tags": [
+      "daemon",
+      "recommendations",
+      "temporal"
+    ],
+    "theme": "devtools",
+    "slug": "temporal-recommendations-daemon",
+    "repo_name": "temporal-recommendations-daemon-2025-09-05",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-04",
     "concept": "federated scheduler daemon",
     "summary": "A daemon that can classify and manage log files with a focus on federated scheduler.",
@@ -11,7 +25,17 @@
     "theme": "data",
     "slug": "federated-scheduler-daemon",
     "repo_name": "federated-scheduler-daemon-2025-09-04",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "The federated scheduler daemon classifies and manages scheduler-related log files across multiple clusters, providing centralized visibility and policy-driven handling. It adds value by unifying log ingestion, categorization, retention, and alerting for distributed scheduling environments.",
+      "examples": [
+        "Deploy the federated scheduler daemon across all clusters to collect scheduler logs and forward them to a centralized data lake with daily rotation and compression.",
+        "Configure the federated scheduler daemon to classify logs by tenant, queue, and job ID, then route anomaly-tagged entries to a Kafka topic for real-time alerts.",
+        "Set up the federated scheduler daemon with retention policies (e.g., 90 days), automatic PII redaction, and a Prometheus endpoint exposing ingestion, error, and classification metrics."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-04T07:26:40.797939Z"
+    }
   },
   {
     "date": "2025-09-03",
@@ -203,30 +227,6 @@
       ],
       "source": "offline",
       "generated_at": "2025-08-27T07:27:13.446829Z"
-    }
-  },
-  {
-    "date": "2025-08-26",
-    "concept": "semantic secrets-rotator cli",
-    "summary": "A cli that can synchronize and manage terminal sessions with a focus on semantic secrets-rotator.",
-    "tags": [
-      "cli",
-      "secrets-rotator",
-      "semantic"
-    ],
-    "theme": "ml",
-    "slug": "semantic-secrets-rotator-cli",
-    "repo_name": "semantic-secrets-rotator-cli-2025-08-26",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A command-line tool that synchronizes and manages terminal sessions while using ML-driven semantic analysis to discover, classify, and rotate secrets in real time. It reduces exposure by coordinating context-aware rotations consistently across shells, tmux panes, and remote hosts.",
-      "examples": [
-        "Action 1: Initialize a workspace and set a semantic rotation policy with providers by running: semantic-secrets-rotator init --session-group dev --providers aws,github --policy semantic-embedding --rotation-interval 24h",
-        "Action 2: Perform a context-aware dry-run rotation for production-labeled sessions using ML similarity scoring: semantic-secrets-rotator rotate --match session=prod --strategy ml-similarity --dry-run --report json",
-        "Action 3: Synchronize secrets state across tmux panes and SSH hosts, enforcing rekeying for stale contexts: semantic-secrets-rotator sync --tmux --ssh inventory.yaml --enforce --rekey"
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-26T07:29:03.041136Z"
     }
   }
 ]

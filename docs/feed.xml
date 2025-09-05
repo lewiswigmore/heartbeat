@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Thu, 04 Sep 2025 07:26:40 +0000</lastBuildDate>
+<lastBuildDate>Fri, 05 Sep 2025 07:27:18 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>privacy-first scheduler sdk</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">privacy-first-scheduler-sdk-2025-08-16</guid>
-<pubDate>Sat, 16 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `automation`
-Repo: `privacy-first-scheduler-sdk-2025-08-16`
-Tags: `privacy-first`, `scheduler`, `sdk`
-Summary: A sdk that can monitor and manage config files with a focus on privacy-first scheduler.</description>
-</item>
 <item>
 <title>temporal audio-transcribe webapp</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A extension that can classify and manage config files with a focus on r
 Repo: `federated-scheduler-daemon-2025-09-04`
 Tags: `daemon`, `federated`, `scheduler`
 Summary: A daemon that can classify and manage log files with a focus on federated scheduler.</description>
+</item>
+<item>
+<title>temporal recommendations daemon</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">temporal-recommendations-daemon-2025-09-05</guid>
+<pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `devtools`
+Repo: `temporal-recommendations-daemon-2025-09-05`
+Tags: `daemon`, `recommendations`, `temporal`
+Summary: A daemon that can normalize and manage github issues with a focus on temporal recommendations.</description>
 </item>
 </channel>
 </rss>

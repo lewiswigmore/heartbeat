@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "privacy-first scheduler sdk",
-      "content_text": "Theme: `automation`\nRepo: `privacy-first-scheduler-sdk-2025-08-16`\nTags: `privacy-first`, `scheduler`, `sdk`\nSummary: A sdk that can monitor and manage config files with a focus on privacy-first scheduler.",
-      "date_published": "2025-08-16T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "temporal audio-transcribe webapp",
       "content_text": "Theme: `observability`\nRepo: `temporal-audio-transcribe-webapp-2025-08-17`\nTags: `audio-transcribe`, `temporal`, `webapp`\nSummary: A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.",
       "date_published": "2025-08-17T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "federated scheduler daemon",
       "content_text": "Theme: `data`\nRepo: `federated-scheduler-daemon-2025-09-04`\nTags: `daemon`, `federated`, `scheduler`\nSummary: A daemon that can classify and manage log files with a focus on federated scheduler.",
       "date_published": "2025-09-04T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "temporal recommendations daemon",
+      "content_text": "Theme: `devtools`\nRepo: `temporal-recommendations-daemon-2025-09-05`\nTags: `daemon`, `recommendations`, `temporal`\nSummary: A daemon that can normalize and manage github issues with a focus on temporal recommendations.",
+      "date_published": "2025-09-05T00:00:00Z"
     }
   ]
 }
