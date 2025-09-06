@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-06",
+    "concept": "privacy-first feature-flags cli",
+    "summary": "A cli that can transcode and manage log files with a focus on privacy-first feature-flags.",
+    "tags": [
+      "cli",
+      "feature-flags",
+      "privacy-first"
+    ],
+    "theme": "automation",
+    "slug": "privacy-first-feature-flags-cli",
+    "repo_name": "privacy-first-feature-flags-cli-2025-09-06",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A command-line tool that transcodes and manages log files while enforcing privacy-first feature flags, automating redaction, rollout, and auditing without exposing sensitive data. It helps teams toggle privacy-aware behaviors per environment and keep observability compliant.",
+      "examples": [
+        "Action 1: Run privacy-first feature-flags cli init --project payments --env staging --enable redact.emails,anonymize.ip and commit the generated policy file to enforce privacy defaults in staging logs.",
+        "Action 2: Use privacy-first feature-flags cli transcode ./logs/*.json --to parquet --enforce pii.masking --drop ip_address --output ./data/parquet to convert JSON logs to Parquet with privacy rules applied.",
+        "Action 3: Schedule a progressive rollout with privacy-first feature-flags cli rollout --flag sanitize.urls --env production --progressive 0-100%/2h --audit s3://org-audit/flags/ to gradually enable URL sanitization and record an immutable audit trail."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-06T07:23:44.094313Z"
+    }
+  },
+  {
     "date": "2025-09-05",
     "concept": "temporal recommendations daemon",
     "summary": "A daemon that can normalize and manage github issues with a focus on temporal recommendations.",

@@ -1,10 +1,10 @@
 {
-  "text": "A background daemon that ingests GitHub issues, normalizes metadata (timestamps, labels, assignees), and generates time-aware recommendations for triage and prioritization. It helps dev teams act on temporal signals like staleness, bursts, and SLAs to schedule the next best action.",
+  "text": "A command-line tool that transcodes and manages log files while enforcing privacy-first feature flags, automating redaction, rollout, and auditing without exposing sensitive data. It helps teams toggle privacy-aware behaviors per environment and keep observability compliant.",
   "examples": [
-    "Action 1: Install and configure the temporal recommendations daemon to normalize GitHub issue timestamps, labels, and assignees, and set a 15-minute polling cadence.",
-    "Action 2: Define temporal recommendation rules in the temporal recommendations daemon (e.g., escalate bugs idle >48h, ping reviewers on PRs inactive >24h, auto-close discussions after 30d of no activity).",
-    "Action 3: Integrate the temporal recommendations daemon with your triage workflow to post prioritized, time-aware suggestions as GitHub comments and labels."
+    "Action 1: Run privacy-first feature-flags cli init --project payments --env staging --enable redact.emails,anonymize.ip and commit the generated policy file to enforce privacy defaults in staging logs.",
+    "Action 2: Use privacy-first feature-flags cli transcode ./logs/*.json --to parquet --enforce pii.masking --drop ip_address --output ./data/parquet to convert JSON logs to Parquet with privacy rules applied.",
+    "Action 3: Schedule a progressive rollout with privacy-first feature-flags cli rollout --flag sanitize.urls --env production --progressive 0-100%/2h --audit s3://org-audit/flags/ to gradually enable URL sanitization and record an immutable audit trail."
   ],
   "source": "azure",
-  "generated_at": "2025-09-05T07:27:17.954342Z"
+  "generated_at": "2025-09-06T07:23:44.094313Z"
 }

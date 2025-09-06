@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "temporal audio-transcribe webapp",
-      "content_text": "Theme: `observability`\nRepo: `temporal-audio-transcribe-webapp-2025-08-17`\nTags: `audio-transcribe`, `temporal`, `webapp`\nSummary: A webapp that can generate and manage terminal sessions with a focus on temporal audio-transcribe.",
-      "date_published": "2025-08-17T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "temporal graphql-gateway extension",
       "content_text": "Theme: `productivity`\nRepo: `temporal-graphql-gateway-extension-2025-08-18`\nTags: `extension`, `graphql-gateway`, `temporal`\nSummary: A extension that can classify and manage api responses with a focus on temporal graphql-gateway.",
       "date_published": "2025-08-18T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "temporal recommendations daemon",
       "content_text": "Theme: `devtools`\nRepo: `temporal-recommendations-daemon-2025-09-05`\nTags: `daemon`, `recommendations`, `temporal`\nSummary: A daemon that can normalize and manage github issues with a focus on temporal recommendations.",
       "date_published": "2025-09-05T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "privacy-first feature-flags cli",
+      "content_text": "Theme: `automation`\nRepo: `privacy-first-feature-flags-cli-2025-09-06`\nTags: `cli`, `feature-flags`, `privacy-first`\nSummary: A cli that can transcode and manage log files with a focus on privacy-first feature-flags.",
+      "date_published": "2025-09-06T00:00:00Z"
     }
   ]
 }
