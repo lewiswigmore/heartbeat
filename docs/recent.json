@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-07",
+    "concept": "streaming graphql-gateway cli",
+    "summary": "A cli that can simulate and manage email with a focus on streaming graphql-gateway.",
+    "tags": [
+      "cli",
+      "graphql-gateway",
+      "streaming"
+    ],
+    "theme": "observability",
+    "slug": "streaming-graphql-gateway-cli",
+    "repo_name": "streaming-graphql-gateway-cli-2025-09-07",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-06",
     "concept": "privacy-first feature-flags cli",
     "summary": "A cli that can transcode and manage log files with a focus on privacy-first feature-flags.",
@@ -11,7 +25,17 @@
     "theme": "automation",
     "slug": "privacy-first-feature-flags-cli",
     "repo_name": "privacy-first-feature-flags-cli-2025-09-06",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A command-line tool that transcodes and manages log files while enforcing privacy-first feature flags, automating redaction, rollout, and auditing without exposing sensitive data. It helps teams toggle privacy-aware behaviors per environment and keep observability compliant.",
+      "examples": [
+        "Action 1: Run privacy-first feature-flags cli init --project payments --env staging --enable redact.emails,anonymize.ip and commit the generated policy file to enforce privacy defaults in staging logs.",
+        "Action 2: Use privacy-first feature-flags cli transcode ./logs/*.json --to parquet --enforce pii.masking --drop ip_address --output ./data/parquet to convert JSON logs to Parquet with privacy rules applied.",
+        "Action 3: Schedule a progressive rollout with privacy-first feature-flags cli rollout --flag sanitize.urls --env production --progressive 0-100%/2h --audit s3://org-audit/flags/ to gradually enable URL sanitization and record an immutable audit trail."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-06T07:23:44.094313Z"
+    }
   },
   {
     "date": "2025-09-05",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-29T07:27:48.669162Z"
-    }
-  },
-  {
-    "date": "2025-08-28",
-    "concept": "ambient audio-transcribe webapp (1)",
-    "summary": "A webapp that can transcode and manage pdfs with a focus on ambient audio-transcribe.",
-    "tags": [
-      "ambient",
-      "audio-transcribe",
-      "webapp"
-    ],
-    "theme": "data",
-    "slug": "ambient-audio-transcribe-webapp-1",
-    "repo_name": "ambient-audio-transcribe-webapp-1-2025-08-28",
-    "source": "azure",
-    "ai_summary": {
-      "text": "ambient audio-transcribe webapp (1) is a data-focused web app that captures ambient audio, transcribes it, and manages the resulting documents by transcoding transcripts into searchable PDFs. It streamlines ingestion, transcription, and PDF lifecycle management for organization, analysis, and sharing.",
-      "examples": [
-        "Action 1: Use ambient audio-transcribe webapp (1) to upload a 60-minute WAV ambient recording, auto-transcribe it, and export a timestamped, searchable PDF with speaker diarization and section bookmarks.",
-        "Action 2: Configure ambient audio-transcribe webapp (1) to batch transcode 50 existing PDFs into PDF/A, link each to its source audio and transcript, and tag them by project, location, and capture date.",
-        "Action 3: Set up a real-time capture pipeline in ambient audio-transcribe webapp (1) that records ambient audio via the browser, performs live transcription, and archives nightly summaries as versioned PDFs with embedded metadata and access controls."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-28T07:28:00.269697Z"
     }
   }
 ]

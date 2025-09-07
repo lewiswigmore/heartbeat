@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sat, 06 Sep 2025 07:23:44 +0000</lastBuildDate>
+<lastBuildDate>Sun, 07 Sep 2025 07:24:45 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>temporal graphql-gateway extension</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">temporal-graphql-gateway-extension-2025-08-18</guid>
-<pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `productivity`
-Repo: `temporal-graphql-gateway-extension-2025-08-18`
-Tags: `extension`, `graphql-gateway`, `temporal`
-Summary: A extension that can classify and manage api responses with a focus on temporal graphql-gateway.</description>
-</item>
 <item>
 <title>quantum scheduler extension</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A daemon that can normalize and manage github issues with a focus on te
 Repo: `privacy-first-feature-flags-cli-2025-09-06`
 Tags: `cli`, `feature-flags`, `privacy-first`
 Summary: A cli that can transcode and manage log files with a focus on privacy-first feature-flags.</description>
+</item>
+<item>
+<title>streaming graphql-gateway cli</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">streaming-graphql-gateway-cli-2025-09-07</guid>
+<pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `observability`
+Repo: `streaming-graphql-gateway-cli-2025-09-07`
+Tags: `cli`, `graphql-gateway`, `streaming`
+Summary: A cli that can simulate and manage email with a focus on streaming graphql-gateway.</description>
 </item>
 </channel>
 </rss>
