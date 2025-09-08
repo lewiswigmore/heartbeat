@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sun, 07 Sep 2025 07:24:45 +0000</lastBuildDate>
+<lastBuildDate>Mon, 08 Sep 2025 07:28:13 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>quantum scheduler extension</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">quantum-scheduler-extension-2025-08-19</guid>
-<pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `ml`
-Repo: `quantum-scheduler-extension-2025-08-19`
-Tags: `extension`, `quantum`, `scheduler`
-Summary: A extension that can normalize and manage browser history with a focus on quantum scheduler.</description>
-</item>
 <item>
 <title>streaming secrets-rotator cli</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A cli that can transcode and manage log files with a focus on privacy-f
 Repo: `streaming-graphql-gateway-cli-2025-09-07`
 Tags: `cli`, `graphql-gateway`, `streaming`
 Summary: A cli that can simulate and manage email with a focus on streaming graphql-gateway.</description>
+</item>
+<item>
+<title>zero-trust dashboard agent</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">zero-trust-dashboard-agent-2025-09-08</guid>
+<pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `productivity`
+Repo: `zero-trust-dashboard-agent-2025-09-08`
+Tags: `agent`, `dashboard`, `zero-trust`
+Summary: A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.</description>
 </item>
 </channel>
 </rss>

@@ -1,24 +1,24 @@
 {
-  "date": "2025-09-07",
-  "concept": "streaming graphql-gateway cli",
-  "summary": "A cli that can simulate and manage email with a focus on streaming graphql-gateway.",
+  "date": "2025-09-08",
+  "concept": "zero-trust dashboard agent",
+  "summary": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.",
   "tags": [
-    "cli",
-    "graphql-gateway",
-    "streaming"
+    "agent",
+    "dashboard",
+    "zero-trust"
   ],
-  "theme": "observability",
-  "slug": "streaming-graphql-gateway-cli",
-  "repo_name": "streaming-graphql-gateway-cli-2025-09-07",
+  "theme": "productivity",
+  "slug": "zero-trust-dashboard-agent",
+  "repo_name": "zero-trust-dashboard-agent-2025-09-08",
   "source": "azure",
   "ai_summary": {
-    "text": "A CLI for simulating and managing email workflows through a streaming GraphQL gateway, enabling real-time subscription event streaming, tracing, and performance insights for observability. It boosts reliability by letting teams test, monitor, and debug email pipelines end-to-end.",
+    "text": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard. It aligns to the productivity theme; touching agent, dashboard, zero-trust.",
     "examples": [
-      "Action 1: Use the streaming graphql-gateway cli to subscribe to email events (messageQueued, messageDelivered) via the graphql-gateway, simulate an inbound email, and stream live GraphQL subscription payloads while exporting OpenTelemetry traces.",
-      "Action 2: Run the streaming graphql-gateway cli to health-check the graphql-gateway, enable request/response logging, and continuously stream aggregated latency and error metrics to your observability backend.",
-      "Action 3: Replay a batch of 1,000 synthetic emails through the graphql-gateway with the streaming graphql-gateway cli, capture end-to-end delivery latency percentiles, and emit a performance report with alerts when SLO thresholds are exceeded."
+      "Ship a tiny zero-trust dashboard agent prototype end-to-end (README + demo)",
+      "Integrate zero-trust dashboard agent into an existing repo and add basic metrics",
+      "Instrument zero-trust dashboard agent and capture before/after results for one workflow"
     ],
-    "source": "azure",
-    "generated_at": "2025-09-07T07:24:45.520558Z"
+    "source": "offline",
+    "generated_at": "2025-09-08T07:28:13.018103Z"
   }
 }

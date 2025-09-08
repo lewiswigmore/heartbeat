@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-08",
+    "concept": "zero-trust dashboard agent",
+    "summary": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.",
+    "tags": [
+      "agent",
+      "dashboard",
+      "zero-trust"
+    ],
+    "theme": "productivity",
+    "slug": "zero-trust-dashboard-agent",
+    "repo_name": "zero-trust-dashboard-agent-2025-09-08",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard. It aligns to the productivity theme; touching agent, dashboard, zero-trust.",
+      "examples": [
+        "Ship a tiny zero-trust dashboard agent prototype end-to-end (README + demo)",
+        "Integrate zero-trust dashboard agent into an existing repo and add basic metrics",
+        "Instrument zero-trust dashboard agent and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-08T07:28:13.018103Z"
+    }
+  },
+  {
     "date": "2025-09-07",
     "concept": "streaming graphql-gateway cli",
     "summary": "A cli that can simulate and manage email with a focus on streaming graphql-gateway.",

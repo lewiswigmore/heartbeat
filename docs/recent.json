@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-08",
+    "concept": "zero-trust dashboard agent",
+    "summary": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.",
+    "tags": [
+      "agent",
+      "dashboard",
+      "zero-trust"
+    ],
+    "theme": "productivity",
+    "slug": "zero-trust-dashboard-agent",
+    "repo_name": "zero-trust-dashboard-agent-2025-09-08",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-07",
     "concept": "streaming graphql-gateway cli",
     "summary": "A cli that can simulate and manage email with a focus on streaming graphql-gateway.",
@@ -11,7 +25,17 @@
     "theme": "observability",
     "slug": "streaming-graphql-gateway-cli",
     "repo_name": "streaming-graphql-gateway-cli-2025-09-07",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A CLI for simulating and managing email workflows through a streaming GraphQL gateway, enabling real-time subscription event streaming, tracing, and performance insights for observability. It boosts reliability by letting teams test, monitor, and debug email pipelines end-to-end.",
+      "examples": [
+        "Action 1: Use the streaming graphql-gateway cli to subscribe to email events (messageQueued, messageDelivered) via the graphql-gateway, simulate an inbound email, and stream live GraphQL subscription payloads while exporting OpenTelemetry traces.",
+        "Action 2: Run the streaming graphql-gateway cli to health-check the graphql-gateway, enable request/response logging, and continuously stream aggregated latency and error metrics to your observability backend.",
+        "Action 3: Replay a batch of 1,000 synthetic emails through the graphql-gateway with the streaming graphql-gateway cli, capture end-to-end delivery latency percentiles, and emit a performance report with alerts when SLO thresholds are exceeded."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-07T07:24:45.520558Z"
+    }
   },
   {
     "date": "2025-09-06",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-30T07:24:12.455177Z"
-    }
-  },
-  {
-    "date": "2025-08-29",
-    "concept": "quantum audio-transcribe webapp",
-    "summary": "A webapp that can visualize and manage pdfs with a focus on quantum audio-transcribe.",
-    "tags": [
-      "audio-transcribe",
-      "quantum",
-      "webapp"
-    ],
-    "theme": "devtools",
-    "slug": "quantum-audio-transcribe-webapp",
-    "repo_name": "quantum-audio-transcribe-webapp-2025-08-29",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A devtools-focused webapp that visualizes and manages PDFs while synchronizing them with audio transcripts, optimized for quantum-related content. It enables developers and researchers to align, search, and annotate transcripts against PDF sections via API, CLI, and real-time views.",
-      "examples": [
-        "Upload a quantum research PDF and lecture audio to the quantum audio-transcribe webapp, auto-align transcript timestamps to PDF headings, and render a side-by-side waveform/PDF viewer with clickable segments.",
-        "Use the quantum audio-transcribe webapp API to stream audio for real-time transcription, auto-tag quantum terms (e.g., qubit, entanglement), and write annotations back into the managed PDF via PATCH /pdfs/{id}/annotations.",
-        "Add a CI step that invokes the quantum audio-transcribe webapp CLI to batch transcribe new audio assets, update linked PDFs, and export a summarized JSON index for search and retrieval."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-29T07:27:48.669162Z"
     }
   }
 ]
