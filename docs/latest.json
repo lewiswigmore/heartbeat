@@ -1,24 +1,24 @@
 {
-  "date": "2025-09-08",
-  "concept": "zero-trust dashboard agent",
-  "summary": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.",
+  "date": "2025-09-09",
+  "concept": "offline-first observability service",
+  "summary": "A service that can transcode and manage browser history with a focus on offline-first observability.",
   "tags": [
-    "agent",
-    "dashboard",
-    "zero-trust"
+    "observability",
+    "offline-first",
+    "service"
   ],
-  "theme": "productivity",
-  "slug": "zero-trust-dashboard-agent",
-  "repo_name": "zero-trust-dashboard-agent-2025-09-08",
+  "theme": "ml",
+  "slug": "offline-first-observability-service",
+  "repo_name": "offline-first-observability-service-2025-09-09",
   "source": "azure",
   "ai_summary": {
-    "text": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard. It aligns to the productivity theme; touching agent, dashboard, zero-trust.",
+    "text": "A service that can transcode and manage browser history with a focus on offline-first observability. It aligns to the ml theme; touching observability, offline-first, service.",
     "examples": [
-      "Ship a tiny zero-trust dashboard agent prototype end-to-end (README + demo)",
-      "Integrate zero-trust dashboard agent into an existing repo and add basic metrics",
-      "Instrument zero-trust dashboard agent and capture before/after results for one workflow"
+      "Ship a tiny offline-first observability service prototype end-to-end (README + demo)",
+      "Integrate offline-first observability service into an existing repo and add basic metrics",
+      "Instrument offline-first observability service and capture before/after results for one workflow"
     ],
     "source": "offline",
-    "generated_at": "2025-09-08T07:28:13.018103Z"
+    "generated_at": "2025-09-09T07:28:09.361250Z"
   }
 }

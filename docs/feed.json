@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "streaming secrets-rotator cli",
-      "content_text": "Theme: `security`\nRepo: `streaming-secrets-rotator-cli-2025-08-20`\nTags: `cli`, `secrets-rotator`, `streaming`\nSummary: A cli that can scrape and manage rss feeds with a focus on streaming secrets-rotator.",
-      "date_published": "2025-08-20T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "privacy-first secrets-rotator extension",
       "content_text": "Theme: `data`\nRepo: `privacy-first-secrets-rotator-extension-2025-08-21`\nTags: `extension`, `privacy-first`, `secrets-rotator`\nSummary: A extension that can normalize and manage screenshots with a focus on privacy-first secrets-rotator.",
       "date_published": "2025-08-21T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "zero-trust dashboard agent",
       "content_text": "Theme: `productivity`\nRepo: `zero-trust-dashboard-agent-2025-09-08`\nTags: `agent`, `dashboard`, `zero-trust`\nSummary: A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.",
       "date_published": "2025-09-08T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "offline-first observability service",
+      "content_text": "Theme: `ml`\nRepo: `offline-first-observability-service-2025-09-09`\nTags: `observability`, `offline-first`, `service`\nSummary: A service that can transcode and manage browser history with a focus on offline-first observability.",
+      "date_published": "2025-09-09T00:00:00Z"
     }
   ]
 }

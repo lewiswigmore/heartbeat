@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-09",
+    "concept": "offline-first observability service",
+    "summary": "A service that can transcode and manage browser history with a focus on offline-first observability.",
+    "tags": [
+      "observability",
+      "offline-first",
+      "service"
+    ],
+    "theme": "ml",
+    "slug": "offline-first-observability-service",
+    "repo_name": "offline-first-observability-service-2025-09-09",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A service that can transcode and manage browser history with a focus on offline-first observability. It aligns to the ml theme; touching observability, offline-first, service.",
+      "examples": [
+        "Ship a tiny offline-first observability service prototype end-to-end (README + demo)",
+        "Integrate offline-first observability service into an existing repo and add basic metrics",
+        "Instrument offline-first observability service and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-09T07:28:09.361250Z"
+    }
+  },
+  {
     "date": "2025-09-08",
     "concept": "zero-trust dashboard agent",
     "summary": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.",

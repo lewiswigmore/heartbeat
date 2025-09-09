@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-09",
+    "concept": "offline-first observability service",
+    "summary": "A service that can transcode and manage browser history with a focus on offline-first observability.",
+    "tags": [
+      "observability",
+      "offline-first",
+      "service"
+    ],
+    "theme": "ml",
+    "slug": "offline-first-observability-service",
+    "repo_name": "offline-first-observability-service-2025-09-09",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-08",
     "concept": "zero-trust dashboard agent",
     "summary": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.",
@@ -11,7 +25,17 @@
     "theme": "productivity",
     "slug": "zero-trust-dashboard-agent",
     "repo_name": "zero-trust-dashboard-agent-2025-09-08",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard. It aligns to the productivity theme; touching agent, dashboard, zero-trust.",
+      "examples": [
+        "Ship a tiny zero-trust dashboard agent prototype end-to-end (README + demo)",
+        "Integrate zero-trust dashboard agent into an existing repo and add basic metrics",
+        "Instrument zero-trust dashboard agent and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-08T07:28:13.018103Z"
+    }
   },
   {
     "date": "2025-09-07",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-08-31T07:25:18.061837Z"
-    }
-  },
-  {
-    "date": "2025-08-30",
-    "concept": "semantic feature-flags extension",
-    "summary": "A extension that can classify and manage api responses with a focus on semantic feature-flags.",
-    "tags": [
-      "extension",
-      "feature-flags",
-      "semantic"
-    ],
-    "theme": "automation",
-    "slug": "semantic-feature-flags-extension",
-    "repo_name": "semantic-feature-flags-extension-2025-08-30",
-    "source": "azure",
-    "ai_summary": {
-      "text": "An extension that classifies and manages API responses using semantic feature flags, enabling automated, intent-aware toggling and routing. It reduces manual rule maintenance by interpreting response meaning and applying consistent feature controls across services.",
-      "examples": [
-        "Action 1: Configure the semantic feature-flags extension to classify API responses into intents (e.g., 'pricing', 'auth_error') and automatically toggle flags that route requests to the appropriate service version.",
-        "Action 2: Attach the semantic feature-flags extension middleware to your API client to enable the 'recommendations' flag when response entities include 'product' and 'in_stock' attributes.",
-        "Action 3: Define rollout rules in the semantic feature-flags extension to gate the 'smart_retry' feature when response sentiment is negative and latency exceeds 500ms."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-30T07:24:12.455177Z"
     }
   }
 ]
