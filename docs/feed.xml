@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Tue, 09 Sep 2025 07:28:09 +0000</lastBuildDate>
+<lastBuildDate>Wed, 10 Sep 2025 07:27:10 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>privacy-first secrets-rotator extension</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">privacy-first-secrets-rotator-extension-2025-08-21</guid>
-<pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `data`
-Repo: `privacy-first-secrets-rotator-extension-2025-08-21`
-Tags: `extension`, `privacy-first`, `secrets-rotator`
-Summary: A extension that can normalize and manage screenshots with a focus on privacy-first secrets-rotator.</description>
-</item>
 <item>
 <title>ambient audio-transcribe webapp</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A agent that can monitor and manage pdfs with a focus on zero-trust das
 Repo: `offline-first-observability-service-2025-09-09`
 Tags: `observability`, `offline-first`, `service`
 Summary: A service that can transcode and manage browser history with a focus on offline-first observability.</description>
+</item>
+<item>
+<title>realtime secrets-rotator daemon</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">realtime-secrets-rotator-daemon-2025-09-10</guid>
+<pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `security`
+Repo: `realtime-secrets-rotator-daemon-2025-09-10`
+Tags: `daemon`, `realtime`, `secrets-rotator`
+Summary: A daemon that can monitor and manage config files with a focus on realtime secrets-rotator.</description>
 </item>
 </channel>
 </rss>

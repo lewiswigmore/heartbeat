@@ -1,10 +1,10 @@
 {
-  "text": "A service that can transcode and manage browser history with a focus on offline-first observability. It aligns to the ml theme; touching observability, offline-first, service.",
+  "text": "A realtime secrets-rotator daemon continuously watches configuration files and secret backends, atomically rotating credentials and hot-reloading dependent services. This minimizes secret exposure windows, enforces rotation policies, and reduces downtime and manual toil.",
   "examples": [
-    "Ship a tiny offline-first observability service prototype end-to-end (README + demo)",
-    "Integrate offline-first observability service into an existing repo and add basic metrics",
-    "Instrument offline-first observability service and capture before/after results for one workflow"
+    "Action 1: Configure the realtime secrets-rotator daemon to watch /etc/myapp/secrets.json, rotate AWS access keys every 12 hours, write updates via atomic file swap, and SIGHUP the myapp service for zero-downtime reload",
+    "Action 2: Integrate the realtime secrets-rotator daemon with HashiCorp Vault to lease PostgreSQL credentials, update the app's ConfigMap and Kubernetes Secret, and trigger a rolling pod restart only if hot-reload is unavailable",
+    "Action 3: Deploy the realtime secrets-rotator daemon as a systemd service with least-privilege IAM credentials, emitting Prometheus metrics and alerting to Slack on rotation failures or stale secrets beyond policy"
   ],
-  "source": "offline",
-  "generated_at": "2025-09-09T07:28:09.361250Z"
+  "source": "azure",
+  "generated_at": "2025-09-10T07:27:10.757730Z"
 }

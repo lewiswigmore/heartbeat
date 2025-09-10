@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-10",
+    "concept": "realtime secrets-rotator daemon",
+    "summary": "A daemon that can monitor and manage config files with a focus on realtime secrets-rotator.",
+    "tags": [
+      "daemon",
+      "realtime",
+      "secrets-rotator"
+    ],
+    "theme": "security",
+    "slug": "realtime-secrets-rotator-daemon",
+    "repo_name": "realtime-secrets-rotator-daemon-2025-09-10",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-09",
     "concept": "offline-first observability service",
     "summary": "A service that can transcode and manage browser history with a focus on offline-first observability.",
@@ -11,7 +25,17 @@
     "theme": "ml",
     "slug": "offline-first-observability-service",
     "repo_name": "offline-first-observability-service-2025-09-09",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A service that can transcode and manage browser history with a focus on offline-first observability. It aligns to the ml theme; touching observability, offline-first, service.",
+      "examples": [
+        "Ship a tiny offline-first observability service prototype end-to-end (README + demo)",
+        "Integrate offline-first observability service into an existing repo and add basic metrics",
+        "Instrument offline-first observability service and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-09T07:28:09.361250Z"
+    }
   },
   {
     "date": "2025-09-08",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-09-01T07:29:10.037908Z"
-    }
-  },
-  {
-    "date": "2025-08-31",
-    "concept": "fuzzy observability sdk",
-    "summary": "A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.",
-    "tags": [
-      "fuzzy",
-      "observability",
-      "sdk"
-    ],
-    "theme": "observability",
-    "slug": "fuzzy-observability-sdk",
-    "repo_name": "fuzzy-observability-sdk-2025-08-31",
-    "source": "azure",
-    "ai_summary": {
-      "text": "The fuzzy observability sdk normalizes and manages terminal sessions, capturing imprecise signals (commands, prompts, timings, exit states) and turning them into queryable fuzzy telemetry for faster troubleshooting and trend analysis. It unifies disparate shell behaviors and correlates noisy session data into actionable insights.",
-      "examples": [
-        "Action 1: Install and initialize the fuzzy observability sdk to wrap Bash/Zsh terminal sessions and enable normalization of prompts, timestamps, and exit codes.",
-        "Action 2: Configure fuzzy match rules in the fuzzy observability sdk to convert semi-structured command outputs into fuzzy spans and metrics, and export them to your observability backend.",
-        "Action 3: Integrate the fuzzy observability sdk into CI runners to stream anonymized session telemetry and query the fuzzy session index for anomalous workflows and flaky steps."
-      ],
-      "source": "azure",
-      "generated_at": "2025-08-31T07:25:18.061837Z"
     }
   }
 ]
