@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Wed, 10 Sep 2025 07:27:10 +0000</lastBuildDate>
+<lastBuildDate>Thu, 11 Sep 2025 07:27:20 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>ambient audio-transcribe webapp</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">ambient-audio-transcribe-webapp-2025-08-22</guid>
-<pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `devtools`
-Repo: `ambient-audio-transcribe-webapp-2025-08-22`
-Tags: `ambient`, `audio-transcribe`, `webapp`
-Summary: A webapp that can transcode and manage terminal sessions with a focus on ambient audio-transcribe.</description>
-</item>
 <item>
 <title>ambient graphql-gateway sdk</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A service that can transcode and manage browser history with a focus on
 Repo: `realtime-secrets-rotator-daemon-2025-09-10`
 Tags: `daemon`, `realtime`, `secrets-rotator`
 Summary: A daemon that can monitor and manage config files with a focus on realtime secrets-rotator.</description>
+</item>
+<item>
+<title>semantic recommendations agent</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">semantic-recommendations-agent-2025-09-11</guid>
+<pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `data`
+Repo: `semantic-recommendations-agent-2025-09-11`
+Tags: `agent`, `recommendations`, `semantic`
+Summary: A agent that can synchronize and manage log files with a focus on semantic recommendations.</description>
 </item>
 </channel>
 </rss>
