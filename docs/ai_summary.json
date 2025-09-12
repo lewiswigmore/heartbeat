@@ -1,10 +1,10 @@
 {
-  "text": "A agent that can synchronize and manage log files with a focus on semantic recommendations. It aligns to the data theme; touching agent, recommendations, semantic.",
+  "text": "The zero-trust image-annotator service continuously monitors and manages annotator configuration, enforcing signed, least-privilege policies and blocking unverified changes. It secures devtools workflows by providing tamper-evident configs, automated drift remediation, and auditable policy enforcement.",
   "examples": [
-    "Ship a tiny semantic recommendations agent prototype end-to-end (README + demo)",
-    "Integrate semantic recommendations agent into an existing repo and add basic metrics",
-    "Instrument semantic recommendations agent and capture before/after results for one workflow"
+    "Action 1: Bootstrap the zero-trust image-annotator service with a signed config manifest (config/annotator.policy.json) and enable immutable, read-only mounts for the annotator runtime.",
+    "Action 2: Configure the zero-trust image-annotator service to watch annotator.yaml and registry credentials, rejecting unsigned diffs and auto-rolling back on drift.",
+    "Action 3: Integrate the zero-trust image-annotator service into CI via OIDC so it issues time-bound, least-privilege tokens to run annotate jobs only after policy attestation passes."
   ],
-  "source": "offline",
-  "generated_at": "2025-09-11T07:27:20.470262Z"
+  "source": "azure",
+  "generated_at": "2025-09-12T07:26:12.759234Z"
 }
