@@ -1,24 +1,24 @@
 {
-  "date": "2025-09-12",
-  "concept": "zero-trust image-annotator service",
-  "summary": "A service that can monitor and manage config files with a focus on zero-trust image-annotator.",
+  "date": "2025-09-13",
+  "concept": "streaming feature-flags service",
+  "summary": "A service that can index and manage email with a focus on streaming feature-flags.",
   "tags": [
-    "image-annotator",
+    "feature-flags",
     "service",
-    "zero-trust"
+    "streaming"
   ],
-  "theme": "devtools",
-  "slug": "zero-trust-image-annotator-service",
-  "repo_name": "zero-trust-image-annotator-service-2025-09-12",
+  "theme": "automation",
+  "slug": "streaming-feature-flags-service",
+  "repo_name": "streaming-feature-flags-service-2025-09-13",
   "source": "azure",
   "ai_summary": {
-    "text": "The zero-trust image-annotator service continuously monitors and manages annotator configuration, enforcing signed, least-privilege policies and blocking unverified changes. It secures devtools workflows by providing tamper-evident configs, automated drift remediation, and auditable policy enforcement.",
+    "text": "A service that can index and manage email with a focus on streaming feature-flags. It aligns to the automation theme; touching feature-flags, service, streaming.",
     "examples": [
-      "Action 1: Bootstrap the zero-trust image-annotator service with a signed config manifest (config/annotator.policy.json) and enable immutable, read-only mounts for the annotator runtime.",
-      "Action 2: Configure the zero-trust image-annotator service to watch annotator.yaml and registry credentials, rejecting unsigned diffs and auto-rolling back on drift.",
-      "Action 3: Integrate the zero-trust image-annotator service into CI via OIDC so it issues time-bound, least-privilege tokens to run annotate jobs only after policy attestation passes."
+      "Ship a tiny streaming feature-flags service prototype end-to-end (README + demo)",
+      "Integrate streaming feature-flags service into an existing repo and add basic metrics",
+      "Instrument streaming feature-flags service and capture before/after results for one workflow"
     ],
-    "source": "azure",
-    "generated_at": "2025-09-12T07:26:12.759234Z"
+    "source": "offline",
+    "generated_at": "2025-09-13T07:23:27.187472Z"
   }
 }

@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-13",
+    "concept": "streaming feature-flags service",
+    "summary": "A service that can index and manage email with a focus on streaming feature-flags.",
+    "tags": [
+      "feature-flags",
+      "service",
+      "streaming"
+    ],
+    "theme": "automation",
+    "slug": "streaming-feature-flags-service",
+    "repo_name": "streaming-feature-flags-service-2025-09-13",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A service that can index and manage email with a focus on streaming feature-flags. It aligns to the automation theme; touching feature-flags, service, streaming.",
+      "examples": [
+        "Ship a tiny streaming feature-flags service prototype end-to-end (README + demo)",
+        "Integrate streaming feature-flags service into an existing repo and add basic metrics",
+        "Instrument streaming feature-flags service and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-13T07:23:27.187472Z"
+    }
+  },
+  {
     "date": "2025-09-12",
     "concept": "zero-trust image-annotator service",
     "summary": "A service that can monitor and manage config files with a focus on zero-trust image-annotator.",
