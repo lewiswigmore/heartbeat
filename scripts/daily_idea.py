@@ -78,62 +78,61 @@ def slugify(name: str) -> str:
 def offline_idea_seed(today: str) -> dict:
     random.seed(today)  # deterministic per day
     adjectives = [
-        "quantum",
-        "minimal",
-        "serverless",
-        "edge",
-        "ambient",
-        "streaming",
-        "fuzzy",
-        "semantic",
-        "temporal",
-        "realtime",
-        "zero-trust",
-        "privacy-first",
-        "offline-first",
-        "federated",
+        "quantum", "minimal", "serverless", "edge", "ambient", "streaming", "fuzzy", "semantic",
+        "temporal", "realtime", "zero-trust", "privacy-first", "offline-first", "federated",
+        "declarative", "composable", "ephemeral", "reactive", "cross-platform", "headless",
+        "distributed", "predictive", "collaborative", "geospatial", "biometric", "augmented",
+        "containerized", "decentralized", "isomorphic", "stateless", "stateful", "asynchronous",
+        "concurrent", "parallel", "fault-tolerant", "resilient", "scalable", "elastic", "on-demand",
+        "event-driven", "immutable", "versioned", "time-series", "graph-based", "rule-based",
+        "policy-driven", "self-healing", "auto-scaling", "air-gapped", "end-to-end-encrypted",
+        "homomorphic", "explainable", "interpretable", "generative", "conversational", "multi-modal",
     ]
     domains = [
-        "notes",
-        "search",
-        "scheduler",
-        "webhooks",
-        "etl",
-        "dashboard",
-        "observability",
-        "vector-store",
-        "recommendations",
-        "graphql-gateway",
-        "audio-transcribe",
-        "image-annotator",
-        "feature-flags",
-        "secrets-rotator",
+        "notes", "search", "scheduler", "webhooks", "etl", "dashboard", "observability",
+        "vector-store", "recommendations", "graphql-gateway", "audio-transcribe",
+        "image-annotator", "feature-flags", "secrets-rotator", "ci-cd", "dns", "git",
+        "calendar", "metrics", "dependency-graph", "code-formatter", "static-site-generator",
+        "video-processor", "podcast-client", "photo-gallery", "kanban-board", "api-gateway",
+        "service-mesh", "data-pipeline", "log-aggregator", "metrics-collector", "distributed-tracing",
+        "chaos-engineering", "load-balancer", "cache-proxy", "message-queue", "event-bus",
+        "workflow-engine", "configuration-management", "service-discovery", "identity-provider",
+        "access-control", "vulnerability-scanner", "threat-intelligence", "data-lineage",
+        "schema-registry", "knowledge-graph", "digital-twin", "simulation-platform",
+        "virtual-reality", "augmented-reality", "code-search", "symbol-graph", "build-system",
+        "test-runner", "deployment-pipeline",
     ]
-    modalities = ["cli", "webapp", "service", "sdk", "agent", "daemon", "extension"]
+    modalities = [
+        "cli", "webapp", "service", "sdk", "agent", "daemon", "extension", "bot", "tui",
+        "api", "library", "plugin", "compiler", "runtime", "framework", "proxy", "operator",
+        "controller", "sidecar", "init-container", "webhook-handler", "chat-bot", "voice-assistant",
+        "browser-plugin", "ide-extension", "cli-tool", "desktop-app", "mobile-app", "watch-app",
+        "embedded-system", "firmware", "kernel-module", "virtual-machine", "container-image",
+        "serverless-function", "edge-worker",
+    ]
     verbs = [
-        "generate",
-        "synchronize",
-        "monitor",
-        "summarize",
-        "classify",
-        "transcode",
-        "index",
-        "simulate",
-        "scrape",
-        "normalize",
-        "visualize",
+        "generate", "synchronize", "monitor", "summarize", "classify", "transcode", "index",
+        "simulate", "scrape", "normalize", "visualize", "deploy", "analyze", "archive",
+        "validate", "debug", "optimize", "refactor", "authenticate", "authorize", "backup",
+        "restore", "migrate", "ingest", "query", "transform", "correlate", "aggregate",
+        "enrich", "anonymize", "redact", "provision", "decommission", "orchestrate",
+        "choreograph", "introspect", "reflect", "instrument", "profile", "benchmark",
+        "fuzz-test", "back-test", "replay", "forecast", "project", "cluster", "segment",
+        "embed", "fine-tune", "quantize", "prune", "distill", "federate-learn", "reinforcement-learn",
     ]
     targets = [
-        "github issues",
-        "rss feeds",
-        "email",
-        "log files",
-        "browser history",
-        "api responses",
-        "pdfs",
-        "screenshots",
-        "terminal sessions",
-        "config files",
+        "github issues", "rss feeds", "email", "log files", "browser history", "api responses",
+        "pdfs", "screenshots", "terminal sessions", "config files", "docker containers",
+        "kubernetes pods", "cloudformation stacks", "terraform states", "csv files",
+        "json-api", "markdown-docs", "slack-messages", "discord-channels", "zoom-recordings",
+        "financial-statements", "health-metrics", "iot-device-data", "git-commits",
+        "dns-records", "user-sessions", "api-schemas", "database-migrations",
+        "infrastructure-as-code", "ci-cd-pipelines", "security-policies", "access-logs",
+        "audit-trails", "performance-counters", "distributed-traces", "code-repositories",
+        "package-registries", "container-registries", "feature-flags-config", "A/B-test-results",
+        "user-feedback", "support-tickets", "social-media-feeds", "stock-market-data",
+        "weather-forecasts", "satellite-imagery", "genomic-sequences", "protein-structures",
+        "legal-documents", "medical-records", "supply-chain-events", "smart-contract-transactions",
     ]
 
     adj = random.choice(adjectives)
@@ -151,19 +150,21 @@ def offline_idea_seed(today: str) -> dict:
 def openai_idea(today: str, api_key: str) -> dict | None:
     """Use OpenAI Chat Completions to generate an idea. Returns None on failure."""
     try:
+        theme = day_theme(dt.date.fromisoformat(today))
         prompt = (
-            "You are an expert product ideation assistant. Generate one concise, original "
-            "open-source repository idea that likely does not already exist. Return ONLY: "
-            "title (<= 8 words) and summary (<= 35 words) and 3-5 tags. Avoid controversial topics."
+            f"You are an expert product ideation assistant for an open-source project. "
+            f"Today's theme is '{theme}'. Generate one concise, original repository idea related to this theme "
+            "that likely does not already exist. Return ONLY: title (<= 10 words), summary (<= 50 words), "
+            "and 3-5 tags. Avoid controversial topics."
         )
         body = {
             "model": "gpt-4o-mini",
             "messages": [
-                {"role": "system", "content": "Be practical and inventive."},
+                {"role": "system", "content": "Be practical, inventive, and adhere to the theme."},
                 {"role": "user", "content": f"Date: {today}. {prompt}"},
             ],
-            "temperature": 0.8,
-            "max_tokens": 180,
+            "temperature": 0.85,
+            "max_tokens": 250,
         }
         req = Request(
             url="https://api.openai.com/v1/chat/completions",
@@ -205,19 +206,21 @@ def azure_openai_idea(
     try:
         endpoint = endpoint.rstrip("/")
         url = f"{endpoint}/openai/deployments/{deployment}/chat/completions?api-version={api_version}"
+        theme = day_theme(dt.date.fromisoformat(today))
         prompt = (
-            "You are an expert product ideation assistant. Generate one concise, original "
-            "open-source repository idea that likely does not already exist. Return ONLY: "
-            "title (<= 8 words) and summary (<= 35 words) and 3-5 tags. Avoid controversial topics."
+            f"You are an expert product ideation assistant for an open-source project. "
+            f"Today's theme is '{theme}'. Generate one concise, original repository idea related to this theme "
+            "that likely does not already exist. Return ONLY: title (<= 10 words), summary (<= 50 words), "
+            "and 3-5 tags. Avoid controversial topics."
         )
         body = {
             # For Azure, omit 'model' when targeting a deployment
             "messages": [
-                {"role": "system", "content": "Be practical and inventive."},
+                {"role": "system", "content": "Be practical, inventive, and adhere to the theme."},
                 {"role": "user", "content": f"Date: {today}. {prompt}"},
             ],
-            "temperature": 0.8,
-            "max_tokens": 180,
+            "temperature": 0.85,
+            "max_tokens": 250,
         }
         req = Request(
             url=url,
