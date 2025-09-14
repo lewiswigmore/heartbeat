@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sat, 13 Sep 2025 07:23:27 +0000</lastBuildDate>
+<lastBuildDate>Sun, 14 Sep 2025 07:24:24 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>minimal feature-flags cli</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">minimal-feature-flags-cli-2025-08-25</guid>
-<pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `productivity`
-Repo: `minimal-feature-flags-cli-2025-08-25`
-Tags: `cli`, `feature-flags`, `minimal`
-Summary: A cli that can index and manage github issues with a focus on minimal feature-flags.</description>
-</item>
 <item>
 <title>semantic secrets-rotator cli</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A service that can monitor and manage config files with a focus on zero
 Repo: `streaming-feature-flags-service-2025-09-13`
 Tags: `feature-flags`, `service`, `streaming`
 Summary: A service that can index and manage email with a focus on streaming feature-flags.</description>
+</item>
+<item>
+<title>offline-first secrets-rotator cli</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">offline-first-secrets-rotator-cli-2025-09-14</guid>
+<pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `observability`
+Repo: `offline-first-secrets-rotator-cli-2025-09-14`
+Tags: `cli`, `offline-first`, `secrets-rotator`
+Summary: A cli that can synchronize and manage api responses with a focus on offline-first secrets-rotator.</description>
 </item>
 </channel>
 </rss>

@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-14",
+    "concept": "offline-first secrets-rotator cli",
+    "summary": "A cli that can synchronize and manage api responses with a focus on offline-first secrets-rotator.",
+    "tags": [
+      "cli",
+      "offline-first",
+      "secrets-rotator"
+    ],
+    "theme": "observability",
+    "slug": "offline-first-secrets-rotator-cli",
+    "repo_name": "offline-first-secrets-rotator-cli-2025-09-14",
+    "source": "azure",
+    "ai_summary": {
+      "text": "An offline-first secrets-rotator CLI that securely rotates and caches secrets while disconnected, then reconciles and synchronizes updates once back online, with built-in observability for audit logs, metrics, and traces. It automates rotation workflows to maintain service continuity and compliance while giving transparent insight into secret state and sync health.",
+      "examples": [
+        "Action 1: Initialize a local keystore and enable observability with the 'offline-first secrets-rotator cli' (e.g., secrets-rotator init --provider=vault --cache-dir .secrets --emit-metrics --otlp-endpoint=http://otel-collector:4317).",
+        "Action 2: Perform an offline rotation and queue API updates for later sync using the 'offline-first secrets-rotator cli' (e.g., secrets-rotator rotate --offline --policy=default --all --outbox ./.rotator-queue --audit-log ./audit.json --trace).",
+        "Action 3: Reconnect and reconcile queued rotations to cloud backends while exporting metrics/logs with the 'offline-first secrets-rotator cli' (e.g., secrets-rotator sync --reconcile --push --from ./.rotator-queue --export-metrics=prometheus --export-audit=./audit.jsonl)."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-14T07:24:24.319766Z"
+    }
+  },
+  {
     "date": "2025-09-13",
     "concept": "streaming feature-flags service",
     "summary": "A service that can index and manage email with a focus on streaming feature-flags.",

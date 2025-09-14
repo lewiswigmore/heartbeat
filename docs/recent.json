@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-14",
+    "concept": "offline-first secrets-rotator cli",
+    "summary": "A cli that can synchronize and manage api responses with a focus on offline-first secrets-rotator.",
+    "tags": [
+      "cli",
+      "offline-first",
+      "secrets-rotator"
+    ],
+    "theme": "observability",
+    "slug": "offline-first-secrets-rotator-cli",
+    "repo_name": "offline-first-secrets-rotator-cli-2025-09-14",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-13",
     "concept": "streaming feature-flags service",
     "summary": "A service that can index and manage email with a focus on streaming feature-flags.",
@@ -11,7 +25,17 @@
     "theme": "automation",
     "slug": "streaming-feature-flags-service",
     "repo_name": "streaming-feature-flags-service-2025-09-13",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A service that can index and manage email with a focus on streaming feature-flags. It aligns to the automation theme; touching feature-flags, service, streaming.",
+      "examples": [
+        "Ship a tiny streaming feature-flags service prototype end-to-end (README + demo)",
+        "Integrate streaming feature-flags service into an existing repo and add basic metrics",
+        "Instrument streaming feature-flags service and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-13T07:23:27.187472Z"
+    }
   },
   {
     "date": "2025-09-12",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-09-05T07:27:17.954342Z"
-    }
-  },
-  {
-    "date": "2025-09-04",
-    "concept": "federated scheduler daemon",
-    "summary": "A daemon that can classify and manage log files with a focus on federated scheduler.",
-    "tags": [
-      "daemon",
-      "federated",
-      "scheduler"
-    ],
-    "theme": "data",
-    "slug": "federated-scheduler-daemon",
-    "repo_name": "federated-scheduler-daemon-2025-09-04",
-    "source": "azure",
-    "ai_summary": {
-      "text": "The federated scheduler daemon classifies and manages scheduler-related log files across multiple clusters, providing centralized visibility and policy-driven handling. It adds value by unifying log ingestion, categorization, retention, and alerting for distributed scheduling environments.",
-      "examples": [
-        "Deploy the federated scheduler daemon across all clusters to collect scheduler logs and forward them to a centralized data lake with daily rotation and compression.",
-        "Configure the federated scheduler daemon to classify logs by tenant, queue, and job ID, then route anomaly-tagged entries to a Kafka topic for real-time alerts.",
-        "Set up the federated scheduler daemon with retention policies (e.g., 90 days), automatic PII redaction, and a Prometheus endpoint exposing ingestion, error, and classification metrics."
-      ],
-      "source": "azure",
-      "generated_at": "2025-09-04T07:26:40.797939Z"
     }
   }
 ]
