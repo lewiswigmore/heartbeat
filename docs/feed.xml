@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sun, 14 Sep 2025 07:24:24 +0000</lastBuildDate>
+<lastBuildDate>Mon, 15 Sep 2025 07:28:57 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>semantic secrets-rotator cli</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">semantic-secrets-rotator-cli-2025-08-26</guid>
-<pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `ml`
-Repo: `semantic-secrets-rotator-cli-2025-08-26`
-Tags: `cli`, `secrets-rotator`, `semantic`
-Summary: A cli that can synchronize and manage terminal sessions with a focus on semantic secrets-rotator.</description>
-</item>
 <item>
 <title>privacy-first graphql-gateway cli</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A service that can index and manage email with a focus on streaming fea
 Repo: `offline-first-secrets-rotator-cli-2025-09-14`
 Tags: `cli`, `offline-first`, `secrets-rotator`
 Summary: A cli that can synchronize and manage api responses with a focus on offline-first secrets-rotator.</description>
+</item>
+<item>
+<title>ambient audio-transcribe container-image</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">ambient-audio-transcribe-container-image-2025-09-15</guid>
+<pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `productivity`
+Repo: `ambient-audio-transcribe-container-image-2025-09-15`
+Tags: `ambient`, `audio-transcribe`, `container-image`
+Summary: A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.</description>
 </item>
 </channel>
 </rss>

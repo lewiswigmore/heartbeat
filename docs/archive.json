@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-15",
+    "concept": "ambient audio-transcribe container-image",
+    "summary": "A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.",
+    "tags": [
+      "ambient",
+      "audio-transcribe",
+      "container-image"
+    ],
+    "theme": "productivity",
+    "slug": "ambient-audio-transcribe-container-image",
+    "repo_name": "ambient-audio-transcribe-container-image-2025-09-15",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A container image that transcodes ambient audio and performs transcription while managing A/B-test results across models and settings. It delivers a reproducible workflow to rapidly compare configurations and optimize productivity in audio-transcription pipelines.",
+      "examples": [
+        "Action 1: Deploy the ambient audio-transcribe container-image with ENV MODEL_A=whisper-large-v3 and MODEL_B=deepspeech, auto-transcode incoming WAV to FLAC, and persist A/B-test-results to a mounted /data/ab-results volume.",
+        "Action 2: Run the ambient audio-transcribe container-image on Kubernetes using two ConfigMaps for noise_suppression=A and noise_suppression=B, then export A/B-test-results as JSON to S3 and publish latency/WER metrics to Prometheus.",
+        "Action 3: Use the ambient audio-transcribe container-image CLI to transcode a batch of MP3 files, run parallel transcriptions for variant A and B, and schedule a cron job that aggregates A/B-test-results into a dashboard-ready CSV."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-15T07:28:57.532739Z"
+    }
+  },
+  {
     "date": "2025-09-14",
     "concept": "offline-first secrets-rotator cli",
     "summary": "A cli that can synchronize and manage api responses with a focus on offline-first secrets-rotator.",

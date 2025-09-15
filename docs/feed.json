@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "semantic secrets-rotator cli",
-      "content_text": "Theme: `ml`\nRepo: `semantic-secrets-rotator-cli-2025-08-26`\nTags: `cli`, `secrets-rotator`, `semantic`\nSummary: A cli that can synchronize and manage terminal sessions with a focus on semantic secrets-rotator.",
-      "date_published": "2025-08-26T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "privacy-first graphql-gateway cli",
       "content_text": "Theme: `security`\nRepo: `privacy-first-graphql-gateway-cli-2025-08-27`\nTags: `cli`, `graphql-gateway`, `privacy-first`\nSummary: A cli that can index and manage github issues with a focus on privacy-first graphql-gateway.",
       "date_published": "2025-08-27T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "offline-first secrets-rotator cli",
       "content_text": "Theme: `observability`\nRepo: `offline-first-secrets-rotator-cli-2025-09-14`\nTags: `cli`, `offline-first`, `secrets-rotator`\nSummary: A cli that can synchronize and manage api responses with a focus on offline-first secrets-rotator.",
       "date_published": "2025-09-14T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "ambient audio-transcribe container-image",
+      "content_text": "Theme: `productivity`\nRepo: `ambient-audio-transcribe-container-image-2025-09-15`\nTags: `ambient`, `audio-transcribe`, `container-image`\nSummary: A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.",
+      "date_published": "2025-09-15T00:00:00Z"
     }
   ]
 }

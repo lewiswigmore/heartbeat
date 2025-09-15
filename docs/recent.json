@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-15",
+    "concept": "ambient audio-transcribe container-image",
+    "summary": "A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.",
+    "tags": [
+      "ambient",
+      "audio-transcribe",
+      "container-image"
+    ],
+    "theme": "productivity",
+    "slug": "ambient-audio-transcribe-container-image",
+    "repo_name": "ambient-audio-transcribe-container-image-2025-09-15",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-14",
     "concept": "offline-first secrets-rotator cli",
     "summary": "A cli that can synchronize and manage api responses with a focus on offline-first secrets-rotator.",
@@ -11,7 +25,17 @@
     "theme": "observability",
     "slug": "offline-first-secrets-rotator-cli",
     "repo_name": "offline-first-secrets-rotator-cli-2025-09-14",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "An offline-first secrets-rotator CLI that securely rotates and caches secrets while disconnected, then reconciles and synchronizes updates once back online, with built-in observability for audit logs, metrics, and traces. It automates rotation workflows to maintain service continuity and compliance while giving transparent insight into secret state and sync health.",
+      "examples": [
+        "Action 1: Initialize a local keystore and enable observability with the 'offline-first secrets-rotator cli' (e.g., secrets-rotator init --provider=vault --cache-dir .secrets --emit-metrics --otlp-endpoint=http://otel-collector:4317).",
+        "Action 2: Perform an offline rotation and queue API updates for later sync using the 'offline-first secrets-rotator cli' (e.g., secrets-rotator rotate --offline --policy=default --all --outbox ./.rotator-queue --audit-log ./audit.json --trace).",
+        "Action 3: Reconnect and reconcile queued rotations to cloud backends while exporting metrics/logs with the 'offline-first secrets-rotator cli' (e.g., secrets-rotator sync --reconcile --push --from ./.rotator-queue --export-metrics=prometheus --export-audit=./audit.jsonl)."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-14T07:24:24.319766Z"
+    }
   },
   {
     "date": "2025-09-13",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-09-06T07:23:44.094313Z"
-    }
-  },
-  {
-    "date": "2025-09-05",
-    "concept": "temporal recommendations daemon",
-    "summary": "A daemon that can normalize and manage github issues with a focus on temporal recommendations.",
-    "tags": [
-      "daemon",
-      "recommendations",
-      "temporal"
-    ],
-    "theme": "devtools",
-    "slug": "temporal-recommendations-daemon",
-    "repo_name": "temporal-recommendations-daemon-2025-09-05",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A background daemon that ingests GitHub issues, normalizes metadata (timestamps, labels, assignees), and generates time-aware recommendations for triage and prioritization. It helps dev teams act on temporal signals like staleness, bursts, and SLAs to schedule the next best action.",
-      "examples": [
-        "Action 1: Install and configure the temporal recommendations daemon to normalize GitHub issue timestamps, labels, and assignees, and set a 15-minute polling cadence.",
-        "Action 2: Define temporal recommendation rules in the temporal recommendations daemon (e.g., escalate bugs idle >48h, ping reviewers on PRs inactive >24h, auto-close discussions after 30d of no activity).",
-        "Action 3: Integrate the temporal recommendations daemon with your triage workflow to post prioritized, time-aware suggestions as GitHub comments and labels."
-      ],
-      "source": "azure",
-      "generated_at": "2025-09-05T07:27:17.954342Z"
     }
   }
 ]
