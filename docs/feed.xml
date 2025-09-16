@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Mon, 15 Sep 2025 07:28:57 +0000</lastBuildDate>
+<lastBuildDate>Tue, 16 Sep 2025 07:27:38 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>privacy-first graphql-gateway cli</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">privacy-first-graphql-gateway-cli-2025-08-27</guid>
-<pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `security`
-Repo: `privacy-first-graphql-gateway-cli-2025-08-27`
-Tags: `cli`, `graphql-gateway`, `privacy-first`
-Summary: A cli that can index and manage github issues with a focus on privacy-first graphql-gateway.</description>
-</item>
 <item>
 <title>ambient audio-transcribe webapp (1)</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A cli that can synchronize and manage api responses with a focus on off
 Repo: `ambient-audio-transcribe-container-image-2025-09-15`
 Tags: `ambient`, `audio-transcribe`, `container-image`
 Summary: A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.</description>
+</item>
+<item>
+<title>auto-scaling configuration-management embedded-system</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">auto-scaling-configuration-management-embedded-system-2025-09-16</guid>
+<pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `ml`
+Repo: `auto-scaling-configuration-management-embedded-system-2025-09-16`
+Tags: `auto-scaling`, `configuration-management`, `embedded-system`
+Summary: A embedded-system that can simulate and manage log files with a focus on auto-scaling configuration-management.</description>
 </item>
 </channel>
 </rss>

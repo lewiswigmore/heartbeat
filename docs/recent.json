@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-16",
+    "concept": "auto-scaling configuration-management embedded-system",
+    "summary": "A embedded-system that can simulate and manage log files with a focus on auto-scaling configuration-management.",
+    "tags": [
+      "auto-scaling",
+      "configuration-management",
+      "embedded-system"
+    ],
+    "theme": "ml",
+    "slug": "auto-scaling-configuration-management-embedded-system",
+    "repo_name": "auto-scaling-configuration-management-embedded-system-2025-09-16",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-15",
     "concept": "ambient audio-transcribe container-image",
     "summary": "A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.",
@@ -11,7 +25,17 @@
     "theme": "productivity",
     "slug": "ambient-audio-transcribe-container-image",
     "repo_name": "ambient-audio-transcribe-container-image-2025-09-15",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A container image that transcodes ambient audio and performs transcription while managing A/B-test results across models and settings. It delivers a reproducible workflow to rapidly compare configurations and optimize productivity in audio-transcription pipelines.",
+      "examples": [
+        "Action 1: Deploy the ambient audio-transcribe container-image with ENV MODEL_A=whisper-large-v3 and MODEL_B=deepspeech, auto-transcode incoming WAV to FLAC, and persist A/B-test-results to a mounted /data/ab-results volume.",
+        "Action 2: Run the ambient audio-transcribe container-image on Kubernetes using two ConfigMaps for noise_suppression=A and noise_suppression=B, then export A/B-test-results as JSON to S3 and publish latency/WER metrics to Prometheus.",
+        "Action 3: Use the ambient audio-transcribe container-image CLI to transcode a batch of MP3 files, run parallel transcriptions for variant A and B, and schedule a cron job that aggregates A/B-test-results into a dashboard-ready CSV."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-15T07:28:57.532739Z"
+    }
   },
   {
     "date": "2025-09-14",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-09-07T07:24:45.520558Z"
-    }
-  },
-  {
-    "date": "2025-09-06",
-    "concept": "privacy-first feature-flags cli",
-    "summary": "A cli that can transcode and manage log files with a focus on privacy-first feature-flags.",
-    "tags": [
-      "cli",
-      "feature-flags",
-      "privacy-first"
-    ],
-    "theme": "automation",
-    "slug": "privacy-first-feature-flags-cli",
-    "repo_name": "privacy-first-feature-flags-cli-2025-09-06",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A command-line tool that transcodes and manages log files while enforcing privacy-first feature flags, automating redaction, rollout, and auditing without exposing sensitive data. It helps teams toggle privacy-aware behaviors per environment and keep observability compliant.",
-      "examples": [
-        "Action 1: Run privacy-first feature-flags cli init --project payments --env staging --enable redact.emails,anonymize.ip and commit the generated policy file to enforce privacy defaults in staging logs.",
-        "Action 2: Use privacy-first feature-flags cli transcode ./logs/*.json --to parquet --enforce pii.masking --drop ip_address --output ./data/parquet to convert JSON logs to Parquet with privacy rules applied.",
-        "Action 3: Schedule a progressive rollout with privacy-first feature-flags cli rollout --flag sanitize.urls --env production --progressive 0-100%/2h --audit s3://org-audit/flags/ to gradually enable URL sanitization and record an immutable audit trail."
-      ],
-      "source": "azure",
-      "generated_at": "2025-09-06T07:23:44.094313Z"
     }
   }
 ]

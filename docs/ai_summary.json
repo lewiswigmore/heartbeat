@@ -1,10 +1,10 @@
 {
-  "text": "A container image that transcodes ambient audio and performs transcription while managing A/B-test results across models and settings. It delivers a reproducible workflow to rapidly compare configurations and optimize productivity in audio-transcription pipelines.",
+  "text": "A embedded-system that can simulate and manage log files with a focus on auto-scaling configuration-management. It aligns to the ml theme; touching auto-scaling, configuration-management, embedded-system.",
   "examples": [
-    "Action 1: Deploy the ambient audio-transcribe container-image with ENV MODEL_A=whisper-large-v3 and MODEL_B=deepspeech, auto-transcode incoming WAV to FLAC, and persist A/B-test-results to a mounted /data/ab-results volume.",
-    "Action 2: Run the ambient audio-transcribe container-image on Kubernetes using two ConfigMaps for noise_suppression=A and noise_suppression=B, then export A/B-test-results as JSON to S3 and publish latency/WER metrics to Prometheus.",
-    "Action 3: Use the ambient audio-transcribe container-image CLI to transcode a batch of MP3 files, run parallel transcriptions for variant A and B, and schedule a cron job that aggregates A/B-test-results into a dashboard-ready CSV."
+    "Ship a tiny auto-scaling configuration-management embedded-system prototype end-to-end (README + demo)",
+    "Integrate auto-scaling configuration-management embedded-system into an existing repo and add basic metrics",
+    "Instrument auto-scaling configuration-management embedded-system and capture before/after results for one workflow"
   ],
-  "source": "azure",
-  "generated_at": "2025-09-15T07:28:57.532739Z"
+  "source": "offline",
+  "generated_at": "2025-09-16T07:27:38.327711Z"
 }

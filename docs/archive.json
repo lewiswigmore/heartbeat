@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-16",
+    "concept": "auto-scaling configuration-management embedded-system",
+    "summary": "A embedded-system that can simulate and manage log files with a focus on auto-scaling configuration-management.",
+    "tags": [
+      "auto-scaling",
+      "configuration-management",
+      "embedded-system"
+    ],
+    "theme": "ml",
+    "slug": "auto-scaling-configuration-management-embedded-system",
+    "repo_name": "auto-scaling-configuration-management-embedded-system-2025-09-16",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A embedded-system that can simulate and manage log files with a focus on auto-scaling configuration-management. It aligns to the ml theme; touching auto-scaling, configuration-management, embedded-system.",
+      "examples": [
+        "Ship a tiny auto-scaling configuration-management embedded-system prototype end-to-end (README + demo)",
+        "Integrate auto-scaling configuration-management embedded-system into an existing repo and add basic metrics",
+        "Instrument auto-scaling configuration-management embedded-system and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-16T07:27:38.327711Z"
+    }
+  },
+  {
     "date": "2025-09-15",
     "concept": "ambient audio-transcribe container-image",
     "summary": "A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.",

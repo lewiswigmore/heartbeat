@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "privacy-first graphql-gateway cli",
-      "content_text": "Theme: `security`\nRepo: `privacy-first-graphql-gateway-cli-2025-08-27`\nTags: `cli`, `graphql-gateway`, `privacy-first`\nSummary: A cli that can index and manage github issues with a focus on privacy-first graphql-gateway.",
-      "date_published": "2025-08-27T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "ambient audio-transcribe webapp (1)",
       "content_text": "Theme: `data`\nRepo: `ambient-audio-transcribe-webapp-1-2025-08-28`\nTags: `ambient`, `audio-transcribe`, `webapp`\nSummary: A webapp that can transcode and manage pdfs with a focus on ambient audio-transcribe.",
       "date_published": "2025-08-28T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "ambient audio-transcribe container-image",
       "content_text": "Theme: `productivity`\nRepo: `ambient-audio-transcribe-container-image-2025-09-15`\nTags: `ambient`, `audio-transcribe`, `container-image`\nSummary: A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.",
       "date_published": "2025-09-15T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "auto-scaling configuration-management embedded-system",
+      "content_text": "Theme: `ml`\nRepo: `auto-scaling-configuration-management-embedded-system-2025-09-16`\nTags: `auto-scaling`, `configuration-management`, `embedded-system`\nSummary: A embedded-system that can simulate and manage log files with a focus on auto-scaling configuration-management.",
+      "date_published": "2025-09-16T00:00:00Z"
     }
   ]
 }
