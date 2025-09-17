@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Tue, 16 Sep 2025 07:27:38 +0000</lastBuildDate>
+<lastBuildDate>Wed, 17 Sep 2025 07:26:39 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>ambient audio-transcribe webapp (1)</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">ambient-audio-transcribe-webapp-1-2025-08-28</guid>
-<pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `data`
-Repo: `ambient-audio-transcribe-webapp-1-2025-08-28`
-Tags: `ambient`, `audio-transcribe`, `webapp`
-Summary: A webapp that can transcode and manage pdfs with a focus on ambient audio-transcribe.</description>
-</item>
 <item>
 <title>quantum audio-transcribe webapp</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
@@ -205,6 +195,16 @@ Summary: A container-image that can transcode and manage A/B-test-results with a
 Repo: `auto-scaling-configuration-management-embedded-system-2025-09-16`
 Tags: `auto-scaling`, `configuration-management`, `embedded-system`
 Summary: A embedded-system that can simulate and manage log files with a focus on auto-scaling configuration-management.</description>
+</item>
+<item>
+<title>declarative code-search tui</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">declarative-code-search-tui-2025-09-17</guid>
+<pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `security`
+Repo: `declarative-code-search-tui-2025-09-17`
+Tags: `code-search`, `declarative`, `tui`
+Summary: A tui that can scrape and manage performance-counters with a focus on declarative code-search.</description>
 </item>
 </channel>
 </rss>

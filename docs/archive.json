@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-17",
+    "concept": "declarative code-search tui",
+    "summary": "A tui that can scrape and manage performance-counters with a focus on declarative code-search.",
+    "tags": [
+      "code-search",
+      "declarative",
+      "tui"
+    ],
+    "theme": "security",
+    "slug": "declarative-code-search-tui",
+    "repo_name": "declarative-code-search-tui-2025-09-17",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A tui that can scrape and manage performance-counters with a focus on declarative code-search. It aligns to the security theme; touching code-search, declarative, tui.",
+      "examples": [
+        "Ship a tiny declarative code-search tui prototype end-to-end (README + demo)",
+        "Integrate declarative code-search tui into an existing repo and add basic metrics",
+        "Instrument declarative code-search tui and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-17T07:26:39.262226Z"
+    }
+  },
+  {
     "date": "2025-09-16",
     "concept": "auto-scaling configuration-management embedded-system",
     "summary": "A embedded-system that can simulate and manage log files with a focus on auto-scaling configuration-management.",
