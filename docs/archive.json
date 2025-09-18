@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-18",
+    "concept": "quantum video-processor extension",
+    "summary": "A extension that can transform and manage genomic-sequences with a focus on quantum video-processor.",
+    "tags": [
+      "extension",
+      "quantum",
+      "video-processor"
+    ],
+    "theme": "data",
+    "slug": "quantum-video-processor-extension",
+    "repo_name": "quantum-video-processor-extension-2025-09-18",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A extension that can transform and manage genomic-sequences with a focus on quantum video-processor. It aligns to the data theme; touching extension, quantum, video-processor.",
+      "examples": [
+        "Ship a tiny quantum video-processor extension prototype end-to-end (README + demo)",
+        "Integrate quantum video-processor extension into an existing repo and add basic metrics",
+        "Instrument quantum video-processor extension and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-18T07:26:29.312978Z"
+    }
+  },
+  {
     "date": "2025-09-17",
     "concept": "declarative code-search tui",
     "summary": "A tui that can scrape and manage performance-counters with a focus on declarative code-search.",

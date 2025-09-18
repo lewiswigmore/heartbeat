@@ -1,10 +1,10 @@
 {
-  "text": "A tui that can scrape and manage performance-counters with a focus on declarative code-search. It aligns to the security theme; touching code-search, declarative, tui.",
+  "text": "A extension that can transform and manage genomic-sequences with a focus on quantum video-processor. It aligns to the data theme; touching extension, quantum, video-processor.",
   "examples": [
-    "Ship a tiny declarative code-search tui prototype end-to-end (README + demo)",
-    "Integrate declarative code-search tui into an existing repo and add basic metrics",
-    "Instrument declarative code-search tui and capture before/after results for one workflow"
+    "Ship a tiny quantum video-processor extension prototype end-to-end (README + demo)",
+    "Integrate quantum video-processor extension into an existing repo and add basic metrics",
+    "Instrument quantum video-processor extension and capture before/after results for one workflow"
   ],
   "source": "offline",
-  "generated_at": "2025-09-17T07:26:39.262226Z"
+  "generated_at": "2025-09-18T07:26:29.312978Z"
 }

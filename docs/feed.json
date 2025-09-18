@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "quantum audio-transcribe webapp",
-      "content_text": "Theme: `devtools`\nRepo: `quantum-audio-transcribe-webapp-2025-08-29`\nTags: `audio-transcribe`, `quantum`, `webapp`\nSummary: A webapp that can visualize and manage pdfs with a focus on quantum audio-transcribe.",
-      "date_published": "2025-08-29T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "semantic feature-flags extension",
       "content_text": "Theme: `automation`\nRepo: `semantic-feature-flags-extension-2025-08-30`\nTags: `extension`, `feature-flags`, `semantic`\nSummary: A extension that can classify and manage api responses with a focus on semantic feature-flags.",
       "date_published": "2025-08-30T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "declarative code-search tui",
       "content_text": "Theme: `security`\nRepo: `declarative-code-search-tui-2025-09-17`\nTags: `code-search`, `declarative`, `tui`\nSummary: A tui that can scrape and manage performance-counters with a focus on declarative code-search.",
       "date_published": "2025-09-17T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "quantum video-processor extension",
+      "content_text": "Theme: `data`\nRepo: `quantum-video-processor-extension-2025-09-18`\nTags: `extension`, `quantum`, `video-processor`\nSummary: A extension that can transform and manage genomic-sequences with a focus on quantum video-processor.",
+      "date_published": "2025-09-18T00:00:00Z"
     }
   ]
 }

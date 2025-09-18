@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-18",
+    "concept": "quantum video-processor extension",
+    "summary": "A extension that can transform and manage genomic-sequences with a focus on quantum video-processor.",
+    "tags": [
+      "extension",
+      "quantum",
+      "video-processor"
+    ],
+    "theme": "data",
+    "slug": "quantum-video-processor-extension",
+    "repo_name": "quantum-video-processor-extension-2025-09-18",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-17",
     "concept": "declarative code-search tui",
     "summary": "A tui that can scrape and manage performance-counters with a focus on declarative code-search.",
@@ -11,7 +25,17 @@
     "theme": "security",
     "slug": "declarative-code-search-tui",
     "repo_name": "declarative-code-search-tui-2025-09-17",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A tui that can scrape and manage performance-counters with a focus on declarative code-search. It aligns to the security theme; touching code-search, declarative, tui.",
+      "examples": [
+        "Ship a tiny declarative code-search tui prototype end-to-end (README + demo)",
+        "Integrate declarative code-search tui into an existing repo and add basic metrics",
+        "Instrument declarative code-search tui and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-17T07:26:39.262226Z"
+    }
   },
   {
     "date": "2025-09-16",
@@ -203,30 +227,6 @@
       ],
       "source": "offline",
       "generated_at": "2025-09-09T07:28:09.361250Z"
-    }
-  },
-  {
-    "date": "2025-09-08",
-    "concept": "zero-trust dashboard agent",
-    "summary": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard.",
-    "tags": [
-      "agent",
-      "dashboard",
-      "zero-trust"
-    ],
-    "theme": "productivity",
-    "slug": "zero-trust-dashboard-agent",
-    "repo_name": "zero-trust-dashboard-agent-2025-09-08",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A agent that can monitor and manage pdfs with a focus on zero-trust dashboard. It aligns to the productivity theme; touching agent, dashboard, zero-trust.",
-      "examples": [
-        "Ship a tiny zero-trust dashboard agent prototype end-to-end (README + demo)",
-        "Integrate zero-trust dashboard agent into an existing repo and add basic metrics",
-        "Instrument zero-trust dashboard agent and capture before/after results for one workflow"
-      ],
-      "source": "offline",
-      "generated_at": "2025-09-08T07:28:13.018103Z"
     }
   }
 ]
