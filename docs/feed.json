@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "semantic feature-flags extension",
-      "content_text": "Theme: `automation`\nRepo: `semantic-feature-flags-extension-2025-08-30`\nTags: `extension`, `feature-flags`, `semantic`\nSummary: A extension that can classify and manage api responses with a focus on semantic feature-flags.",
-      "date_published": "2025-08-30T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
       "title": "fuzzy observability sdk",
       "content_text": "Theme: `observability`\nRepo: `fuzzy-observability-sdk-2025-08-31`\nTags: `fuzzy`, `observability`, `sdk`\nSummary: A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.",
       "date_published": "2025-08-31T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "quantum video-processor extension",
       "content_text": "Theme: `data`\nRepo: `quantum-video-processor-extension-2025-09-18`\nTags: `extension`, `quantum`, `video-processor`\nSummary: A extension that can transform and manage genomic-sequences with a focus on quantum video-processor.",
       "date_published": "2025-09-18T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "quantum git controller",
+      "content_text": "Theme: `devtools`\nRepo: `quantum-git-controller-2025-09-19`\nTags: `controller`, `git`, `quantum`\nSummary: A controller that can simulate and manage support-tickets with a focus on quantum git.",
+      "date_published": "2025-09-19T00:00:00Z"
     }
   ]
 }

@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-19",
+    "concept": "quantum git controller",
+    "summary": "A controller that can simulate and manage support-tickets with a focus on quantum git.",
+    "tags": [
+      "controller",
+      "git",
+      "quantum"
+    ],
+    "theme": "devtools",
+    "slug": "quantum-git-controller",
+    "repo_name": "quantum-git-controller-2025-09-19",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A controller that can simulate and manage support-tickets with a focus on quantum git. It aligns to the devtools theme; touching controller, git, quantum.",
+      "examples": [
+        "Ship a tiny quantum git controller prototype end-to-end (README + demo)",
+        "Integrate quantum git controller into an existing repo and add basic metrics",
+        "Instrument quantum git controller and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-19T07:27:05.065391Z"
+    }
+  },
+  {
     "date": "2025-09-18",
     "concept": "quantum video-processor extension",
     "summary": "A extension that can transform and manage genomic-sequences with a focus on quantum video-processor.",
