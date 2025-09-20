@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Fri, 19 Sep 2025 07:27:05 +0000</lastBuildDate>
+<lastBuildDate>Sat, 20 Sep 2025 07:24:47 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>fuzzy observability sdk</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md</link>
-<guid isPermaLink="false">fuzzy-observability-sdk-2025-08-31</guid>
-<pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
-<description>Theme: `observability`
-Repo: `fuzzy-observability-sdk-2025-08-31`
-Tags: `fuzzy`, `observability`, `sdk`
-Summary: A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.</description>
-</item>
 <item>
 <title>fuzzy recommendations sdk</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
@@ -205,6 +195,16 @@ Summary: A extension that can transform and manage genomic-sequences with a focu
 Repo: `quantum-git-controller-2025-09-19`
 Tags: `controller`, `git`, `quantum`
 Summary: A controller that can simulate and manage support-tickets with a focus on quantum git.</description>
+</item>
+<item>
+<title>graph-based metrics virtual-machine</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">graph-based-metrics-virtual-machine-2025-09-20</guid>
+<pubDate>Sat, 20 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `automation`
+Repo: `graph-based-metrics-virtual-machine-2025-09-20`
+Tags: `graph-based`, `metrics`, `virtual-machine`
+Summary: A virtual-machine that can ingest and manage email with a focus on graph-based metrics.</description>
 </item>
 </channel>
 </rss>

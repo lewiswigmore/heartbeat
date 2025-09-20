@@ -6,13 +6,6 @@
   "description": "Latest daily repo ideas",
   "items": [
     {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-08.md",
-      "title": "fuzzy observability sdk",
-      "content_text": "Theme: `observability`\nRepo: `fuzzy-observability-sdk-2025-08-31`\nTags: `fuzzy`, `observability`, `sdk`\nSummary: A sdk that can normalize and manage terminal sessions with a focus on fuzzy observability.",
-      "date_published": "2025-08-31T00:00:00Z"
-    },
-    {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "title": "fuzzy recommendations sdk",
@@ -144,6 +137,13 @@
       "title": "quantum git controller",
       "content_text": "Theme: `devtools`\nRepo: `quantum-git-controller-2025-09-19`\nTags: `controller`, `git`, `quantum`\nSummary: A controller that can simulate and manage support-tickets with a focus on quantum git.",
       "date_published": "2025-09-19T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "graph-based metrics virtual-machine",
+      "content_text": "Theme: `automation`\nRepo: `graph-based-metrics-virtual-machine-2025-09-20`\nTags: `graph-based`, `metrics`, `virtual-machine`\nSummary: A virtual-machine that can ingest and manage email with a focus on graph-based metrics.",
+      "date_published": "2025-09-20T00:00:00Z"
     }
   ]
 }

@@ -1,24 +1,24 @@
 {
-  "date": "2025-09-19",
-  "concept": "quantum git controller",
-  "summary": "A controller that can simulate and manage support-tickets with a focus on quantum git.",
+  "date": "2025-09-20",
+  "concept": "graph-based metrics virtual-machine",
+  "summary": "A virtual-machine that can ingest and manage email with a focus on graph-based metrics.",
   "tags": [
-    "controller",
-    "git",
-    "quantum"
+    "graph-based",
+    "metrics",
+    "virtual-machine"
   ],
-  "theme": "devtools",
-  "slug": "quantum-git-controller",
-  "repo_name": "quantum-git-controller-2025-09-19",
+  "theme": "automation",
+  "slug": "graph-based-metrics-virtual-machine",
+  "repo_name": "graph-based-metrics-virtual-machine-2025-09-20",
   "source": "azure",
   "ai_summary": {
-    "text": "A controller that can simulate and manage support-tickets with a focus on quantum git. It aligns to the devtools theme; touching controller, git, quantum.",
+    "text": "A graph-based metrics virtual-machine ingests and manages email, building a communication graph and computing actionable metrics to automate insights like influence, anomalies, and workflow bottlenecks. This enables teams to monitor email ecosystems and trigger automated responses based on graph signals.",
     "examples": [
-      "Ship a tiny quantum git controller prototype end-to-end (README + demo)",
-      "Integrate quantum git controller into an existing repo and add basic metrics",
-      "Instrument quantum git controller and capture before/after results for one workflow"
+      "Deploy the graph-based metrics virtual-machine via Terraform, mount /data for message storage, and connect IMAP/SMTP credentials to auto-ingest and normalize emails.",
+      "Configure the graph-based metrics virtual-machine to generate a sender–recipient communication graph and compute PageRank, betweenness centrality, and community labels on an hourly cron job.",
+      "Set up the graph-based metrics virtual-machine to emit webhook alerts when graph anomaly scores exceed a threshold and export daily metrics to S3 and Prometheus for dashboards."
     ],
-    "source": "offline",
-    "generated_at": "2025-09-19T07:27:05.065391Z"
+    "source": "azure",
+    "generated_at": "2025-09-20T07:24:47.172830Z"
   }
 }
