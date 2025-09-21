@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-21",
+    "concept": "containerized etl controller",
+    "summary": "A controller that can authenticate and manage docker containers with a focus on containerized etl.",
+    "tags": [
+      "containerized",
+      "controller",
+      "etl"
+    ],
+    "theme": "observability",
+    "slug": "containerized-etl-controller",
+    "repo_name": "containerized-etl-controller-2025-09-21",
+    "source": "azure",
+    "ai_summary": {
+      "text": "The containerized etl controller authenticates to Docker registries and orchestrates ETL containers end-to-end while providing deep observability into runs, metrics, and logs. It adds reliability and auditability to containerized ETL pipelines at scale.",
+      "examples": [
+        "Use the containerized etl controller to authenticate against a private Docker registry and pull ETL images for scheduled runs",
+        "Configure the containerized etl controller to emit OpenTelemetry traces, Prometheus metrics, and structured logs for each containerized ETL run",
+        "Define a job spec for the containerized etl controller to launch ETL containers with resource limits, secrets mounts, and retry policies, and to surface run status via health checks"
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-21T07:23:25.759192Z"
+    }
+  },
+  {
     "date": "2025-09-20",
     "concept": "graph-based metrics virtual-machine",
     "summary": "A virtual-machine that can ingest and manage email with a focus on graph-based metrics.",

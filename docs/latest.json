@@ -1,24 +1,24 @@
 {
-  "date": "2025-09-20",
-  "concept": "graph-based metrics virtual-machine",
-  "summary": "A virtual-machine that can ingest and manage email with a focus on graph-based metrics.",
+  "date": "2025-09-21",
+  "concept": "containerized etl controller",
+  "summary": "A controller that can authenticate and manage docker containers with a focus on containerized etl.",
   "tags": [
-    "graph-based",
-    "metrics",
-    "virtual-machine"
+    "containerized",
+    "controller",
+    "etl"
   ],
-  "theme": "automation",
-  "slug": "graph-based-metrics-virtual-machine",
-  "repo_name": "graph-based-metrics-virtual-machine-2025-09-20",
+  "theme": "observability",
+  "slug": "containerized-etl-controller",
+  "repo_name": "containerized-etl-controller-2025-09-21",
   "source": "azure",
   "ai_summary": {
-    "text": "A graph-based metrics virtual-machine ingests and manages email, building a communication graph and computing actionable metrics to automate insights like influence, anomalies, and workflow bottlenecks. This enables teams to monitor email ecosystems and trigger automated responses based on graph signals.",
+    "text": "The containerized etl controller authenticates to Docker registries and orchestrates ETL containers end-to-end while providing deep observability into runs, metrics, and logs. It adds reliability and auditability to containerized ETL pipelines at scale.",
     "examples": [
-      "Deploy the graph-based metrics virtual-machine via Terraform, mount /data for message storage, and connect IMAP/SMTP credentials to auto-ingest and normalize emails.",
-      "Configure the graph-based metrics virtual-machine to generate a sender–recipient communication graph and compute PageRank, betweenness centrality, and community labels on an hourly cron job.",
-      "Set up the graph-based metrics virtual-machine to emit webhook alerts when graph anomaly scores exceed a threshold and export daily metrics to S3 and Prometheus for dashboards."
+      "Use the containerized etl controller to authenticate against a private Docker registry and pull ETL images for scheduled runs",
+      "Configure the containerized etl controller to emit OpenTelemetry traces, Prometheus metrics, and structured logs for each containerized ETL run",
+      "Define a job spec for the containerized etl controller to launch ETL containers with resource limits, secrets mounts, and retry policies, and to surface run status via health checks"
     ],
     "source": "azure",
-    "generated_at": "2025-09-20T07:24:47.172830Z"
+    "generated_at": "2025-09-21T07:23:25.759192Z"
   }
 }

@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sat, 20 Sep 2025 07:24:47 +0000</lastBuildDate>
+<lastBuildDate>Sun, 21 Sep 2025 07:23:25 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>fuzzy recommendations sdk</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
-<guid isPermaLink="false">fuzzy-recommendations-sdk-2025-09-01</guid>
-<pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-<description>Theme: `productivity`
-Repo: `fuzzy-recommendations-sdk-2025-09-01`
-Tags: `fuzzy`, `recommendations`, `sdk`
-Summary: A sdk that can classify and manage rss feeds with a focus on fuzzy recommendations.</description>
-</item>
 <item>
 <title>ambient observability agent</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
@@ -205,6 +195,16 @@ Summary: A controller that can simulate and manage support-tickets with a focus 
 Repo: `graph-based-metrics-virtual-machine-2025-09-20`
 Tags: `graph-based`, `metrics`, `virtual-machine`
 Summary: A virtual-machine that can ingest and manage email with a focus on graph-based metrics.</description>
+</item>
+<item>
+<title>containerized etl controller</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">containerized-etl-controller-2025-09-21</guid>
+<pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `observability`
+Repo: `containerized-etl-controller-2025-09-21`
+Tags: `containerized`, `controller`, `etl`
+Summary: A controller that can authenticate and manage docker containers with a focus on containerized etl.</description>
 </item>
 </channel>
 </rss>

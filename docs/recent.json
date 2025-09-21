@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-21",
+    "concept": "containerized etl controller",
+    "summary": "A controller that can authenticate and manage docker containers with a focus on containerized etl.",
+    "tags": [
+      "containerized",
+      "controller",
+      "etl"
+    ],
+    "theme": "observability",
+    "slug": "containerized-etl-controller",
+    "repo_name": "containerized-etl-controller-2025-09-21",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-20",
     "concept": "graph-based metrics virtual-machine",
     "summary": "A virtual-machine that can ingest and manage email with a focus on graph-based metrics.",
@@ -11,7 +25,17 @@
     "theme": "automation",
     "slug": "graph-based-metrics-virtual-machine",
     "repo_name": "graph-based-metrics-virtual-machine-2025-09-20",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A graph-based metrics virtual-machine ingests and manages email, building a communication graph and computing actionable metrics to automate insights like influence, anomalies, and workflow bottlenecks. This enables teams to monitor email ecosystems and trigger automated responses based on graph signals.",
+      "examples": [
+        "Deploy the graph-based metrics virtual-machine via Terraform, mount /data for message storage, and connect IMAP/SMTP credentials to auto-ingest and normalize emails.",
+        "Configure the graph-based metrics virtual-machine to generate a sender–recipient communication graph and compute PageRank, betweenness centrality, and community labels on an hourly cron job.",
+        "Set up the graph-based metrics virtual-machine to emit webhook alerts when graph anomaly scores exceed a threshold and export daily metrics to S3 and Prometheus for dashboards."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-20T07:24:47.172830Z"
+    }
   },
   {
     "date": "2025-09-19",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-09-12T07:26:12.759234Z"
-    }
-  },
-  {
-    "date": "2025-09-11",
-    "concept": "semantic recommendations agent",
-    "summary": "A agent that can synchronize and manage log files with a focus on semantic recommendations.",
-    "tags": [
-      "agent",
-      "recommendations",
-      "semantic"
-    ],
-    "theme": "data",
-    "slug": "semantic-recommendations-agent",
-    "repo_name": "semantic-recommendations-agent-2025-09-11",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A agent that can synchronize and manage log files with a focus on semantic recommendations. It aligns to the data theme; touching agent, recommendations, semantic.",
-      "examples": [
-        "Ship a tiny semantic recommendations agent prototype end-to-end (README + demo)",
-        "Integrate semantic recommendations agent into an existing repo and add basic metrics",
-        "Instrument semantic recommendations agent and capture before/after results for one workflow"
-      ],
-      "source": "offline",
-      "generated_at": "2025-09-11T07:27:20.470262Z"
     }
   }
 ]

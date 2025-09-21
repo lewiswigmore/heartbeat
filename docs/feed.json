@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "title": "fuzzy recommendations sdk",
-      "content_text": "Theme: `productivity`\nRepo: `fuzzy-recommendations-sdk-2025-09-01`\nTags: `fuzzy`, `recommendations`, `sdk`\nSummary: A sdk that can classify and manage rss feeds with a focus on fuzzy recommendations.",
-      "date_published": "2025-09-01T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "title": "ambient observability agent",
       "content_text": "Theme: `ml`\nRepo: `ambient-observability-agent-2025-09-02`\nTags: `agent`, `ambient`, `observability`\nSummary: A agent that can summarize and manage browser history with a focus on ambient observability.",
       "date_published": "2025-09-02T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "graph-based metrics virtual-machine",
       "content_text": "Theme: `automation`\nRepo: `graph-based-metrics-virtual-machine-2025-09-20`\nTags: `graph-based`, `metrics`, `virtual-machine`\nSummary: A virtual-machine that can ingest and manage email with a focus on graph-based metrics.",
       "date_published": "2025-09-20T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "containerized etl controller",
+      "content_text": "Theme: `observability`\nRepo: `containerized-etl-controller-2025-09-21`\nTags: `containerized`, `controller`, `etl`\nSummary: A controller that can authenticate and manage docker containers with a focus on containerized etl.",
+      "date_published": "2025-09-21T00:00:00Z"
     }
   ]
 }
