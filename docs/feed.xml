@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Sun, 21 Sep 2025 07:23:25 +0000</lastBuildDate>
+<lastBuildDate>Mon, 22 Sep 2025 07:29:03 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>ambient observability agent</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
-<guid isPermaLink="false">ambient-observability-agent-2025-09-02</guid>
-<pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
-<description>Theme: `ml`
-Repo: `ambient-observability-agent-2025-09-02`
-Tags: `agent`, `ambient`, `observability`
-Summary: A agent that can summarize and manage browser history with a focus on ambient observability.</description>
-</item>
 <item>
 <title>realtime notes extension</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
@@ -205,6 +195,16 @@ Summary: A virtual-machine that can ingest and manage email with a focus on grap
 Repo: `containerized-etl-controller-2025-09-21`
 Tags: `containerized`, `controller`, `etl`
 Summary: A controller that can authenticate and manage docker containers with a focus on containerized etl.</description>
+</item>
+<item>
+<title>collaborative dns cli</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">collaborative-dns-cli-2025-09-22</guid>
+<pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `productivity`
+Repo: `collaborative-dns-cli-2025-09-22`
+Tags: `cli`, `collaborative`, `dns`
+Summary: A cli that can prune and manage performance-counters with a focus on collaborative dns.</description>
 </item>
 </channel>
 </rss>

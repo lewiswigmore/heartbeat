@@ -1,10 +1,10 @@
 {
-  "text": "The containerized etl controller authenticates to Docker registries and orchestrates ETL containers end-to-end while providing deep observability into runs, metrics, and logs. It adds reliability and auditability to containerized ETL pipelines at scale.",
+  "text": "A cli that can prune and manage performance-counters with a focus on collaborative dns. It aligns to the productivity theme; touching cli, collaborative, dns.",
   "examples": [
-    "Use the containerized etl controller to authenticate against a private Docker registry and pull ETL images for scheduled runs",
-    "Configure the containerized etl controller to emit OpenTelemetry traces, Prometheus metrics, and structured logs for each containerized ETL run",
-    "Define a job spec for the containerized etl controller to launch ETL containers with resource limits, secrets mounts, and retry policies, and to surface run status via health checks"
+    "Ship a tiny collaborative dns cli prototype end-to-end (README + demo)",
+    "Integrate collaborative dns cli into an existing repo and add basic metrics",
+    "Instrument collaborative dns cli and capture before/after results for one workflow"
   ],
-  "source": "azure",
-  "generated_at": "2025-09-21T07:23:25.759192Z"
+  "source": "offline",
+  "generated_at": "2025-09-22T07:29:03.451430Z"
 }
