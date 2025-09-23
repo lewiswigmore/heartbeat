@@ -1,10 +1,10 @@
 {
-  "text": "A cli that can prune and manage performance-counters with a focus on collaborative dns. It aligns to the productivity theme; touching cli, collaborative, dns.",
+  "text": "A command-line tool that embeds and manages performance counters across ML pipelines while emitting stateless data-lineage events, enabling reproducible tracking without persistent state. It lets teams trace dataset/model transformations and benchmark runs end-to-end with minimal overhead.",
   "examples": [
-    "Ship a tiny collaborative dns cli prototype end-to-end (README + demo)",
-    "Integrate collaborative dns cli into an existing repo and add basic metrics",
-    "Instrument collaborative dns cli and capture before/after results for one workflow"
+    "Action 1: Use the stateless data-lineage cli to embed performance-counters (latency, throughput, GPU-util) into a training job and tag them with a run-id and model-version.",
+    "Action 2: Emit stateless lineage events for each dataset→feature→model transformation step and route them to a collector using the stateless data-lineage cli.",
+    "Action 3: Export a lineage graph and counter summary for a specific run by aggregating emitted events with the stateless data-lineage cli and write the report to JSON for CI artifacts."
   ],
-  "source": "offline",
-  "generated_at": "2025-09-22T07:29:03.451430Z"
+  "source": "azure",
+  "generated_at": "2025-09-23T07:28:05.218685Z"
 }

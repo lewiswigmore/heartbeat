@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "title": "realtime notes extension",
-      "content_text": "Theme: `security`\nRepo: `realtime-notes-extension-2025-09-03`\nTags: `extension`, `notes`, `realtime`\nSummary: A extension that can classify and manage config files with a focus on realtime notes.",
-      "date_published": "2025-09-03T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "title": "federated scheduler daemon",
       "content_text": "Theme: `data`\nRepo: `federated-scheduler-daemon-2025-09-04`\nTags: `daemon`, `federated`, `scheduler`\nSummary: A daemon that can classify and manage log files with a focus on federated scheduler.",
       "date_published": "2025-09-04T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "collaborative dns cli",
       "content_text": "Theme: `productivity`\nRepo: `collaborative-dns-cli-2025-09-22`\nTags: `cli`, `collaborative`, `dns`\nSummary: A cli that can prune and manage performance-counters with a focus on collaborative dns.",
       "date_published": "2025-09-22T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "stateless data-lineage cli",
+      "content_text": "Theme: `ml`\nRepo: `stateless-data-lineage-cli-2025-09-23`\nTags: `cli`, `data-lineage`, `stateless`\nSummary: A cli that can embed and manage performance-counters with a focus on stateless data-lineage.",
+      "date_published": "2025-09-23T00:00:00Z"
     }
   ]
 }

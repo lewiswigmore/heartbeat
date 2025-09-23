@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-23",
+    "concept": "stateless data-lineage cli",
+    "summary": "A cli that can embed and manage performance-counters with a focus on stateless data-lineage.",
+    "tags": [
+      "cli",
+      "data-lineage",
+      "stateless"
+    ],
+    "theme": "ml",
+    "slug": "stateless-data-lineage-cli",
+    "repo_name": "stateless-data-lineage-cli-2025-09-23",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-22",
     "concept": "collaborative dns cli",
     "summary": "A cli that can prune and manage performance-counters with a focus on collaborative dns.",
@@ -11,7 +25,17 @@
     "theme": "productivity",
     "slug": "collaborative-dns-cli",
     "repo_name": "collaborative-dns-cli-2025-09-22",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A cli that can prune and manage performance-counters with a focus on collaborative dns. It aligns to the productivity theme; touching cli, collaborative, dns.",
+      "examples": [
+        "Ship a tiny collaborative dns cli prototype end-to-end (README + demo)",
+        "Integrate collaborative dns cli into an existing repo and add basic metrics",
+        "Instrument collaborative dns cli and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-22T07:29:03.451430Z"
+    }
   },
   {
     "date": "2025-09-21",
@@ -203,30 +227,6 @@
       ],
       "source": "azure",
       "generated_at": "2025-09-14T07:24:24.319766Z"
-    }
-  },
-  {
-    "date": "2025-09-13",
-    "concept": "streaming feature-flags service",
-    "summary": "A service that can index and manage email with a focus on streaming feature-flags.",
-    "tags": [
-      "feature-flags",
-      "service",
-      "streaming"
-    ],
-    "theme": "automation",
-    "slug": "streaming-feature-flags-service",
-    "repo_name": "streaming-feature-flags-service-2025-09-13",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A service that can index and manage email with a focus on streaming feature-flags. It aligns to the automation theme; touching feature-flags, service, streaming.",
-      "examples": [
-        "Ship a tiny streaming feature-flags service prototype end-to-end (README + demo)",
-        "Integrate streaming feature-flags service into an existing repo and add basic metrics",
-        "Instrument streaming feature-flags service and capture before/after results for one workflow"
-      ],
-      "source": "offline",
-      "generated_at": "2025-09-13T07:23:27.187472Z"
     }
   }
 ]
