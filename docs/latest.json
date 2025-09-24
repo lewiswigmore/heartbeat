@@ -1,24 +1,24 @@
 {
-  "date": "2025-09-23",
-  "concept": "stateless data-lineage cli",
-  "summary": "A cli that can embed and manage performance-counters with a focus on stateless data-lineage.",
+  "date": "2025-09-24",
+  "concept": "distributed augmented-reality framework",
+  "summary": "A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality.",
   "tags": [
-    "cli",
-    "data-lineage",
-    "stateless"
+    "augmented-reality",
+    "distributed",
+    "framework"
   ],
-  "theme": "ml",
-  "slug": "stateless-data-lineage-cli",
-  "repo_name": "stateless-data-lineage-cli-2025-09-23",
+  "theme": "security",
+  "slug": "distributed-augmented-reality-framework",
+  "repo_name": "distributed-augmented-reality-framework-2025-09-24",
   "source": "azure",
   "ai_summary": {
-    "text": "A command-line tool that embeds and manages performance counters across ML pipelines while emitting stateless data-lineage events, enabling reproducible tracking without persistent state. It lets teams trace dataset/model transformations and benchmark runs end-to-end with minimal overhead.",
+    "text": "A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality. It aligns to the security theme; touching augmented-reality, distributed, framework.",
     "examples": [
-      "Action 1: Use the stateless data-lineage cli to embed performance-counters (latency, throughput, GPU-util) into a training job and tag them with a run-id and model-version.",
-      "Action 2: Emit stateless lineage events for each dataset→feature→model transformation step and route them to a collector using the stateless data-lineage cli.",
-      "Action 3: Export a lineage graph and counter summary for a specific run by aggregating emitted events with the stateless data-lineage cli and write the report to JSON for CI artifacts."
+      "Ship a tiny distributed augmented-reality framework prototype end-to-end (README + demo)",
+      "Integrate distributed augmented-reality framework into an existing repo and add basic metrics",
+      "Instrument distributed augmented-reality framework and capture before/after results for one workflow"
     ],
-    "source": "azure",
-    "generated_at": "2025-09-23T07:28:05.218685Z"
+    "source": "offline",
+    "generated_at": "2025-09-24T07:28:42.377755Z"
   }
 }

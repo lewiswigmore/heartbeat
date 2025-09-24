@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-24",
+    "concept": "distributed augmented-reality framework",
+    "summary": "A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality.",
+    "tags": [
+      "augmented-reality",
+      "distributed",
+      "framework"
+    ],
+    "theme": "security",
+    "slug": "distributed-augmented-reality-framework",
+    "repo_name": "distributed-augmented-reality-framework-2025-09-24",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality. It aligns to the security theme; touching augmented-reality, distributed, framework.",
+      "examples": [
+        "Ship a tiny distributed augmented-reality framework prototype end-to-end (README + demo)",
+        "Integrate distributed augmented-reality framework into an existing repo and add basic metrics",
+        "Instrument distributed augmented-reality framework and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-24T07:28:42.377755Z"
+    }
+  },
+  {
     "date": "2025-09-23",
     "concept": "stateless data-lineage cli",
     "summary": "A cli that can embed and manage performance-counters with a focus on stateless data-lineage.",

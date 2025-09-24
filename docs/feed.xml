@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Tue, 23 Sep 2025 07:28:05 +0000</lastBuildDate>
+<lastBuildDate>Wed, 24 Sep 2025 07:28:42 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>federated scheduler daemon</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
-<guid isPermaLink="false">federated-scheduler-daemon-2025-09-04</guid>
-<pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-<description>Theme: `data`
-Repo: `federated-scheduler-daemon-2025-09-04`
-Tags: `daemon`, `federated`, `scheduler`
-Summary: A daemon that can classify and manage log files with a focus on federated scheduler.</description>
-</item>
 <item>
 <title>temporal recommendations daemon</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
@@ -205,6 +195,16 @@ Summary: A cli that can prune and manage performance-counters with a focus on co
 Repo: `stateless-data-lineage-cli-2025-09-23`
 Tags: `cli`, `data-lineage`, `stateless`
 Summary: A cli that can embed and manage performance-counters with a focus on stateless data-lineage.</description>
+</item>
+<item>
+<title>distributed augmented-reality framework</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">distributed-augmented-reality-framework-2025-09-24</guid>
+<pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `security`
+Repo: `distributed-augmented-reality-framework-2025-09-24`
+Tags: `augmented-reality`, `distributed`, `framework`
+Summary: A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality.</description>
 </item>
 </channel>
 </rss>
