@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-25",
+    "concept": "interpretable symbol-graph desktop-app",
+    "summary": "A desktop-app that can back-test and manage json-api with a focus on interpretable symbol-graph.",
+    "tags": [
+      "desktop-app",
+      "interpretable",
+      "symbol-graph"
+    ],
+    "theme": "data",
+    "slug": "interpretable-symbol-graph-desktop-app",
+    "repo_name": "interpretable-symbol-graph-desktop-app-2025-09-25",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A desktop-app that can back-test and manage json-api with a focus on interpretable symbol-graph. It aligns to the data theme; touching desktop-app, interpretable, symbol-graph.",
+      "examples": [
+        "Ship a tiny interpretable symbol-graph desktop-app prototype end-to-end (README + demo)",
+        "Integrate interpretable symbol-graph desktop-app into an existing repo and add basic metrics",
+        "Instrument interpretable symbol-graph desktop-app and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-25T07:28:54.515965Z"
+    }
+  },
+  {
     "date": "2025-09-24",
     "concept": "distributed augmented-reality framework",
     "summary": "A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality.",

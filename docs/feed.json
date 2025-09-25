@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "title": "temporal recommendations daemon",
-      "content_text": "Theme: `devtools`\nRepo: `temporal-recommendations-daemon-2025-09-05`\nTags: `daemon`, `recommendations`, `temporal`\nSummary: A daemon that can normalize and manage github issues with a focus on temporal recommendations.",
-      "date_published": "2025-09-05T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "title": "privacy-first feature-flags cli",
       "content_text": "Theme: `automation`\nRepo: `privacy-first-feature-flags-cli-2025-09-06`\nTags: `cli`, `feature-flags`, `privacy-first`\nSummary: A cli that can transcode and manage log files with a focus on privacy-first feature-flags.",
       "date_published": "2025-09-06T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "distributed augmented-reality framework",
       "content_text": "Theme: `security`\nRepo: `distributed-augmented-reality-framework-2025-09-24`\nTags: `augmented-reality`, `distributed`, `framework`\nSummary: A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality.",
       "date_published": "2025-09-24T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "interpretable symbol-graph desktop-app",
+      "content_text": "Theme: `data`\nRepo: `interpretable-symbol-graph-desktop-app-2025-09-25`\nTags: `desktop-app`, `interpretable`, `symbol-graph`\nSummary: A desktop-app that can back-test and manage json-api with a focus on interpretable symbol-graph.",
+      "date_published": "2025-09-25T00:00:00Z"
     }
   ]
 }

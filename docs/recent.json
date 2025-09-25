@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-25",
+    "concept": "interpretable symbol-graph desktop-app",
+    "summary": "A desktop-app that can back-test and manage json-api with a focus on interpretable symbol-graph.",
+    "tags": [
+      "desktop-app",
+      "interpretable",
+      "symbol-graph"
+    ],
+    "theme": "data",
+    "slug": "interpretable-symbol-graph-desktop-app",
+    "repo_name": "interpretable-symbol-graph-desktop-app-2025-09-25",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-24",
     "concept": "distributed augmented-reality framework",
     "summary": "A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality.",
@@ -11,7 +25,17 @@
     "theme": "security",
     "slug": "distributed-augmented-reality-framework",
     "repo_name": "distributed-augmented-reality-framework-2025-09-24",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality. It aligns to the security theme; touching augmented-reality, distributed, framework.",
+      "examples": [
+        "Ship a tiny distributed augmented-reality framework prototype end-to-end (README + demo)",
+        "Integrate distributed augmented-reality framework into an existing repo and add basic metrics",
+        "Instrument distributed augmented-reality framework and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-24T07:28:42.377755Z"
+    }
   },
   {
     "date": "2025-09-23",
@@ -203,30 +227,6 @@
       ],
       "source": "offline",
       "generated_at": "2025-09-16T07:27:38.327711Z"
-    }
-  },
-  {
-    "date": "2025-09-15",
-    "concept": "ambient audio-transcribe container-image",
-    "summary": "A container-image that can transcode and manage A/B-test-results with a focus on ambient audio-transcribe.",
-    "tags": [
-      "ambient",
-      "audio-transcribe",
-      "container-image"
-    ],
-    "theme": "productivity",
-    "slug": "ambient-audio-transcribe-container-image",
-    "repo_name": "ambient-audio-transcribe-container-image-2025-09-15",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A container image that transcodes ambient audio and performs transcription while managing A/B-test results across models and settings. It delivers a reproducible workflow to rapidly compare configurations and optimize productivity in audio-transcription pipelines.",
-      "examples": [
-        "Action 1: Deploy the ambient audio-transcribe container-image with ENV MODEL_A=whisper-large-v3 and MODEL_B=deepspeech, auto-transcode incoming WAV to FLAC, and persist A/B-test-results to a mounted /data/ab-results volume.",
-        "Action 2: Run the ambient audio-transcribe container-image on Kubernetes using two ConfigMaps for noise_suppression=A and noise_suppression=B, then export A/B-test-results as JSON to S3 and publish latency/WER metrics to Prometheus.",
-        "Action 3: Use the ambient audio-transcribe container-image CLI to transcode a batch of MP3 files, run parallel transcriptions for variant A and B, and schedule a cron job that aggregates A/B-test-results into a dashboard-ready CSV."
-      ],
-      "source": "azure",
-      "generated_at": "2025-09-15T07:28:57.532739Z"
     }
   }
 ]

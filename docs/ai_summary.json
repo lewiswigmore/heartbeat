@@ -1,10 +1,10 @@
 {
-  "text": "A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality. It aligns to the security theme; touching augmented-reality, distributed, framework.",
+  "text": "A desktop-app that can back-test and manage json-api with a focus on interpretable symbol-graph. It aligns to the data theme; touching desktop-app, interpretable, symbol-graph.",
   "examples": [
-    "Ship a tiny distributed augmented-reality framework prototype end-to-end (README + demo)",
-    "Integrate distributed augmented-reality framework into an existing repo and add basic metrics",
-    "Instrument distributed augmented-reality framework and capture before/after results for one workflow"
+    "Ship a tiny interpretable symbol-graph desktop-app prototype end-to-end (README + demo)",
+    "Integrate interpretable symbol-graph desktop-app into an existing repo and add basic metrics",
+    "Instrument interpretable symbol-graph desktop-app and capture before/after results for one workflow"
   ],
   "source": "offline",
-  "generated_at": "2025-09-24T07:28:42.377755Z"
+  "generated_at": "2025-09-25T07:28:54.515965Z"
 }

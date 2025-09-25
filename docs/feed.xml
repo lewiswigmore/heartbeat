@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Wed, 24 Sep 2025 07:28:42 +0000</lastBuildDate>
+<lastBuildDate>Thu, 25 Sep 2025 07:28:54 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>temporal recommendations daemon</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
-<guid isPermaLink="false">temporal-recommendations-daemon-2025-09-05</guid>
-<pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-<description>Theme: `devtools`
-Repo: `temporal-recommendations-daemon-2025-09-05`
-Tags: `daemon`, `recommendations`, `temporal`
-Summary: A daemon that can normalize and manage github issues with a focus on temporal recommendations.</description>
-</item>
 <item>
 <title>privacy-first feature-flags cli</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
@@ -205,6 +195,16 @@ Summary: A cli that can embed and manage performance-counters with a focus on st
 Repo: `distributed-augmented-reality-framework-2025-09-24`
 Tags: `augmented-reality`, `distributed`, `framework`
 Summary: A framework that can authenticate and manage financial-statements with a focus on distributed augmented-reality.</description>
+</item>
+<item>
+<title>interpretable symbol-graph desktop-app</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">interpretable-symbol-graph-desktop-app-2025-09-25</guid>
+<pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `data`
+Repo: `interpretable-symbol-graph-desktop-app-2025-09-25`
+Tags: `desktop-app`, `interpretable`, `symbol-graph`
+Summary: A desktop-app that can back-test and manage json-api with a focus on interpretable symbol-graph.</description>
 </item>
 </channel>
 </rss>
