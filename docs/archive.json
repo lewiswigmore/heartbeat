@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-26",
+    "concept": "generative graphql-gateway service",
+    "summary": "A service that can transcode and manage medical-records with a focus on generative graphql-gateway.",
+    "tags": [
+      "generative",
+      "graphql-gateway",
+      "service"
+    ],
+    "theme": "devtools",
+    "slug": "generative-graphql-gateway-service",
+    "repo_name": "generative-graphql-gateway-service-2025-09-26",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A service that can transcode and manage medical-records with a focus on generative graphql-gateway. It aligns to the devtools theme; touching generative, graphql-gateway, service.",
+      "examples": [
+        "Ship a tiny generative graphql-gateway service prototype end-to-end (README + demo)",
+        "Integrate generative graphql-gateway service into an existing repo and add basic metrics",
+        "Instrument generative graphql-gateway service and capture before/after results for one workflow"
+      ],
+      "source": "offline",
+      "generated_at": "2025-09-26T07:28:19.437087Z"
+    }
+  },
+  {
     "date": "2025-09-25",
     "concept": "interpretable symbol-graph desktop-app",
     "summary": "A desktop-app that can back-test and manage json-api with a focus on interpretable symbol-graph.",

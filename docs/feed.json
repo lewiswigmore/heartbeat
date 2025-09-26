@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "title": "privacy-first feature-flags cli",
-      "content_text": "Theme: `automation`\nRepo: `privacy-first-feature-flags-cli-2025-09-06`\nTags: `cli`, `feature-flags`, `privacy-first`\nSummary: A cli that can transcode and manage log files with a focus on privacy-first feature-flags.",
-      "date_published": "2025-09-06T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "title": "streaming graphql-gateway cli",
       "content_text": "Theme: `observability`\nRepo: `streaming-graphql-gateway-cli-2025-09-07`\nTags: `cli`, `graphql-gateway`, `streaming`\nSummary: A cli that can simulate and manage email with a focus on streaming graphql-gateway.",
       "date_published": "2025-09-07T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "interpretable symbol-graph desktop-app",
       "content_text": "Theme: `data`\nRepo: `interpretable-symbol-graph-desktop-app-2025-09-25`\nTags: `desktop-app`, `interpretable`, `symbol-graph`\nSummary: A desktop-app that can back-test and manage json-api with a focus on interpretable symbol-graph.",
       "date_published": "2025-09-25T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "generative graphql-gateway service",
+      "content_text": "Theme: `devtools`\nRepo: `generative-graphql-gateway-service-2025-09-26`\nTags: `generative`, `graphql-gateway`, `service`\nSummary: A service that can transcode and manage medical-records with a focus on generative graphql-gateway.",
+      "date_published": "2025-09-26T00:00:00Z"
     }
   ]
 }
