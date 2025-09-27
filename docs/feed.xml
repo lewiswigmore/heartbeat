@@ -4,18 +4,8 @@
 <title>Daily Ideas</title>
 <link>https://github.com/lewiswigmore/heartbeat</link>
 <description>Latest daily repo ideas</description>
-<lastBuildDate>Fri, 26 Sep 2025 07:28:19 +0000</lastBuildDate>
+<lastBuildDate>Sat, 27 Sep 2025 07:23:19 +0000</lastBuildDate>
 <atom:link href="https://lewiswigmore.github.io/heartbeat/feed.xml" rel="self" type="application/rss+xml" />
-<item>
-<title>streaming graphql-gateway cli</title>
-<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
-<guid isPermaLink="false">streaming-graphql-gateway-cli-2025-09-07</guid>
-<pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
-<description>Theme: `observability`
-Repo: `streaming-graphql-gateway-cli-2025-09-07`
-Tags: `cli`, `graphql-gateway`, `streaming`
-Summary: A cli that can simulate and manage email with a focus on streaming graphql-gateway.</description>
-</item>
 <item>
 <title>zero-trust dashboard agent</title>
 <link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
@@ -205,6 +195,16 @@ Summary: A desktop-app that can back-test and manage json-api with a focus on in
 Repo: `generative-graphql-gateway-service-2025-09-26`
 Tags: `generative`, `graphql-gateway`, `service`
 Summary: A service that can transcode and manage medical-records with a focus on generative graphql-gateway.</description>
+</item>
+<item>
+<title>biometric static-site-generator daemon</title>
+<link>https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md</link>
+<guid isPermaLink="false">biometric-static-site-generator-daemon-2025-09-27</guid>
+<pubDate>Sat, 27 Sep 2025 00:00:00 +0000</pubDate>
+<description>Theme: `automation`
+Repo: `biometric-static-site-generator-daemon-2025-09-27`
+Tags: `biometric`, `daemon`, `static-site-generator`
+Summary: A daemon that can summarize and manage discord-channels with a focus on biometric static-site-generator.</description>
 </item>
 </channel>
 </rss>

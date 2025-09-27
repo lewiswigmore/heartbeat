@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-27",
+    "concept": "biometric static-site-generator daemon",
+    "summary": "A daemon that can summarize and manage discord-channels with a focus on biometric static-site-generator.",
+    "tags": [
+      "biometric",
+      "daemon",
+      "static-site-generator"
+    ],
+    "theme": "automation",
+    "slug": "biometric-static-site-generator-daemon",
+    "repo_name": "biometric-static-site-generator-daemon-2025-09-27",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A background daemon that summarizes Discord channels and automates a biometric static-site-generator to publish privacy-aware, organized static knowledge hubs. It streamlines content workflows while enforcing biometric redaction and compliance.",
+      "examples": [
+        "Action 1: Configure the biometric static-site-generator daemon to ingest the #dev-updates Discord channel and auto-publish daily conversation summaries to a static site.",
+        "Action 2: Attach a biometric redaction policy to the biometric static-site-generator daemon so it removes PII and sensitive biometric markers from Discord messages before rendering pages.",
+        "Action 3: Schedule the biometric static-site-generator daemon to generate tag-based archives and RSS feeds for 'biometric', 'daemon', and 'static-site-generator' Discord channels."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-27T07:23:19.117621Z"
+    }
+  },
+  {
     "date": "2025-09-26",
     "concept": "generative graphql-gateway service",
     "summary": "A service that can transcode and manage medical-records with a focus on generative graphql-gateway.",
