@@ -1,5 +1,19 @@
 [
   {
+    "date": "2025-09-28",
+    "concept": "fuzzy service-mesh library",
+    "summary": "A library that can transcode and manage terraform states with a focus on fuzzy service-mesh.",
+    "tags": [
+      "fuzzy",
+      "library",
+      "service-mesh"
+    ],
+    "theme": "observability",
+    "slug": "fuzzy-service-mesh-library",
+    "repo_name": "fuzzy-service-mesh-library-2025-09-28",
+    "source": "azure"
+  },
+  {
     "date": "2025-09-27",
     "concept": "biometric static-site-generator daemon",
     "summary": "A daemon that can summarize and manage discord-channels with a focus on biometric static-site-generator.",
@@ -11,7 +25,17 @@
     "theme": "automation",
     "slug": "biometric-static-site-generator-daemon",
     "repo_name": "biometric-static-site-generator-daemon-2025-09-27",
-    "source": "azure"
+    "source": "azure",
+    "ai_summary": {
+      "text": "A background daemon that summarizes Discord channels and automates a biometric static-site-generator to publish privacy-aware, organized static knowledge hubs. It streamlines content workflows while enforcing biometric redaction and compliance.",
+      "examples": [
+        "Action 1: Configure the biometric static-site-generator daemon to ingest the #dev-updates Discord channel and auto-publish daily conversation summaries to a static site.",
+        "Action 2: Attach a biometric redaction policy to the biometric static-site-generator daemon so it removes PII and sensitive biometric markers from Discord messages before rendering pages.",
+        "Action 3: Schedule the biometric static-site-generator daemon to generate tag-based archives and RSS feeds for 'biometric', 'daemon', and 'static-site-generator' Discord channels."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-27T07:23:19.117621Z"
+    }
   },
   {
     "date": "2025-09-26",
@@ -203,30 +227,6 @@
       ],
       "source": "offline",
       "generated_at": "2025-09-19T07:27:05.065391Z"
-    }
-  },
-  {
-    "date": "2025-09-18",
-    "concept": "quantum video-processor extension",
-    "summary": "A extension that can transform and manage genomic-sequences with a focus on quantum video-processor.",
-    "tags": [
-      "extension",
-      "quantum",
-      "video-processor"
-    ],
-    "theme": "data",
-    "slug": "quantum-video-processor-extension",
-    "repo_name": "quantum-video-processor-extension-2025-09-18",
-    "source": "azure",
-    "ai_summary": {
-      "text": "A extension that can transform and manage genomic-sequences with a focus on quantum video-processor. It aligns to the data theme; touching extension, quantum, video-processor.",
-      "examples": [
-        "Ship a tiny quantum video-processor extension prototype end-to-end (README + demo)",
-        "Integrate quantum video-processor extension into an existing repo and add basic metrics",
-        "Instrument quantum video-processor extension and capture before/after results for one workflow"
-      ],
-      "source": "offline",
-      "generated_at": "2025-09-18T07:26:29.312978Z"
     }
   }
 ]

@@ -1,10 +1,10 @@
 {
-  "text": "A background daemon that summarizes Discord channels and automates a biometric static-site-generator to publish privacy-aware, organized static knowledge hubs. It streamlines content workflows while enforcing biometric redaction and compliance.",
+  "text": "The fuzzy service-mesh library ingests and transcodes Terraform state into a mesh-aware model, applying fuzzy matching to relate infrastructure resources to services for better observability. This enables teams to correlate state changes with mesh telemetry, detect drift, and understand topology and SLO impacts in near real time.",
   "examples": [
-    "Action 1: Configure the biometric static-site-generator daemon to ingest the #dev-updates Discord channel and auto-publish daily conversation summaries to a static site.",
-    "Action 2: Attach a biometric redaction policy to the biometric static-site-generator daemon so it removes PII and sensitive biometric markers from Discord messages before rendering pages.",
-    "Action 3: Schedule the biometric static-site-generator daemon to generate tag-based archives and RSS feeds for 'biometric', 'daemon', and 'static-site-generator' Discord channels."
+    "Use the fuzzy service-mesh library to transcode an existing Terraform .tfstate into a fuzzy service graph and export OpenTelemetry spans and metrics for each mesh workload and edge.",
+    "Configure the fuzzy service-mesh library to reconcile Terraform state drift into service-mesh policies (timeouts, retries, circuit breakers) by applying fuzzy selectors on service labels and annotations.",
+    "Integrate the fuzzy service-mesh library into a canary rollout to tag mesh routes with SLO metadata and emit anomaly alerts when Terraform-applied changes alter traffic distribution beyond fuzzy-defined thresholds."
   ],
   "source": "azure",
-  "generated_at": "2025-09-27T07:23:19.117621Z"
+  "generated_at": "2025-09-28T07:24:27.319169Z"
 }
