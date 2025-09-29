@@ -8,13 +8,6 @@
     {
       "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "title": "offline-first observability service",
-      "content_text": "Theme: `ml`\nRepo: `offline-first-observability-service-2025-09-09`\nTags: `observability`, `offline-first`, `service`\nSummary: A service that can transcode and manage browser history with a focus on offline-first observability.",
-      "date_published": "2025-09-09T00:00:00Z"
-    },
-    {
-      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
-      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
       "title": "realtime secrets-rotator daemon",
       "content_text": "Theme: `security`\nRepo: `realtime-secrets-rotator-daemon-2025-09-10`\nTags: `daemon`, `realtime`, `secrets-rotator`\nSummary: A daemon that can monitor and manage config files with a focus on realtime secrets-rotator.",
       "date_published": "2025-09-10T00:00:00Z"
@@ -144,6 +137,13 @@
       "title": "fuzzy service-mesh library",
       "content_text": "Theme: `observability`\nRepo: `fuzzy-service-mesh-library-2025-09-28`\nTags: `fuzzy`, `library`, `service-mesh`\nSummary: A library that can transcode and manage terraform states with a focus on fuzzy service-mesh.",
       "date_published": "2025-09-28T00:00:00Z"
+    },
+    {
+      "id": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "url": "https://github.com/lewiswigmore/heartbeat/blob/main/ideas/2025-09.md",
+      "title": "fuzzy symbol-graph watch-app",
+      "content_text": "Theme: `productivity`\nRepo: `fuzzy-symbol-graph-watch-app-2025-09-29`\nTags: `fuzzy`, `symbol-graph`, `watch-app`\nSummary: A watch-app that can back-test and manage performance-counters with a focus on fuzzy symbol-graph.",
+      "date_published": "2025-09-29T00:00:00Z"
     }
   ]
 }

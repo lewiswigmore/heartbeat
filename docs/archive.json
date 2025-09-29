@@ -1,5 +1,29 @@
 [
   {
+    "date": "2025-09-29",
+    "concept": "fuzzy symbol-graph watch-app",
+    "summary": "A watch-app that can back-test and manage performance-counters with a focus on fuzzy symbol-graph.",
+    "tags": [
+      "fuzzy",
+      "symbol-graph",
+      "watch-app"
+    ],
+    "theme": "productivity",
+    "slug": "fuzzy-symbol-graph-watch-app",
+    "repo_name": "fuzzy-symbol-graph-watch-app-2025-09-29",
+    "source": "azure",
+    "ai_summary": {
+      "text": "A productivity-focused watch app that models your habits and metrics as a fuzzy symbol-graph, enabling on-wrist back-testing of performance-counters to optimize routines and goals. It helps you visualize uncertain relationships between activities and outcomes so you can refine behaviors in real time.",
+      "examples": [
+        "Action 1: Back-test the last 14 days of your 'Deep Work' routine by replaying performance-counters across the fuzzy symbol-graph watch-app and comparing node membership trends to your baseline.",
+        "Action 2: Add a 'Focus' symbol node with fuzzy weights for energy and interruptions, then configure the fuzzy symbol-graph watch-app to auto-adjust daily targets when the edge confidence drops below 0.6.",
+        "Action 3: Pin the 'Hydration' node as a complication in the fuzzy symbol-graph watch-app and trigger a haptic alert when its counter deviates by 20% from the expected path during a work session."
+      ],
+      "source": "azure",
+      "generated_at": "2025-09-29T07:29:12.322320Z"
+    }
+  },
+  {
     "date": "2025-09-28",
     "concept": "fuzzy service-mesh library",
     "summary": "A library that can transcode and manage terraform states with a focus on fuzzy service-mesh.",
